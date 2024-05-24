@@ -1,0 +1,576 @@
+{"id": "1_dog_affirmative_negation_sref", "sent": "John owns a dog but Mark doesn't own a dog. The dog is very cute.", "expected": 1}
+{"id": "1_dog_affirmative_negation_pref", "sent": "John owns a dog but Mark doesn't own a dog. The dogs are very cute.", "expected": 0}
+{"id": "1_dog_affirmative_negation_nonref", "sent": "John owns a dog but Mark doesn't own a dog. It's not a big deal.", "expected": -1}
+{"id": "1_dog_affirmative_affirmative_sref", "sent": "John owns a dog and Mark owns a dog too. The dog is very cute.", "expected": 0}
+{"id": "1_dog_affirmative_affirmative_pref", "sent": "John owns a dog and Mark owns a dog too. The dogs are very cute.", "expected": 1}
+{"id": "1_dog_affirmative_affirmative_nonref", "sent": "John owns a dog and Mark owns a dog too. It's not a big deal.", "expected": -1}
+{"id": "1_dog_negation_affirmative_sref", "sent": "John doesn't own a dog but Mark owns a dog. The dog is very cute.", "expected": 1}
+{"id": "1_dog_negation_affirmative_pref", "sent": "John doesn't own a dog but Mark owns a dog. The dogs are very cute.", "expected": 0}
+{"id": "1_dog_negation_affirmative_nonref", "sent": "John doesn't own a dog but Mark owns a dog. It's not a big deal.", "expected": -1}
+{"id": "1_dog_negation_negation_sref", "sent": "John doesn't own a dog and Mark doesn't own a dog either. The dog is very cute.", "expected": 0}
+{"id": "1_dog_negation_negation_pref", "sent": "John doesn't own a dog and Mark doesn't own a dog either. The dogs are very cute.", "expected": 0}
+{"id": "1_dog_negation_negation_nonref", "sent": "John doesn't own a dog and Mark doesn't own a dog either. It's not a big deal.", "expected": -1}
+{"id": "1_dog_know_doubt_sref", "sent": "I know that John owns a dog but I doubt that Mark owns a dog. The dog is very cute.", "expected": 1}
+{"id": "1_dog_know_doubt_pref", "sent": "I know that John owns a dog but I doubt that Mark owns a dog. The dogs are very cute.", "expected": 0}
+{"id": "1_dog_know_doubt_nonref", "sent": "I know that John owns a dog but I doubt that Mark owns a dog. It's not a big deal.", "expected": -1}
+{"id": "1_dog_know_know_sref", "sent": "I know that John owns a dog and I know that Mark owns a dog as well. The dog is very cute.", "expected": 0}
+{"id": "1_dog_know_know_pref", "sent": "I know that John owns a dog and I know that Mark owns a dog as well. The dogs are very cute.", "expected": 1}
+{"id": "1_dog_know_know_nonref", "sent": "I know that John owns a dog and I know that Mark owns a dog as well. It's not a big deal.", "expected": -1}
+{"id": "1_dog_doubt_know_sref", "sent": "I doubt that John owns a dog but I know that Mark owns a dog. The dog is very cute.", "expected": 1}
+{"id": "1_dog_doubt_know_pref", "sent": "I doubt that John owns a dog but I know that Mark owns a dog. The dogs are very cute.", "expected": 0}
+{"id": "1_dog_doubt_know_nonref", "sent": "I doubt that John owns a dog but I know that Mark owns a dog. It's not a big deal.", "expected": -1}
+{"id": "1_dog_doubt_doubt_sref", "sent": "I doubt that John owns a dog and I doubt that Mark owns a dog as well. The dog is very cute.", "expected": 0}
+{"id": "1_dog_doubt_doubt_pref", "sent": "I doubt that John owns a dog and I doubt that Mark owns a dog as well. The dogs are very cute.", "expected": 0}
+{"id": "1_dog_doubt_doubt_nonref", "sent": "I doubt that John owns a dog and I doubt that Mark owns a dog as well. It's not a big deal.", "expected": -1}
+{"id": "1_dog_managed_failed_sref", "sent": "John managed to adopt a dog but Mark failed to adopt a dog. The dog is very cute.", "expected": 1}
+{"id": "1_dog_managed_failed_pref", "sent": "John managed to adopt a dog but Mark failed to adopt a dog. The dogs are very cute.", "expected": 0}
+{"id": "1_dog_managed_failed_nonref", "sent": "John managed to adopt a dog but Mark failed to adopt a dog. It's not a big deal.", "expected": -1}
+{"id": "1_dog_managed_managed_sref", "sent": "John managed to adopt a dog and Mark managed to adopt a dog as well. The dog is very cute.", "expected": 0}
+{"id": "1_dog_managed_managed_pref", "sent": "John managed to adopt a dog and Mark managed to adopt a dog as well. The dogs are very cute.", "expected": 1}
+{"id": "1_dog_managed_managed_nonref", "sent": "John managed to adopt a dog and Mark managed to adopt a dog as well. It's not a big deal.", "expected": -1}
+{"id": "1_dog_failed_managed_sref", "sent": "John failed to adopt a dog but Mark managed to adopt a dog. The dog is very cute.", "expected": 1}
+{"id": "1_dog_failed_managed_pref", "sent": "John failed to adopt a dog but Mark managed to adopt a dog. The dogs are very cute.", "expected": 0}
+{"id": "1_dog_failed_managed_nonref", "sent": "John failed to adopt a dog but Mark managed to adopt a dog. It's not a big deal.", "expected": -1}
+{"id": "1_dog_failed_failed_sref", "sent": "John failed to adopt a dog and Mark failed to adopt a dog as well. The dog is very cute.", "expected": 0}
+{"id": "1_dog_failed_failed_pref", "sent": "John failed to adopt a dog and Mark failed to adopt a dog as well. The dogs are very cute.", "expected": 0}
+{"id": "1_dog_failed_failed_nonref", "sent": "John failed to adopt a dog and Mark failed to adopt a dog as well. It's not a big deal.", "expected": -1}
+{"id": "2_car_affirmative_negation_sref", "sent": "Lucy has a car but Ethan doesn't have a car. The car has a self-driving mode.", "expected": 1}
+{"id": "2_car_affirmative_negation_pref", "sent": "Lucy has a car but Ethan doesn't have a car. The cars have a self-driving mode.", "expected": 0}
+{"id": "2_car_affirmative_negation_nonref", "sent": "Lucy has a car but Ethan doesn't have a car. It's not a big deal.", "expected": -1}
+{"id": "2_car_affirmative_affirmative_sref", "sent": "Lucy has a car and Ethan has a car too. The car has a self-driving mode.", "expected": 0}
+{"id": "2_car_affirmative_affirmative_pref", "sent": "Lucy has a car and Ethan has a car too. The cars have a self-driving mode.", "expected": 1}
+{"id": "2_car_affirmative_affirmative_nonref", "sent": "Lucy has a car and Ethan has a car too. It's not a big deal.", "expected": -1}
+{"id": "2_car_negation_affirmative_sref", "sent": "Lucy doesn't have a car but Ethan has a car. The car has a self-driving mode.", "expected": 1}
+{"id": "2_car_negation_affirmative_pref", "sent": "Lucy doesn't have a car but Ethan has a car. The cars have a self-driving mode.", "expected": 0}
+{"id": "2_car_negation_affirmative_nonref", "sent": "Lucy doesn't have a car but Ethan has a car. It's not a big deal.", "expected": -1}
+{"id": "2_car_negation_negation_sref", "sent": "Lucy doesn't have a car and Ethan doesn't have a car either. The car has a self-driving mode.", "expected": 0}
+{"id": "2_car_negation_negation_pref", "sent": "Lucy doesn't have a car and Ethan doesn't have a car either. The cars have a self-driving mode.", "expected": 0}
+{"id": "2_car_negation_negation_nonref", "sent": "Lucy doesn't have a car and Ethan doesn't have a car either. It's not a big deal.", "expected": -1}
+{"id": "2_car_know_doubt_sref", "sent": "I know that Lucy has a car but I doubt that Ethan has a car. The car has a self-driving mode.", "expected": 1}
+{"id": "2_car_know_doubt_pref", "sent": "I know that Lucy has a car but I doubt that Ethan has a car. The cars have a self-driving mode.", "expected": 0}
+{"id": "2_car_know_doubt_nonref", "sent": "I know that Lucy has a car but I doubt that Ethan has a car. It's not a big deal.", "expected": -1}
+{"id": "2_car_know_know_sref", "sent": "I know that Lucy has a car and I know that Ethan has a car as well. The car has a self-driving mode.", "expected": 0}
+{"id": "2_car_know_know_pref", "sent": "I know that Lucy has a car and I know that Ethan has a car as well. The cars have a self-driving mode.", "expected": 1}
+{"id": "2_car_know_know_nonref", "sent": "I know that Lucy has a car and I know that Ethan has a car as well. It's not a big deal.", "expected": -1}
+{"id": "2_car_doubt_know_sref", "sent": "I doubt that Lucy has a car but I know that Ethan has a car. The car has a self-driving mode.", "expected": 1}
+{"id": "2_car_doubt_know_pref", "sent": "I doubt that Lucy has a car but I know that Ethan has a car. The cars have a self-driving mode.", "expected": 0}
+{"id": "2_car_doubt_know_nonref", "sent": "I doubt that Lucy has a car but I know that Ethan has a car. It's not a big deal.", "expected": -1}
+{"id": "2_car_doubt_doubt_sref", "sent": "I doubt that Lucy has a car and I doubt that Ethan has a car as well. The car has a self-driving mode.", "expected": 0}
+{"id": "2_car_doubt_doubt_pref", "sent": "I doubt that Lucy has a car and I doubt that Ethan has a car as well. The cars have a self-driving mode.", "expected": 0}
+{"id": "2_car_doubt_doubt_nonref", "sent": "I doubt that Lucy has a car and I doubt that Ethan has a car as well. It's not a big deal.", "expected": -1}
+{"id": "2_car_managed_failed_sref", "sent": "Lucy managed to rent a car but Ethan failed to rent a car. The car has a self-driving mode.", "expected": 1}
+{"id": "2_car_managed_failed_pref", "sent": "Lucy managed to rent a car but Ethan failed to rent a car. The cars have a self-driving mode.", "expected": 0}
+{"id": "2_car_managed_failed_nonref", "sent": "Lucy managed to rent a car but Ethan failed to rent a car. It's not a big deal.", "expected": -1}
+{"id": "2_car_managed_managed_sref", "sent": "Lucy managed to rent a car and Ethan managed to rent a car as well. The car has a self-driving mode.", "expected": 0}
+{"id": "2_car_managed_managed_pref", "sent": "Lucy managed to rent a car and Ethan managed to rent a car as well. The cars have a self-driving mode.", "expected": 1}
+{"id": "2_car_managed_managed_nonref", "sent": "Lucy managed to rent a car and Ethan managed to rent a car as well. It's not a big deal.", "expected": -1}
+{"id": "2_car_failed_managed_sref", "sent": "Lucy failed to rent a car but Ethan managed to rent a car. The car has a self-driving mode.", "expected": 1}
+{"id": "2_car_failed_managed_pref", "sent": "Lucy failed to rent a car but Ethan managed to rent a car. The cars have a self-driving mode.", "expected": 0}
+{"id": "2_car_failed_managed_nonref", "sent": "Lucy failed to rent a car but Ethan managed to rent a car. It's not a big deal.", "expected": -1}
+{"id": "2_car_failed_failed_sref", "sent": "Lucy failed to rent a car and Ethan failed to rent a car as well. The car has a self-driving mode.", "expected": 0}
+{"id": "2_car_failed_failed_pref", "sent": "Lucy failed to rent a car and Ethan failed to rent a car as well. The cars have a self-driving mode.", "expected": 0}
+{"id": "2_car_failed_failed_nonref", "sent": "Lucy failed to rent a car and Ethan failed to rent a car as well. It's not a big deal.", "expected": -1}
+{"id": "3_bear_affirmative_negation_sref", "sent": "Carol saw a bear at the zoo but Jack didn't see a bear at the zoo. The bear was taller than expected.", "expected": 1}
+{"id": "3_bear_affirmative_negation_pref", "sent": "Carol saw a bear at the zoo but Jack didn't see a bear at the zoo. The bears were taller than expected.", "expected": 0}
+{"id": "3_bear_affirmative_negation_nonref", "sent": "Carol saw a bear at the zoo but Jack didn't see a bear at the zoo. It's not a big deal.", "expected": -1}
+{"id": "3_bear_affirmative_affirmative_sref", "sent": "Carol saw a bear at the zoo and Jack saw a bear at the zoo too. The bear was taller than expected.", "expected": 0}
+{"id": "3_bear_affirmative_affirmative_pref", "sent": "Carol saw a bear at the zoo and Jack saw a bear at the zoo too. The bears were taller than expected.", "expected": 1}
+{"id": "3_bear_affirmative_affirmative_nonref", "sent": "Carol saw a bear at the zoo and Jack saw a bear at the zoo too. It's not a big deal.", "expected": -1}
+{"id": "3_bear_negation_affirmative_sref", "sent": "Carol didn't see a bear at the zoo but Jack saw a bear at the zoo. The bear was taller than expected.", "expected": 1}
+{"id": "3_bear_negation_affirmative_pref", "sent": "Carol didn't see a bear at the zoo but Jack saw a bear at the zoo. The bears were taller than expected.", "expected": 0}
+{"id": "3_bear_negation_affirmative_nonref", "sent": "Carol didn't see a bear at the zoo but Jack saw a bear at the zoo. It's not a big deal.", "expected": -1}
+{"id": "3_bear_negation_negation_sref", "sent": "Carol didn't see a bear at the zoo and Jack didn't see a bear at the zoo either. The bear was taller than expected.", "expected": 0}
+{"id": "3_bear_negation_negation_pref", "sent": "Carol didn't see a bear at the zoo and Jack didn't see a bear at the zoo either. The bears were taller than expected.", "expected": 0}
+{"id": "3_bear_negation_negation_nonref", "sent": "Carol didn't see a bear at the zoo and Jack didn't see a bear at the zoo either. It's not a big deal.", "expected": -1}
+{"id": "3_bear_know_doubt_sref", "sent": "I know that Carol saw a bear at the zoo but I doubt that Jack saw a bear at the zoo. The bear was taller than expected.", "expected": 1}
+{"id": "3_bear_know_doubt_pref", "sent": "I know that Carol saw a bear at the zoo but I doubt that Jack saw a bear at the zoo. The bears were taller than expected.", "expected": 0}
+{"id": "3_bear_know_doubt_nonref", "sent": "I know that Carol saw a bear at the zoo but I doubt that Jack saw a bear at the zoo. It's not a big deal.", "expected": -1}
+{"id": "3_bear_know_know_sref", "sent": "I know that Carol saw a bear at the zoo and I know that Jack saw a bear at the zoo as well. The bear was taller than expected.", "expected": 0}
+{"id": "3_bear_know_know_pref", "sent": "I know that Carol saw a bear at the zoo and I know that Jack saw a bear at the zoo as well. The bears were taller than expected.", "expected": 1}
+{"id": "3_bear_know_know_nonref", "sent": "I know that Carol saw a bear at the zoo and I know that Jack saw a bear at the zoo as well. It's not a big deal.", "expected": -1}
+{"id": "3_bear_doubt_know_sref", "sent": "I doubt that Carol saw a bear at the zoo but I know that Jack saw a bear at the zoo. The bear was taller than expected.", "expected": 1}
+{"id": "3_bear_doubt_know_pref", "sent": "I doubt that Carol saw a bear at the zoo but I know that Jack saw a bear at the zoo. The bears were taller than expected.", "expected": 0}
+{"id": "3_bear_doubt_know_nonref", "sent": "I doubt that Carol saw a bear at the zoo but I know that Jack saw a bear at the zoo. It's not a big deal.", "expected": -1}
+{"id": "3_bear_doubt_doubt_sref", "sent": "I doubt that Carol saw a bear at the zoo and I doubt that Jack saw a bear at the zoo as well. The bear was taller than expected.", "expected": 0}
+{"id": "3_bear_doubt_doubt_pref", "sent": "I doubt that Carol saw a bear at the zoo and I doubt that Jack saw a bear at the zoo as well. The bears were taller than expected.", "expected": 0}
+{"id": "3_bear_doubt_doubt_nonref", "sent": "I doubt that Carol saw a bear at the zoo and I doubt that Jack saw a bear at the zoo as well. It's not a big deal.", "expected": -1}
+{"id": "3_bear_managed_failed_sref", "sent": "Carol managed to see a bear at the zoo but Jack failed to see a bear at the zoo. The bear was taller than expected.", "expected": 1}
+{"id": "3_bear_managed_failed_pref", "sent": "Carol managed to see a bear at the zoo but Jack failed to see a bear at the zoo. The bears were taller than expected.", "expected": 0}
+{"id": "3_bear_managed_failed_nonref", "sent": "Carol managed to see a bear at the zoo but Jack failed to see a bear at the zoo. It's not a big deal.", "expected": -1}
+{"id": "3_bear_managed_managed_sref", "sent": "Carol managed to see a bear at the zoo and Jack managed to see a bear at the zoo as well. The bear was taller than expected.", "expected": 0}
+{"id": "3_bear_managed_managed_pref", "sent": "Carol managed to see a bear at the zoo and Jack managed to see a bear at the zoo as well. The bears were taller than expected.", "expected": 1}
+{"id": "3_bear_managed_managed_nonref", "sent": "Carol managed to see a bear at the zoo and Jack managed to see a bear at the zoo as well. It's not a big deal.", "expected": -1}
+{"id": "3_bear_failed_managed_sref", "sent": "Carol failed to see a bear at the zoo but Jack managed to see a bear at the zoo. The bear was taller than expected.", "expected": 1}
+{"id": "3_bear_failed_managed_pref", "sent": "Carol failed to see a bear at the zoo but Jack managed to see a bear at the zoo. The bears were taller than expected.", "expected": 0}
+{"id": "3_bear_failed_managed_nonref", "sent": "Carol failed to see a bear at the zoo but Jack managed to see a bear at the zoo. It's not a big deal.", "expected": -1}
+{"id": "3_bear_failed_failed_sref", "sent": "Carol failed to see a bear at the zoo and Jack failed to see a bear at the zoo as well. The bear was taller than expected.", "expected": 0}
+{"id": "3_bear_failed_failed_pref", "sent": "Carol failed to see a bear at the zoo and Jack failed to see a bear at the zoo as well. The bears were taller than expected.", "expected": 0}
+{"id": "3_bear_failed_failed_nonref", "sent": "Carol failed to see a bear at the zoo and Jack failed to see a bear at the zoo as well. It's not a big deal.", "expected": -1}
+{"id": "4_book_affirmative_negation_sref", "sent": "Susan published a book but Ben didn't publish a book. The book is a real page-turner.", "expected": 1}
+{"id": "4_book_affirmative_negation_pref", "sent": "Susan published a book but Ben didn't publish a book. The books are real page-turners.", "expected": 0}
+{"id": "4_book_affirmative_negation_nonref", "sent": "Susan published a book but Ben didn't publish a book. It's not a big deal.", "expected": -1}
+{"id": "4_book_affirmative_affirmative_sref", "sent": "Susan published a book and Ben published a book too. The book is a real page-turner.", "expected": 0}
+{"id": "4_book_affirmative_affirmative_pref", "sent": "Susan published a book and Ben published a book too. The books are real page-turners.", "expected": 1}
+{"id": "4_book_affirmative_affirmative_nonref", "sent": "Susan published a book and Ben published a book too. It's not a big deal.", "expected": -1}
+{"id": "4_book_negation_affirmative_sref", "sent": "Susan didn't publish a book but Ben published a book. The book is a real page-turner.", "expected": 1}
+{"id": "4_book_negation_affirmative_pref", "sent": "Susan didn't publish a book but Ben published a book. The books are real page-turners.", "expected": 0}
+{"id": "4_book_negation_affirmative_nonref", "sent": "Susan didn't publish a book but Ben published a book. It's not a big deal.", "expected": -1}
+{"id": "4_book_negation_negation_sref", "sent": "Susan didn't publish a book and Ben didn't publish a book either. The book is a real page-turner.", "expected": 0}
+{"id": "4_book_negation_negation_pref", "sent": "Susan didn't publish a book and Ben didn't publish a book either. The books are real page-turners.", "expected": 0}
+{"id": "4_book_negation_negation_nonref", "sent": "Susan didn't publish a book and Ben didn't publish a book either. It's not a big deal.", "expected": -1}
+{"id": "4_book_know_doubt_sref", "sent": "I know that Susan published a book but I doubt that Ben published a book. The book is a real page-turner.", "expected": 1}
+{"id": "4_book_know_doubt_pref", "sent": "I know that Susan published a book but I doubt that Ben published a book. The books are real page-turners.", "expected": 0}
+{"id": "4_book_know_doubt_nonref", "sent": "I know that Susan published a book but I doubt that Ben published a book. It's not a big deal.", "expected": -1}
+{"id": "4_book_know_know_sref", "sent": "I know that Susan published a book and I know that Ben published a book as well. The book is a real page-turner.", "expected": 0}
+{"id": "4_book_know_know_pref", "sent": "I know that Susan published a book and I know that Ben published a book as well. The books are real page-turners.", "expected": 1}
+{"id": "4_book_know_know_nonref", "sent": "I know that Susan published a book and I know that Ben published a book as well. It's not a big deal.", "expected": -1}
+{"id": "4_book_doubt_know_sref", "sent": "I doubt that Susan published a book but I know that Ben published a book. The book is a real page-turner.", "expected": 1}
+{"id": "4_book_doubt_know_pref", "sent": "I doubt that Susan published a book but I know that Ben published a book. The books are real page-turners.", "expected": 0}
+{"id": "4_book_doubt_know_nonref", "sent": "I doubt that Susan published a book but I know that Ben published a book. It's not a big deal.", "expected": -1}
+{"id": "4_book_doubt_doubt_sref", "sent": "I doubt that Susan published a book and I doubt that Ben published a book as well. The book is a real page-turner.", "expected": 0}
+{"id": "4_book_doubt_doubt_pref", "sent": "I doubt that Susan published a book and I doubt that Ben published a book as well. The books are real page-turners.", "expected": 0}
+{"id": "4_book_doubt_doubt_nonref", "sent": "I doubt that Susan published a book and I doubt that Ben published a book as well. It's not a big deal.", "expected": -1}
+{"id": "4_book_managed_failed_sref", "sent": "Susan managed to write a book but Ben failed to write a book. The book is a real page-turner.", "expected": 1}
+{"id": "4_book_managed_failed_pref", "sent": "Susan managed to write a book but Ben failed to write a book. The books are real page-turners.", "expected": 0}
+{"id": "4_book_managed_failed_nonref", "sent": "Susan managed to write a book but Ben failed to write a book. It's not a big deal.", "expected": -1}
+{"id": "4_book_managed_managed_sref", "sent": "Susan managed to write a book and Ben managed to write a book as well. The book is a real page-turner.", "expected": 0}
+{"id": "4_book_managed_managed_pref", "sent": "Susan managed to write a book and Ben managed to write a book as well. The books are real page-turners.", "expected": 1}
+{"id": "4_book_managed_managed_nonref", "sent": "Susan managed to write a book and Ben managed to write a book as well. It's not a big deal.", "expected": -1}
+{"id": "4_book_failed_managed_sref", "sent": "Susan failed to write a book but Ben managed to write a book. The book is a real page-turner.", "expected": 1}
+{"id": "4_book_failed_managed_pref", "sent": "Susan failed to write a book but Ben managed to write a book. The books are real page-turners.", "expected": 0}
+{"id": "4_book_failed_managed_nonref", "sent": "Susan failed to write a book but Ben managed to write a book. It's not a big deal.", "expected": -1}
+{"id": "4_book_failed_failed_sref", "sent": "Susan failed to write a book and Ben failed to write a book as well. The book is a real page-turner.", "expected": 0}
+{"id": "4_book_failed_failed_pref", "sent": "Susan failed to write a book and Ben failed to write a book as well. The books are real page-turners.", "expected": 0}
+{"id": "4_book_failed_failed_nonref", "sent": "Susan failed to write a book and Ben failed to write a book as well. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_affirmative_negation_sref", "sent": "Mary found a shirt at the store but Teresa didn't find a shirt at the store. The shirt looks amazing.", "expected": 1}
+{"id": "5_shirt_affirmative_negation_pref", "sent": "Mary found a shirt at the store but Teresa didn't find a shirt at the store. The shirts look amazing.", "expected": 0}
+{"id": "5_shirt_affirmative_negation_nonref", "sent": "Mary found a shirt at the store but Teresa didn't find a shirt at the store. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_affirmative_affirmative_sref", "sent": "Mary found a shirt at the store and Teresa found a shirt at the store too. The shirt looks amazing.", "expected": 0}
+{"id": "5_shirt_affirmative_affirmative_pref", "sent": "Mary found a shirt at the store and Teresa found a shirt at the store too. The shirts look amazing.", "expected": 1}
+{"id": "5_shirt_affirmative_affirmative_nonref", "sent": "Mary found a shirt at the store and Teresa found a shirt at the store too. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_negation_affirmative_sref", "sent": "Mary didn't find a shirt at the store but Teresa found a shirt at the store. The shirt looks amazing.", "expected": 1}
+{"id": "5_shirt_negation_affirmative_pref", "sent": "Mary didn't find a shirt at the store but Teresa found a shirt at the store. The shirts look amazing.", "expected": 0}
+{"id": "5_shirt_negation_affirmative_nonref", "sent": "Mary didn't find a shirt at the store but Teresa found a shirt at the store. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_negation_negation_sref", "sent": "Mary didn't find a shirt at the store and Teresa didn't find a shirt at the store either. The shirt looks amazing.", "expected": 0}
+{"id": "5_shirt_negation_negation_pref", "sent": "Mary didn't find a shirt at the store and Teresa didn't find a shirt at the store either. The shirts look amazing.", "expected": 0}
+{"id": "5_shirt_negation_negation_nonref", "sent": "Mary didn't find a shirt at the store and Teresa didn't find a shirt at the store either. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_know_doubt_sref", "sent": "I know that Mary found a shirt at the store but I doubt that Teresa found a shirt at the store. The shirt looks amazing.", "expected": 1}
+{"id": "5_shirt_know_doubt_pref", "sent": "I know that Mary found a shirt at the store but I doubt that Teresa found a shirt at the store. The shirts look amazing.", "expected": 0}
+{"id": "5_shirt_know_doubt_nonref", "sent": "I know that Mary found a shirt at the store but I doubt that Teresa found a shirt at the store. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_know_know_sref", "sent": "I know that Mary found a shirt at the store and I know that Teresa found a shirt at the store as well. The shirt looks amazing.", "expected": 0}
+{"id": "5_shirt_know_know_pref", "sent": "I know that Mary found a shirt at the store and I know that Teresa found a shirt at the store as well. The shirts look amazing.", "expected": 1}
+{"id": "5_shirt_know_know_nonref", "sent": "I know that Mary found a shirt at the store and I know that Teresa found a shirt at the store as well. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_doubt_know_sref", "sent": "I doubt that Mary found a shirt at the store but I know that Teresa found a shirt at the store. The shirt looks amazing.", "expected": 1}
+{"id": "5_shirt_doubt_know_pref", "sent": "I doubt that Mary found a shirt at the store but I know that Teresa found a shirt at the store. The shirts look amazing.", "expected": 0}
+{"id": "5_shirt_doubt_know_nonref", "sent": "I doubt that Mary found a shirt at the store but I know that Teresa found a shirt at the store. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_doubt_doubt_sref", "sent": "I doubt that Mary found a shirt at the store and I doubt that Teresa found a shirt at the store as well. The shirt looks amazing.", "expected": 0}
+{"id": "5_shirt_doubt_doubt_pref", "sent": "I doubt that Mary found a shirt at the store and I doubt that Teresa found a shirt at the store as well. The shirts look amazing.", "expected": 0}
+{"id": "5_shirt_doubt_doubt_nonref", "sent": "I doubt that Mary found a shirt at the store and I doubt that Teresa found a shirt at the store as well. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_managed_failed_sref", "sent": "Mary managed to find a shirt at the store but Teresa failed to find a shirt at the store. The shirt looks amazing.", "expected": 1}
+{"id": "5_shirt_managed_failed_pref", "sent": "Mary managed to find a shirt at the store but Teresa failed to find a shirt at the store. The shirts look amazing.", "expected": 0}
+{"id": "5_shirt_managed_failed_nonref", "sent": "Mary managed to find a shirt at the store but Teresa failed to find a shirt at the store. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_managed_managed_sref", "sent": "Mary managed to find a shirt at the store and Teresa managed to find a shirt at the store as well. The shirt looks amazing.", "expected": 0}
+{"id": "5_shirt_managed_managed_pref", "sent": "Mary managed to find a shirt at the store and Teresa managed to find a shirt at the store as well. The shirts look amazing.", "expected": 1}
+{"id": "5_shirt_managed_managed_nonref", "sent": "Mary managed to find a shirt at the store and Teresa managed to find a shirt at the store as well. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_failed_managed_sref", "sent": "Mary failed to find a shirt at the store but Teresa managed to find a shirt at the store. The shirt looks amazing.", "expected": 1}
+{"id": "5_shirt_failed_managed_pref", "sent": "Mary failed to find a shirt at the store but Teresa managed to find a shirt at the store. The shirts look amazing.", "expected": 0}
+{"id": "5_shirt_failed_managed_nonref", "sent": "Mary failed to find a shirt at the store but Teresa managed to find a shirt at the store. It's not a big deal.", "expected": -1}
+{"id": "5_shirt_failed_failed_sref", "sent": "Mary failed to find a shirt at the store and Teresa failed to find a shirt at the store as well. The shirt looks amazing.", "expected": 0}
+{"id": "5_shirt_failed_failed_pref", "sent": "Mary failed to find a shirt at the store and Teresa failed to find a shirt at the store as well. The shirts look amazing.", "expected": 0}
+{"id": "5_shirt_failed_failed_nonref", "sent": "Mary failed to find a shirt at the store and Teresa failed to find a shirt at the store as well. It's not a big deal.", "expected": -1}
+{"id": "6_rat_affirmative_negation_sref", "sent": "Carla got a pet rat but Linda didn't get a pet rat. The rat is very noisy at night.", "expected": 1}
+{"id": "6_rat_affirmative_negation_pref", "sent": "Carla got a pet rat but Linda didn't get a pet rat. The rats are very noisy at night.", "expected": 0}
+{"id": "6_rat_affirmative_negation_nonref", "sent": "Carla got a pet rat but Linda didn't get a pet rat. It's not a big deal.", "expected": -1}
+{"id": "6_rat_affirmative_affirmative_sref", "sent": "Carla got a pet rat and Linda got a pet rat too. The rat is very noisy at night.", "expected": 0}
+{"id": "6_rat_affirmative_affirmative_pref", "sent": "Carla got a pet rat and Linda got a pet rat too. The rats are very noisy at night.", "expected": 1}
+{"id": "6_rat_affirmative_affirmative_nonref", "sent": "Carla got a pet rat and Linda got a pet rat too. It's not a big deal.", "expected": -1}
+{"id": "6_rat_negation_affirmative_sref", "sent": "Carla didn't get a pet rat but Linda got a pet rat. The rat is very noisy at night.", "expected": 1}
+{"id": "6_rat_negation_affirmative_pref", "sent": "Carla didn't get a pet rat but Linda got a pet rat. The rats are very noisy at night.", "expected": 0}
+{"id": "6_rat_negation_affirmative_nonref", "sent": "Carla didn't get a pet rat but Linda got a pet rat. It's not a big deal.", "expected": -1}
+{"id": "6_rat_negation_negation_sref", "sent": "Carla didn't get a pet rat and Linda didn't get a pet rat either. The rat is very noisy at night.", "expected": 0}
+{"id": "6_rat_negation_negation_pref", "sent": "Carla didn't get a pet rat and Linda didn't get a pet rat either. The rats are very noisy at night.", "expected": 0}
+{"id": "6_rat_negation_negation_nonref", "sent": "Carla didn't get a pet rat and Linda didn't get a pet rat either. It's not a big deal.", "expected": -1}
+{"id": "6_rat_know_doubt_sref", "sent": "I know that Carla got a pet rat but I doubt that Linda got a pet rat. The rat is very noisy at night.", "expected": 1}
+{"id": "6_rat_know_doubt_pref", "sent": "I know that Carla got a pet rat but I doubt that Linda got a pet rat. The rats are very noisy at night.", "expected": 0}
+{"id": "6_rat_know_doubt_nonref", "sent": "I know that Carla got a pet rat but I doubt that Linda got a pet rat. It's not a big deal.", "expected": -1}
+{"id": "6_rat_know_know_sref", "sent": "I know that Carla got a pet rat and I know that Linda got a pet rat as well. The rat is very noisy at night.", "expected": 0}
+{"id": "6_rat_know_know_pref", "sent": "I know that Carla got a pet rat and I know that Linda got a pet rat as well. The rats are very noisy at night.", "expected": 1}
+{"id": "6_rat_know_know_nonref", "sent": "I know that Carla got a pet rat and I know that Linda got a pet rat as well. It's not a big deal.", "expected": -1}
+{"id": "6_rat_doubt_know_sref", "sent": "I doubt that Carla got a pet rat but I know that Linda got a pet rat. The rat is very noisy at night.", "expected": 1}
+{"id": "6_rat_doubt_know_pref", "sent": "I doubt that Carla got a pet rat but I know that Linda got a pet rat. The rats are very noisy at night.", "expected": 0}
+{"id": "6_rat_doubt_know_nonref", "sent": "I doubt that Carla got a pet rat but I know that Linda got a pet rat. It's not a big deal.", "expected": -1}
+{"id": "6_rat_doubt_doubt_sref", "sent": "I doubt that Carla got a pet rat and I doubt that Linda got a pet rat as well. The rat is very noisy at night.", "expected": 0}
+{"id": "6_rat_doubt_doubt_pref", "sent": "I doubt that Carla got a pet rat and I doubt that Linda got a pet rat as well. The rats are very noisy at night.", "expected": 0}
+{"id": "6_rat_doubt_doubt_nonref", "sent": "I doubt that Carla got a pet rat and I doubt that Linda got a pet rat as well. It's not a big deal.", "expected": -1}
+{"id": "6_rat_managed_failed_sref", "sent": "Carla managed to get a pet rat but Linda failed to get a pet rat. The rat is very noisy at night.", "expected": 1}
+{"id": "6_rat_managed_failed_pref", "sent": "Carla managed to get a pet rat but Linda failed to get a pet rat. The rats are very noisy at night.", "expected": 0}
+{"id": "6_rat_managed_failed_nonref", "sent": "Carla managed to get a pet rat but Linda failed to get a pet rat. It's not a big deal.", "expected": -1}
+{"id": "6_rat_managed_managed_sref", "sent": "Carla managed to get a pet rat and Linda managed to get a pet rat as well. The rat is very noisy at night.", "expected": 0}
+{"id": "6_rat_managed_managed_pref", "sent": "Carla managed to get a pet rat and Linda managed to get a pet rat as well. The rats are very noisy at night.", "expected": 1}
+{"id": "6_rat_managed_managed_nonref", "sent": "Carla managed to get a pet rat and Linda managed to get a pet rat as well. It's not a big deal.", "expected": -1}
+{"id": "6_rat_failed_managed_sref", "sent": "Carla failed to get a pet rat but Linda managed to get a pet rat. The rat is very noisy at night.", "expected": 1}
+{"id": "6_rat_failed_managed_pref", "sent": "Carla failed to get a pet rat but Linda managed to get a pet rat. The rats are very noisy at night.", "expected": 0}
+{"id": "6_rat_failed_managed_nonref", "sent": "Carla failed to get a pet rat but Linda managed to get a pet rat. It's not a big deal.", "expected": -1}
+{"id": "6_rat_failed_failed_sref", "sent": "Carla failed to get a pet rat and Linda failed to get a pet rat as well. The rat is very noisy at night.", "expected": 0}
+{"id": "6_rat_failed_failed_pref", "sent": "Carla failed to get a pet rat and Linda failed to get a pet rat as well. The rats are very noisy at night.", "expected": 0}
+{"id": "6_rat_failed_failed_nonref", "sent": "Carla failed to get a pet rat and Linda failed to get a pet rat as well. It's not a big deal.", "expected": -1}
+{"id": "7_beer_affirmative_negation_sref", "sent": "Sam ordered a beer at the bar but Kate didn't order a beer at the bar. The beer was warm.", "expected": 1}
+{"id": "7_beer_affirmative_negation_pref", "sent": "Sam ordered a beer at the bar but Kate didn't order a beer at the bar. The beers were warm.", "expected": 0}
+{"id": "7_beer_affirmative_negation_nonref", "sent": "Sam ordered a beer at the bar but Kate didn't order a beer at the bar. It's not a big deal.", "expected": -1}
+{"id": "7_beer_affirmative_affirmative_sref", "sent": "Sam ordered a beer at the bar and Kate ordered a beer at the bar too. The beer was warm.", "expected": 0}
+{"id": "7_beer_affirmative_affirmative_pref", "sent": "Sam ordered a beer at the bar and Kate ordered a beer at the bar too. The beers were warm.", "expected": 1}
+{"id": "7_beer_affirmative_affirmative_nonref", "sent": "Sam ordered a beer at the bar and Kate ordered a beer at the bar too. It's not a big deal.", "expected": -1}
+{"id": "7_beer_negation_affirmative_sref", "sent": "Sam didn't order a beer at the bar but Kate ordered a beer at the bar. The beer was warm.", "expected": 1}
+{"id": "7_beer_negation_affirmative_pref", "sent": "Sam didn't order a beer at the bar but Kate ordered a beer at the bar. The beers were warm.", "expected": 0}
+{"id": "7_beer_negation_affirmative_nonref", "sent": "Sam didn't order a beer at the bar but Kate ordered a beer at the bar. It's not a big deal.", "expected": -1}
+{"id": "7_beer_negation_negation_sref", "sent": "Sam didn't order a beer at the bar and Kate didn't order a beer at the bar either. The beer was warm.", "expected": 0}
+{"id": "7_beer_negation_negation_pref", "sent": "Sam didn't order a beer at the bar and Kate didn't order a beer at the bar either. The beers were warm.", "expected": 0}
+{"id": "7_beer_negation_negation_nonref", "sent": "Sam didn't order a beer at the bar and Kate didn't order a beer at the bar either. It's not a big deal.", "expected": -1}
+{"id": "7_beer_know_doubt_sref", "sent": "I know that Sam ordered a beer at the bar but I doubt that Kate ordered a beer at the bar. The beer was warm.", "expected": 1}
+{"id": "7_beer_know_doubt_pref", "sent": "I know that Sam ordered a beer at the bar but I doubt that Kate ordered a beer at the bar. The beers were warm.", "expected": 0}
+{"id": "7_beer_know_doubt_nonref", "sent": "I know that Sam ordered a beer at the bar but I doubt that Kate ordered a beer at the bar. It's not a big deal.", "expected": -1}
+{"id": "7_beer_know_know_sref", "sent": "I know that Sam ordered a beer at the bar and I know that Kate ordered a beer at the bar as well. The beer was warm.", "expected": 0}
+{"id": "7_beer_know_know_pref", "sent": "I know that Sam ordered a beer at the bar and I know that Kate ordered a beer at the bar as well. The beers were warm.", "expected": 1}
+{"id": "7_beer_know_know_nonref", "sent": "I know that Sam ordered a beer at the bar and I know that Kate ordered a beer at the bar as well. It's not a big deal.", "expected": -1}
+{"id": "7_beer_doubt_know_sref", "sent": "I doubt that Sam ordered a beer at the bar but I know that Kate ordered a beer at the bar. The beer was warm.", "expected": 1}
+{"id": "7_beer_doubt_know_pref", "sent": "I doubt that Sam ordered a beer at the bar but I know that Kate ordered a beer at the bar. The beers were warm.", "expected": 0}
+{"id": "7_beer_doubt_know_nonref", "sent": "I doubt that Sam ordered a beer at the bar but I know that Kate ordered a beer at the bar. It's not a big deal.", "expected": -1}
+{"id": "7_beer_doubt_doubt_sref", "sent": "I doubt that Sam ordered a beer at the bar and I doubt that Kate ordered a beer at the bar as well. The beer was warm.", "expected": 0}
+{"id": "7_beer_doubt_doubt_pref", "sent": "I doubt that Sam ordered a beer at the bar and I doubt that Kate ordered a beer at the bar as well. The beers were warm.", "expected": 0}
+{"id": "7_beer_doubt_doubt_nonref", "sent": "I doubt that Sam ordered a beer at the bar and I doubt that Kate ordered a beer at the bar as well. It's not a big deal.", "expected": -1}
+{"id": "7_beer_managed_failed_sref", "sent": "Sam managed to order a beer at the bar but Kate failed to order a beer at the bar. The beer was warm.", "expected": 1}
+{"id": "7_beer_managed_failed_pref", "sent": "Sam managed to order a beer at the bar but Kate failed to order a beer at the bar. The beers were warm.", "expected": 0}
+{"id": "7_beer_managed_failed_nonref", "sent": "Sam managed to order a beer at the bar but Kate failed to order a beer at the bar. It's not a big deal.", "expected": -1}
+{"id": "7_beer_managed_managed_sref", "sent": "Sam managed to order a beer at the bar and Kate managed to order a beer at the bar as well. The beer was warm.", "expected": 0}
+{"id": "7_beer_managed_managed_pref", "sent": "Sam managed to order a beer at the bar and Kate managed to order a beer at the bar as well. The beers were warm.", "expected": 1}
+{"id": "7_beer_managed_managed_nonref", "sent": "Sam managed to order a beer at the bar and Kate managed to order a beer at the bar as well. It's not a big deal.", "expected": -1}
+{"id": "7_beer_failed_managed_sref", "sent": "Sam failed to order a beer at the bar but Kate managed to order a beer at the bar. The beer was warm.", "expected": 1}
+{"id": "7_beer_failed_managed_pref", "sent": "Sam failed to order a beer at the bar but Kate managed to order a beer at the bar. The beers were warm.", "expected": 0}
+{"id": "7_beer_failed_managed_nonref", "sent": "Sam failed to order a beer at the bar but Kate managed to order a beer at the bar. It's not a big deal.", "expected": -1}
+{"id": "7_beer_failed_failed_sref", "sent": "Sam failed to order a beer at the bar and Kate failed to order a beer at the bar as well. The beer was warm.", "expected": 0}
+{"id": "7_beer_failed_failed_pref", "sent": "Sam failed to order a beer at the bar and Kate failed to order a beer at the bar as well. The beers were warm.", "expected": 0}
+{"id": "7_beer_failed_failed_nonref", "sent": "Sam failed to order a beer at the bar and Kate failed to order a beer at the bar as well. It's not a big deal.", "expected": -1}
+{"id": "8_cake_affirmative_negation_sref", "sent": "Michael baked a cake but Adam didn't bake a cake. The cake was the best thing at the picnic.", "expected": 1}
+{"id": "8_cake_affirmative_negation_pref", "sent": "Michael baked a cake but Adam didn't bake a cake. The cakes were the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_affirmative_negation_nonref", "sent": "Michael baked a cake but Adam didn't bake a cake. It's not a big deal.", "expected": -1}
+{"id": "8_cake_affirmative_affirmative_sref", "sent": "Michael baked a cake and Adam baked a cake too. The cake was the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_affirmative_affirmative_pref", "sent": "Michael baked a cake and Adam baked a cake too. The cakes were the best thing at the picnic.", "expected": 1}
+{"id": "8_cake_affirmative_affirmative_nonref", "sent": "Michael baked a cake and Adam baked a cake too. It's not a big deal.", "expected": -1}
+{"id": "8_cake_negation_affirmative_sref", "sent": "Michael didn't bake a cake but Adam baked a cake. The cake was the best thing at the picnic.", "expected": 1}
+{"id": "8_cake_negation_affirmative_pref", "sent": "Michael didn't bake a cake but Adam baked a cake. The cakes were the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_negation_affirmative_nonref", "sent": "Michael didn't bake a cake but Adam baked a cake. It's not a big deal.", "expected": -1}
+{"id": "8_cake_negation_negation_sref", "sent": "Michael didn't bake a cake and Adam didn't bake a cake either. The cake was the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_negation_negation_pref", "sent": "Michael didn't bake a cake and Adam didn't bake a cake either. The cakes were the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_negation_negation_nonref", "sent": "Michael didn't bake a cake and Adam didn't bake a cake either. It's not a big deal.", "expected": -1}
+{"id": "8_cake_know_doubt_sref", "sent": "I know that Michael baked a cake but I doubt that Adam baked a cake. The cake was the best thing at the picnic.", "expected": 1}
+{"id": "8_cake_know_doubt_pref", "sent": "I know that Michael baked a cake but I doubt that Adam baked a cake. The cakes were the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_know_doubt_nonref", "sent": "I know that Michael baked a cake but I doubt that Adam baked a cake. It's not a big deal.", "expected": -1}
+{"id": "8_cake_know_know_sref", "sent": "I know that Michael baked a cake and I know that Adam baked a cake as well. The cake was the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_know_know_pref", "sent": "I know that Michael baked a cake and I know that Adam baked a cake as well. The cakes were the best thing at the picnic.", "expected": 1}
+{"id": "8_cake_know_know_nonref", "sent": "I know that Michael baked a cake and I know that Adam baked a cake as well. It's not a big deal.", "expected": -1}
+{"id": "8_cake_doubt_know_sref", "sent": "I doubt that Michael baked a cake but I know that Adam baked a cake. The cake was the best thing at the picnic.", "expected": 1}
+{"id": "8_cake_doubt_know_pref", "sent": "I doubt that Michael baked a cake but I know that Adam baked a cake. The cakes were the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_doubt_know_nonref", "sent": "I doubt that Michael baked a cake but I know that Adam baked a cake. It's not a big deal.", "expected": -1}
+{"id": "8_cake_doubt_doubt_sref", "sent": "I doubt that Michael baked a cake and I doubt that Adam baked a cake as well. The cake was the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_doubt_doubt_pref", "sent": "I doubt that Michael baked a cake and I doubt that Adam baked a cake as well. The cakes were the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_doubt_doubt_nonref", "sent": "I doubt that Michael baked a cake and I doubt that Adam baked a cake as well. It's not a big deal.", "expected": -1}
+{"id": "8_cake_managed_failed_sref", "sent": "Michael managed to bake a cake but Adam failed to bake a cake. The cake was the best thing at the picnic.", "expected": 1}
+{"id": "8_cake_managed_failed_pref", "sent": "Michael managed to bake a cake but Adam failed to bake a cake. The cakes were the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_managed_failed_nonref", "sent": "Michael managed to bake a cake but Adam failed to bake a cake. It's not a big deal.", "expected": -1}
+{"id": "8_cake_managed_managed_sref", "sent": "Michael managed to bake a cake and Adam managed to bake a cake as well. The cake was the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_managed_managed_pref", "sent": "Michael managed to bake a cake and Adam managed to bake a cake as well. The cakes were the best thing at the picnic.", "expected": 1}
+{"id": "8_cake_managed_managed_nonref", "sent": "Michael managed to bake a cake and Adam managed to bake a cake as well. It's not a big deal.", "expected": -1}
+{"id": "8_cake_failed_managed_sref", "sent": "Michael failed to bake a cake but Adam managed to bake a cake. The cake was the best thing at the picnic.", "expected": 1}
+{"id": "8_cake_failed_managed_pref", "sent": "Michael failed to bake a cake but Adam managed to bake a cake. The cakes were the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_failed_managed_nonref", "sent": "Michael failed to bake a cake but Adam managed to bake a cake. It's not a big deal.", "expected": -1}
+{"id": "8_cake_failed_failed_sref", "sent": "Michael failed to bake a cake and Adam failed to bake a cake as well. The cake was the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_failed_failed_pref", "sent": "Michael failed to bake a cake and Adam failed to bake a cake as well. The cakes were the best thing at the picnic.", "expected": 0}
+{"id": "8_cake_failed_failed_nonref", "sent": "Michael failed to bake a cake and Adam failed to bake a cake as well. It's not a big deal.", "expected": -1}
+{"id": "9_letter_affirmative_negation_sref", "sent": "Carolyn wrote a letter to her parents but Jennifer didn't write a letter to her parents. The letter arrived three days after it was sent.", "expected": 1}
+{"id": "9_letter_affirmative_negation_pref", "sent": "Carolyn wrote a letter to her parents but Jennifer didn't write a letter to her parents. The letters arrived three days after they were sent.", "expected": 0}
+{"id": "9_letter_affirmative_negation_nonref", "sent": "Carolyn wrote a letter to her parents but Jennifer didn't write a letter to her parents. It's not a big deal.", "expected": -1}
+{"id": "9_letter_affirmative_affirmative_sref", "sent": "Carolyn wrote a letter to her parents and Jennifer wrote a letter to her parents too. The letter arrived three days after it was sent.", "expected": 0}
+{"id": "9_letter_affirmative_affirmative_pref", "sent": "Carolyn wrote a letter to her parents and Jennifer wrote a letter to her parents too. The letters arrived three days after they were sent.", "expected": 1}
+{"id": "9_letter_affirmative_affirmative_nonref", "sent": "Carolyn wrote a letter to her parents and Jennifer wrote a letter to her parents too. It's not a big deal.", "expected": -1}
+{"id": "9_letter_negation_affirmative_sref", "sent": "Carolyn didn't write a letter to her parents but Jennifer wrote a letter to her parents. The letter arrived three days after it was sent.", "expected": 1}
+{"id": "9_letter_negation_affirmative_pref", "sent": "Carolyn didn't write a letter to her parents but Jennifer wrote a letter to her parents. The letters arrived three days after they were sent.", "expected": 0}
+{"id": "9_letter_negation_affirmative_nonref", "sent": "Carolyn didn't write a letter to her parents but Jennifer wrote a letter to her parents. It's not a big deal.", "expected": -1}
+{"id": "9_letter_negation_negation_sref", "sent": "Carolyn didn't write a letter to her parents and Jennifer didn't write a letter to her parents either. The letter arrived three days after it was sent.", "expected": 0}
+{"id": "9_letter_negation_negation_pref", "sent": "Carolyn didn't write a letter to her parents and Jennifer didn't write a letter to her parents either. The letters arrived three days after they were sent.", "expected": 0}
+{"id": "9_letter_negation_negation_nonref", "sent": "Carolyn didn't write a letter to her parents and Jennifer didn't write a letter to her parents either. It's not a big deal.", "expected": -1}
+{"id": "9_letter_know_doubt_sref", "sent": "I know that Carolyn wrote a letter to her parents but I doubt that Jennifer wrote a letter to her parents. The letter arrived three days after it was sent.", "expected": 1}
+{"id": "9_letter_know_doubt_pref", "sent": "I know that Carolyn wrote a letter to her parents but I doubt that Jennifer wrote a letter to her parents. The letters arrived three days after they were sent.", "expected": 0}
+{"id": "9_letter_know_doubt_nonref", "sent": "I know that Carolyn wrote a letter to her parents but I doubt that Jennifer wrote a letter to her parents. It's not a big deal.", "expected": -1}
+{"id": "9_letter_know_know_sref", "sent": "I know that Carolyn wrote a letter to her parents and I know that Jennifer wrote a letter to her parents as well. The letter arrived three days after it was sent.", "expected": 0}
+{"id": "9_letter_know_know_pref", "sent": "I know that Carolyn wrote a letter to her parents and I know that Jennifer wrote a letter to her parents as well. The letters arrived three days after they were sent.", "expected": 1}
+{"id": "9_letter_know_know_nonref", "sent": "I know that Carolyn wrote a letter to her parents and I know that Jennifer wrote a letter to her parents as well. It's not a big deal.", "expected": -1}
+{"id": "9_letter_doubt_know_sref", "sent": "I doubt that Carolyn wrote a letter to her parents but I know that Jennifer wrote a letter to her parents. The letter arrived three days after it was sent.", "expected": 1}
+{"id": "9_letter_doubt_know_pref", "sent": "I doubt that Carolyn wrote a letter to her parents but I know that Jennifer wrote a letter to her parents. The letters arrived three days after they were sent.", "expected": 0}
+{"id": "9_letter_doubt_know_nonref", "sent": "I doubt that Carolyn wrote a letter to her parents but I know that Jennifer wrote a letter to her parents. It's not a big deal.", "expected": -1}
+{"id": "9_letter_doubt_doubt_sref", "sent": "I doubt that Carolyn wrote a letter to her parents and I doubt that Jennifer wrote a letter to her parents as well. The letter arrived three days after it was sent.", "expected": 0}
+{"id": "9_letter_doubt_doubt_pref", "sent": "I doubt that Carolyn wrote a letter to her parents and I doubt that Jennifer wrote a letter to her parents as well. The letters arrived three days after they were sent.", "expected": 0}
+{"id": "9_letter_doubt_doubt_nonref", "sent": "I doubt that Carolyn wrote a letter to her parents and I doubt that Jennifer wrote a letter to her parents as well. It's not a big deal.", "expected": -1}
+{"id": "9_letter_managed_failed_sref", "sent": "Carolyn managed to write a letter to her parents but Jennifer failed to write a letter to her parents. The letter arrived three days after it was sent.", "expected": 1}
+{"id": "9_letter_managed_failed_pref", "sent": "Carolyn managed to write a letter to her parents but Jennifer failed to write a letter to her parents. The letters arrived three days after they were sent.", "expected": 0}
+{"id": "9_letter_managed_failed_nonref", "sent": "Carolyn managed to write a letter to her parents but Jennifer failed to write a letter to her parents. It's not a big deal.", "expected": -1}
+{"id": "9_letter_managed_managed_sref", "sent": "Carolyn managed to write a letter to her parents and Jennifer managed to write a letter to her parents as well. The letter arrived three days after it was sent.", "expected": 0}
+{"id": "9_letter_managed_managed_pref", "sent": "Carolyn managed to write a letter to her parents and Jennifer managed to write a letter to her parents as well. The letters arrived three days after they were sent.", "expected": 1}
+{"id": "9_letter_managed_managed_nonref", "sent": "Carolyn managed to write a letter to her parents and Jennifer managed to write a letter to her parents as well. It's not a big deal.", "expected": -1}
+{"id": "9_letter_failed_managed_sref", "sent": "Carolyn failed to write a letter to her parents but Jennifer managed to write a letter to her parents. The letter arrived three days after it was sent.", "expected": 1}
+{"id": "9_letter_failed_managed_pref", "sent": "Carolyn failed to write a letter to her parents but Jennifer managed to write a letter to her parents. The letters arrived three days after they were sent.", "expected": 0}
+{"id": "9_letter_failed_managed_nonref", "sent": "Carolyn failed to write a letter to her parents but Jennifer managed to write a letter to her parents. It's not a big deal.", "expected": -1}
+{"id": "9_letter_failed_failed_sref", "sent": "Carolyn failed to write a letter to her parents and Jennifer failed to write a letter to her parents as well. The letter arrived three days after it was sent.", "expected": 0}
+{"id": "9_letter_failed_failed_pref", "sent": "Carolyn failed to write a letter to her parents and Jennifer failed to write a letter to her parents as well. The letters arrived three days after they were sent.", "expected": 0}
+{"id": "9_letter_failed_failed_nonref", "sent": "Carolyn failed to write a letter to her parents and Jennifer failed to write a letter to her parents as well. It's not a big deal.", "expected": -1}
+{"id": "10_hat_affirmative_negation_sref", "sent": "Chris knitted a hat but George didn't knit a hat. The hat was very colorful.", "expected": 1}
+{"id": "10_hat_affirmative_negation_pref", "sent": "Chris knitted a hat but George didn't knit a hat. The hats were very colorful.", "expected": 0}
+{"id": "10_hat_affirmative_negation_nonref", "sent": "Chris knitted a hat but George didn't knit a hat. It's not a big deal.", "expected": -1}
+{"id": "10_hat_affirmative_affirmative_sref", "sent": "Chris knitted a hat and George knitted a hat too. The hat was very colorful.", "expected": 0}
+{"id": "10_hat_affirmative_affirmative_pref", "sent": "Chris knitted a hat and George knitted a hat too. The hats were very colorful.", "expected": 1}
+{"id": "10_hat_affirmative_affirmative_nonref", "sent": "Chris knitted a hat and George knitted a hat too. It's not a big deal.", "expected": -1}
+{"id": "10_hat_negation_affirmative_sref", "sent": "Chris didn't knit a hat but George knitted a hat. The hat was very colorful.", "expected": 1}
+{"id": "10_hat_negation_affirmative_pref", "sent": "Chris didn't knit a hat but George knitted a hat. The hats were very colorful.", "expected": 0}
+{"id": "10_hat_negation_affirmative_nonref", "sent": "Chris didn't knit a hat but George knitted a hat. It's not a big deal.", "expected": -1}
+{"id": "10_hat_negation_negation_sref", "sent": "Chris didn't knit a hat and George didn't knit a hat either. The hat was very colorful.", "expected": 0}
+{"id": "10_hat_negation_negation_pref", "sent": "Chris didn't knit a hat and George didn't knit a hat either. The hats were very colorful.", "expected": 0}
+{"id": "10_hat_negation_negation_nonref", "sent": "Chris didn't knit a hat and George didn't knit a hat either. It's not a big deal.", "expected": -1}
+{"id": "10_hat_know_doubt_sref", "sent": "I know that Chris knitted a hat but I doubt that George knitted a hat. The hat was very colorful.", "expected": 1}
+{"id": "10_hat_know_doubt_pref", "sent": "I know that Chris knitted a hat but I doubt that George knitted a hat. The hats were very colorful.", "expected": 0}
+{"id": "10_hat_know_doubt_nonref", "sent": "I know that Chris knitted a hat but I doubt that George knitted a hat. It's not a big deal.", "expected": -1}
+{"id": "10_hat_know_know_sref", "sent": "I know that Chris knitted a hat and I know that George knitted a hat as well. The hat was very colorful.", "expected": 0}
+{"id": "10_hat_know_know_pref", "sent": "I know that Chris knitted a hat and I know that George knitted a hat as well. The hats were very colorful.", "expected": 1}
+{"id": "10_hat_know_know_nonref", "sent": "I know that Chris knitted a hat and I know that George knitted a hat as well. It's not a big deal.", "expected": -1}
+{"id": "10_hat_doubt_know_sref", "sent": "I doubt that Chris knitted a hat but I know that George knitted a hat. The hat was very colorful.", "expected": 1}
+{"id": "10_hat_doubt_know_pref", "sent": "I doubt that Chris knitted a hat but I know that George knitted a hat. The hats were very colorful.", "expected": 0}
+{"id": "10_hat_doubt_know_nonref", "sent": "I doubt that Chris knitted a hat but I know that George knitted a hat. It's not a big deal.", "expected": -1}
+{"id": "10_hat_doubt_doubt_sref", "sent": "I doubt that Chris knitted a hat and I doubt that George knitted a hat as well. The hat was very colorful.", "expected": 0}
+{"id": "10_hat_doubt_doubt_pref", "sent": "I doubt that Chris knitted a hat and I doubt that George knitted a hat as well. The hats were very colorful.", "expected": 0}
+{"id": "10_hat_doubt_doubt_nonref", "sent": "I doubt that Chris knitted a hat and I doubt that George knitted a hat as well. It's not a big deal.", "expected": -1}
+{"id": "10_hat_managed_failed_sref", "sent": "Chris managed to knit a hat but George failed to knit a hat. The hat was very colorful.", "expected": 1}
+{"id": "10_hat_managed_failed_pref", "sent": "Chris managed to knit a hat but George failed to knit a hat. The hats were very colorful.", "expected": 0}
+{"id": "10_hat_managed_failed_nonref", "sent": "Chris managed to knit a hat but George failed to knit a hat. It's not a big deal.", "expected": -1}
+{"id": "10_hat_managed_managed_sref", "sent": "Chris managed to knit a hat and George managed to knit a hat as well. The hat was very colorful.", "expected": 0}
+{"id": "10_hat_managed_managed_pref", "sent": "Chris managed to knit a hat and George managed to knit a hat as well. The hats were very colorful.", "expected": 1}
+{"id": "10_hat_managed_managed_nonref", "sent": "Chris managed to knit a hat and George managed to knit a hat as well. It's not a big deal.", "expected": -1}
+{"id": "10_hat_failed_managed_sref", "sent": "Chris failed to knit a hat but George managed to knit a hat. The hat was very colorful.", "expected": 1}
+{"id": "10_hat_failed_managed_pref", "sent": "Chris failed to knit a hat but George managed to knit a hat. The hats were very colorful.", "expected": 0}
+{"id": "10_hat_failed_managed_nonref", "sent": "Chris failed to knit a hat but George managed to knit a hat. It's not a big deal.", "expected": -1}
+{"id": "10_hat_failed_failed_sref", "sent": "Chris failed to knit a hat and George failed to knit a hat as well. The hat was very colorful.", "expected": 0}
+{"id": "10_hat_failed_failed_pref", "sent": "Chris failed to knit a hat and George failed to knit a hat as well. The hats were very colorful.", "expected": 0}
+{"id": "10_hat_failed_failed_nonref", "sent": "Chris failed to knit a hat and George failed to knit a hat as well. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_affirmative_negation_sref", "sent": "Sarah caught a rabbit but Alice didn't catch a rabbit. The rabbit made a fantastic dinner.", "expected": 1}
+{"id": "11_rabbit_affirmative_negation_pref", "sent": "Sarah caught a rabbit but Alice didn't catch a rabbit. The rabbits made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_affirmative_negation_nonref", "sent": "Sarah caught a rabbit but Alice didn't catch a rabbit. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_affirmative_affirmative_sref", "sent": "Sarah caught a rabbit and Alice caught a rabbit too. The rabbit made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_affirmative_affirmative_pref", "sent": "Sarah caught a rabbit and Alice caught a rabbit too. The rabbits made a fantastic dinner.", "expected": 1}
+{"id": "11_rabbit_affirmative_affirmative_nonref", "sent": "Sarah caught a rabbit and Alice caught a rabbit too. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_negation_affirmative_sref", "sent": "Sarah didn't catch a rabbit but Alice caught a rabbit. The rabbit made a fantastic dinner.", "expected": 1}
+{"id": "11_rabbit_negation_affirmative_pref", "sent": "Sarah didn't catch a rabbit but Alice caught a rabbit. The rabbits made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_negation_affirmative_nonref", "sent": "Sarah didn't catch a rabbit but Alice caught a rabbit. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_negation_negation_sref", "sent": "Sarah didn't catch a rabbit and Alice didn't catch a rabbit either. The rabbit made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_negation_negation_pref", "sent": "Sarah didn't catch a rabbit and Alice didn't catch a rabbit either. The rabbits made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_negation_negation_nonref", "sent": "Sarah didn't catch a rabbit and Alice didn't catch a rabbit either. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_know_doubt_sref", "sent": "I know that Sarah caught a rabbit but I doubt that Alice caught a rabbit. The rabbit made a fantastic dinner.", "expected": 1}
+{"id": "11_rabbit_know_doubt_pref", "sent": "I know that Sarah caught a rabbit but I doubt that Alice caught a rabbit. The rabbits made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_know_doubt_nonref", "sent": "I know that Sarah caught a rabbit but I doubt that Alice caught a rabbit. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_know_know_sref", "sent": "I know that Sarah caught a rabbit and I know that Alice caught a rabbit as well. The rabbit made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_know_know_pref", "sent": "I know that Sarah caught a rabbit and I know that Alice caught a rabbit as well. The rabbits made a fantastic dinner.", "expected": 1}
+{"id": "11_rabbit_know_know_nonref", "sent": "I know that Sarah caught a rabbit and I know that Alice caught a rabbit as well. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_doubt_know_sref", "sent": "I doubt that Sarah caught a rabbit but I know that Alice caught a rabbit. The rabbit made a fantastic dinner.", "expected": 1}
+{"id": "11_rabbit_doubt_know_pref", "sent": "I doubt that Sarah caught a rabbit but I know that Alice caught a rabbit. The rabbits made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_doubt_know_nonref", "sent": "I doubt that Sarah caught a rabbit but I know that Alice caught a rabbit. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_doubt_doubt_sref", "sent": "I doubt that Sarah caught a rabbit and I doubt that Alice caught a rabbit as well. The rabbit made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_doubt_doubt_pref", "sent": "I doubt that Sarah caught a rabbit and I doubt that Alice caught a rabbit as well. The rabbits made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_doubt_doubt_nonref", "sent": "I doubt that Sarah caught a rabbit and I doubt that Alice caught a rabbit as well. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_managed_failed_sref", "sent": "Sarah managed to catch a rabbit but Alice failed to catch a rabbit. The rabbit made a fantastic dinner.", "expected": 1}
+{"id": "11_rabbit_managed_failed_pref", "sent": "Sarah managed to catch a rabbit but Alice failed to catch a rabbit. The rabbits made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_managed_failed_nonref", "sent": "Sarah managed to catch a rabbit but Alice failed to catch a rabbit. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_managed_managed_sref", "sent": "Sarah managed to catch a rabbit and Alice managed to catch a rabbit as well. The rabbit made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_managed_managed_pref", "sent": "Sarah managed to catch a rabbit and Alice managed to catch a rabbit as well. The rabbits made a fantastic dinner.", "expected": 1}
+{"id": "11_rabbit_managed_managed_nonref", "sent": "Sarah managed to catch a rabbit and Alice managed to catch a rabbit as well. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_failed_managed_sref", "sent": "Sarah failed to catch a rabbit but Alice managed to catch a rabbit. The rabbit made a fantastic dinner.", "expected": 1}
+{"id": "11_rabbit_failed_managed_pref", "sent": "Sarah failed to catch a rabbit but Alice managed to catch a rabbit. The rabbits made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_failed_managed_nonref", "sent": "Sarah failed to catch a rabbit but Alice managed to catch a rabbit. It's not a big deal.", "expected": -1}
+{"id": "11_rabbit_failed_failed_sref", "sent": "Sarah failed to catch a rabbit and Alice failed to catch a rabbit as well. The rabbit made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_failed_failed_pref", "sent": "Sarah failed to catch a rabbit and Alice failed to catch a rabbit as well. The rabbits made a fantastic dinner.", "expected": 0}
+{"id": "11_rabbit_failed_failed_nonref", "sent": "Sarah failed to catch a rabbit and Alice failed to catch a rabbit as well. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_affirmative_negation_sref", "sent": "Thomas booked a ticket in advance but Patrick didn't book a ticket in advance. The ticket was much cheaper than expected.", "expected": 1}
+{"id": "12_ticket_affirmative_negation_pref", "sent": "Thomas booked a ticket in advance but Patrick didn't book a ticket in advance. The tickets were much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_affirmative_negation_nonref", "sent": "Thomas booked a ticket in advance but Patrick didn't book a ticket in advance. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_affirmative_affirmative_sref", "sent": "Thomas booked a ticket in advance and Patrick booked a ticket in advance too. The ticket was much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_affirmative_affirmative_pref", "sent": "Thomas booked a ticket in advance and Patrick booked a ticket in advance too. The tickets were much cheaper than expected.", "expected": 1}
+{"id": "12_ticket_affirmative_affirmative_nonref", "sent": "Thomas booked a ticket in advance and Patrick booked a ticket in advance too. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_negation_affirmative_sref", "sent": "Thomas didn't book a ticket in advance but Patrick booked a ticket in advance. The ticket was much cheaper than expected.", "expected": 1}
+{"id": "12_ticket_negation_affirmative_pref", "sent": "Thomas didn't book a ticket in advance but Patrick booked a ticket in advance. The tickets were much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_negation_affirmative_nonref", "sent": "Thomas didn't book a ticket in advance but Patrick booked a ticket in advance. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_negation_negation_sref", "sent": "Thomas didn't book a ticket in advance and Patrick didn't book a ticket in advance either. The ticket was much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_negation_negation_pref", "sent": "Thomas didn't book a ticket in advance and Patrick didn't book a ticket in advance either. The tickets were much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_negation_negation_nonref", "sent": "Thomas didn't book a ticket in advance and Patrick didn't book a ticket in advance either. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_know_doubt_sref", "sent": "I know that Thomas booked a ticket in advance but I doubt that Patrick booked a ticket in advance. The ticket was much cheaper than expected.", "expected": 1}
+{"id": "12_ticket_know_doubt_pref", "sent": "I know that Thomas booked a ticket in advance but I doubt that Patrick booked a ticket in advance. The tickets were much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_know_doubt_nonref", "sent": "I know that Thomas booked a ticket in advance but I doubt that Patrick booked a ticket in advance. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_know_know_sref", "sent": "I know that Thomas booked a ticket in advance and I know that Patrick booked a ticket in advance as well. The ticket was much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_know_know_pref", "sent": "I know that Thomas booked a ticket in advance and I know that Patrick booked a ticket in advance as well. The tickets were much cheaper than expected.", "expected": 1}
+{"id": "12_ticket_know_know_nonref", "sent": "I know that Thomas booked a ticket in advance and I know that Patrick booked a ticket in advance as well. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_doubt_know_sref", "sent": "I doubt that Thomas booked a ticket in advance but I know that Patrick booked a ticket in advance. The ticket was much cheaper than expected.", "expected": 1}
+{"id": "12_ticket_doubt_know_pref", "sent": "I doubt that Thomas booked a ticket in advance but I know that Patrick booked a ticket in advance. The tickets were much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_doubt_know_nonref", "sent": "I doubt that Thomas booked a ticket in advance but I know that Patrick booked a ticket in advance. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_doubt_doubt_sref", "sent": "I doubt that Thomas booked a ticket in advance and I doubt that Patrick booked a ticket in advance as well. The ticket was much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_doubt_doubt_pref", "sent": "I doubt that Thomas booked a ticket in advance and I doubt that Patrick booked a ticket in advance as well. The tickets were much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_doubt_doubt_nonref", "sent": "I doubt that Thomas booked a ticket in advance and I doubt that Patrick booked a ticket in advance as well. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_managed_failed_sref", "sent": "Thomas managed to book a ticket but Patrick failed to book a ticket. The ticket was much cheaper than expected.", "expected": 1}
+{"id": "12_ticket_managed_failed_pref", "sent": "Thomas managed to book a ticket but Patrick failed to book a ticket. The tickets were much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_managed_failed_nonref", "sent": "Thomas managed to book a ticket but Patrick failed to book a ticket. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_managed_managed_sref", "sent": "Thomas managed to book a ticket and Patrick managed to book a ticket as well. The ticket was much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_managed_managed_pref", "sent": "Thomas managed to book a ticket and Patrick managed to book a ticket as well. The tickets were much cheaper than expected.", "expected": 1}
+{"id": "12_ticket_managed_managed_nonref", "sent": "Thomas managed to book a ticket and Patrick managed to book a ticket as well. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_failed_managed_sref", "sent": "Thomas failed to book a ticket but Patrick managed to book a ticket. The ticket was much cheaper than expected.", "expected": 1}
+{"id": "12_ticket_failed_managed_pref", "sent": "Thomas failed to book a ticket but Patrick managed to book a ticket. The tickets were much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_failed_managed_nonref", "sent": "Thomas failed to book a ticket but Patrick managed to book a ticket. It's not a big deal.", "expected": -1}
+{"id": "12_ticket_failed_failed_sref", "sent": "Thomas failed to book a ticket and Patrick failed to book a ticket as well. The ticket was much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_failed_failed_pref", "sent": "Thomas failed to book a ticket and Patrick failed to book a ticket as well. The tickets were much cheaper than expected.", "expected": 0}
+{"id": "12_ticket_failed_failed_nonref", "sent": "Thomas failed to book a ticket and Patrick failed to book a ticket as well. It's not a big deal.", "expected": -1}
+{"id": "13_bed_affirmative_negation_sref", "sent": "Luke bought a bed but Rachel didn't buy a bed. The bed was delivered the next day.", "expected": 1}
+{"id": "13_bed_affirmative_negation_pref", "sent": "Luke bought a bed but Rachel didn't buy a bed. The beds were delivered the next day.", "expected": 0}
+{"id": "13_bed_affirmative_negation_nonref", "sent": "Luke bought a bed but Rachel didn't buy a bed. It's not a big deal.", "expected": -1}
+{"id": "13_bed_affirmative_affirmative_sref", "sent": "Luke bought a bed and Rachel bought a bed too. The bed was delivered the next day.", "expected": 0}
+{"id": "13_bed_affirmative_affirmative_pref", "sent": "Luke bought a bed and Rachel bought a bed too. The beds were delivered the next day.", "expected": 1}
+{"id": "13_bed_affirmative_affirmative_nonref", "sent": "Luke bought a bed and Rachel bought a bed too. It's not a big deal.", "expected": -1}
+{"id": "13_bed_negation_affirmative_sref", "sent": "Luke didn't buy a bed but Rachel bought a bed. The bed was delivered the next day.", "expected": 1}
+{"id": "13_bed_negation_affirmative_pref", "sent": "Luke didn't buy a bed but Rachel bought a bed. The beds were delivered the next day.", "expected": 0}
+{"id": "13_bed_negation_affirmative_nonref", "sent": "Luke didn't buy a bed but Rachel bought a bed. It's not a big deal.", "expected": -1}
+{"id": "13_bed_negation_negation_sref", "sent": "Luke didn't buy a bed and Rachel didn't buy a bed either. The bed was delivered the next day.", "expected": 0}
+{"id": "13_bed_negation_negation_pref", "sent": "Luke didn't buy a bed and Rachel didn't buy a bed either. The beds were delivered the next day.", "expected": 0}
+{"id": "13_bed_negation_negation_nonref", "sent": "Luke didn't buy a bed and Rachel didn't buy a bed either. It's not a big deal.", "expected": -1}
+{"id": "13_bed_know_doubt_sref", "sent": "I know that Luke bought a bed but I doubt that Rachel bought a bed. The bed was delivered the next day.", "expected": 1}
+{"id": "13_bed_know_doubt_pref", "sent": "I know that Luke bought a bed but I doubt that Rachel bought a bed. The beds were delivered the next day.", "expected": 0}
+{"id": "13_bed_know_doubt_nonref", "sent": "I know that Luke bought a bed but I doubt that Rachel bought a bed. It's not a big deal.", "expected": -1}
+{"id": "13_bed_know_know_sref", "sent": "I know that Luke bought a bed and I know that Rachel bought a bed as well. The bed was delivered the next day.", "expected": 0}
+{"id": "13_bed_know_know_pref", "sent": "I know that Luke bought a bed and I know that Rachel bought a bed as well. The beds were delivered the next day.", "expected": 1}
+{"id": "13_bed_know_know_nonref", "sent": "I know that Luke bought a bed and I know that Rachel bought a bed as well. It's not a big deal.", "expected": -1}
+{"id": "13_bed_doubt_know_sref", "sent": "I doubt that Luke bought a bed but I know that Rachel bought a bed. The bed was delivered the next day.", "expected": 1}
+{"id": "13_bed_doubt_know_pref", "sent": "I doubt that Luke bought a bed but I know that Rachel bought a bed. The beds were delivered the next day.", "expected": 0}
+{"id": "13_bed_doubt_know_nonref", "sent": "I doubt that Luke bought a bed but I know that Rachel bought a bed. It's not a big deal.", "expected": -1}
+{"id": "13_bed_doubt_doubt_sref", "sent": "I doubt that Luke bought a bed and I doubt that Rachel bought a bed as well. The bed was delivered the next day.", "expected": 0}
+{"id": "13_bed_doubt_doubt_pref", "sent": "I doubt that Luke bought a bed and I doubt that Rachel bought a bed as well. The beds were delivered the next day.", "expected": 0}
+{"id": "13_bed_doubt_doubt_nonref", "sent": "I doubt that Luke bought a bed and I doubt that Rachel bought a bed as well. It's not a big deal.", "expected": -1}
+{"id": "13_bed_managed_failed_sref", "sent": "Luke managed to buy a bed but Rachel failed to buy a bed. The bed was delivered the next day.", "expected": 1}
+{"id": "13_bed_managed_failed_pref", "sent": "Luke managed to buy a bed but Rachel failed to buy a bed. The beds were delivered the next day.", "expected": 0}
+{"id": "13_bed_managed_failed_nonref", "sent": "Luke managed to buy a bed but Rachel failed to buy a bed. It's not a big deal.", "expected": -1}
+{"id": "13_bed_managed_managed_sref", "sent": "Luke managed to buy a bed and Rachel managed to buy a bed as well. The bed was delivered the next day.", "expected": 0}
+{"id": "13_bed_managed_managed_pref", "sent": "Luke managed to buy a bed and Rachel managed to buy a bed as well. The beds were delivered the next day.", "expected": 1}
+{"id": "13_bed_managed_managed_nonref", "sent": "Luke managed to buy a bed and Rachel managed to buy a bed as well. It's not a big deal.", "expected": -1}
+{"id": "13_bed_failed_managed_sref", "sent": "Luke failed to buy a bed but Rachel managed to buy a bed. The bed was delivered the next day.", "expected": 1}
+{"id": "13_bed_failed_managed_pref", "sent": "Luke failed to buy a bed but Rachel managed to buy a bed. The beds were delivered the next day.", "expected": 0}
+{"id": "13_bed_failed_managed_nonref", "sent": "Luke failed to buy a bed but Rachel managed to buy a bed. It's not a big deal.", "expected": -1}
+{"id": "13_bed_failed_failed_sref", "sent": "Luke failed to buy a bed and Rachel failed to buy a bed as well. The bed was delivered the next day.", "expected": 0}
+{"id": "13_bed_failed_failed_pref", "sent": "Luke failed to buy a bed and Rachel failed to buy a bed as well. The beds were delivered the next day.", "expected": 0}
+{"id": "13_bed_failed_failed_nonref", "sent": "Luke failed to buy a bed and Rachel failed to buy a bed as well. It's not a big deal.", "expected": -1}
+{"id": "14_gin_affirmative_negation_sref", "sent": "Dan drank a gin tonic but Jessica didn't drink a gin tonic. The gin tonic was very strong.", "expected": 1}
+{"id": "14_gin_affirmative_negation_pref", "sent": "Dan drank a gin tonic but Jessica didn't drink a gin tonic. The gin tonics were very strong.", "expected": 0}
+{"id": "14_gin_affirmative_negation_nonref", "sent": "Dan drank a gin tonic but Jessica didn't drink a gin tonic. It's not a big deal.", "expected": -1}
+{"id": "14_gin_affirmative_affirmative_sref", "sent": "Dan drank a gin tonic and Jessica drank a gin tonic too. The gin tonic was very strong.", "expected": 0}
+{"id": "14_gin_affirmative_affirmative_pref", "sent": "Dan drank a gin tonic and Jessica drank a gin tonic too. The gin tonics were very strong.", "expected": 1}
+{"id": "14_gin_affirmative_affirmative_nonref", "sent": "Dan drank a gin tonic and Jessica drank a gin tonic too. It's not a big deal.", "expected": -1}
+{"id": "14_gin_negation_affirmative_sref", "sent": "Dan didn't drink a gin tonic but Jessica drank a gin tonic. The gin tonic was very strong.", "expected": 1}
+{"id": "14_gin_negation_affirmative_pref", "sent": "Dan didn't drink a gin tonic but Jessica drank a gin tonic. The gin tonics were very strong.", "expected": 0}
+{"id": "14_gin_negation_affirmative_nonref", "sent": "Dan didn't drink a gin tonic but Jessica drank a gin tonic. It's not a big deal.", "expected": -1}
+{"id": "14_gin_negation_negation_sref", "sent": "Dan didn't drink a gin tonic and Jessica didn't drink a gin tonic either. The gin tonic was very strong.", "expected": 0}
+{"id": "14_gin_negation_negation_pref", "sent": "Dan didn't drink a gin tonic and Jessica didn't drink a gin tonic either. The gin tonics were very strong.", "expected": 0}
+{"id": "14_gin_negation_negation_nonref", "sent": "Dan didn't drink a gin tonic and Jessica didn't drink a gin tonic either. It's not a big deal.", "expected": -1}
+{"id": "14_gin_know_doubt_sref", "sent": "I know that Dan drank a gin tonic but I doubt that Jessica drank a gin tonic. The gin tonic was very strong.", "expected": 1}
+{"id": "14_gin_know_doubt_pref", "sent": "I know that Dan drank a gin tonic but I doubt that Jessica drank a gin tonic. The gin tonics were very strong.", "expected": 0}
+{"id": "14_gin_know_doubt_nonref", "sent": "I know that Dan drank a gin tonic but I doubt that Jessica drank a gin tonic. It's not a big deal.", "expected": -1}
+{"id": "14_gin_know_know_sref", "sent": "I know that Dan drank a gin tonic and I know that Jessica drank a gin tonic as well. The gin tonic was very strong.", "expected": 0}
+{"id": "14_gin_know_know_pref", "sent": "I know that Dan drank a gin tonic and I know that Jessica drank a gin tonic as well. The gin tonics were very strong.", "expected": 1}
+{"id": "14_gin_know_know_nonref", "sent": "I know that Dan drank a gin tonic and I know that Jessica drank a gin tonic as well. It's not a big deal.", "expected": -1}
+{"id": "14_gin_doubt_know_sref", "sent": "I doubt that Dan drank a gin tonic but I know that Jessica drank a gin tonic. The gin tonic was very strong.", "expected": 1}
+{"id": "14_gin_doubt_know_pref", "sent": "I doubt that Dan drank a gin tonic but I know that Jessica drank a gin tonic. The gin tonics were very strong.", "expected": 0}
+{"id": "14_gin_doubt_know_nonref", "sent": "I doubt that Dan drank a gin tonic but I know that Jessica drank a gin tonic. It's not a big deal.", "expected": -1}
+{"id": "14_gin_doubt_doubt_sref", "sent": "I doubt that Dan drank a gin tonic and I doubt that Jessica drank a gin tonic as well. The gin tonic was very strong.", "expected": 0}
+{"id": "14_gin_doubt_doubt_pref", "sent": "I doubt that Dan drank a gin tonic and I doubt that Jessica drank a gin tonic as well. The gin tonics were very strong.", "expected": 0}
+{"id": "14_gin_doubt_doubt_nonref", "sent": "I doubt that Dan drank a gin tonic and I doubt that Jessica drank a gin tonic as well. It's not a big deal.", "expected": -1}
+{"id": "14_gin_managed_failed_sref", "sent": "Dan managed to mix a gin tonic but Jessica failed to mix a gin tonic. The gin tonic was very strong.", "expected": 1}
+{"id": "14_gin_managed_failed_pref", "sent": "Dan managed to mix a gin tonic but Jessica failed to mix a gin tonic. The gin tonics were very strong.", "expected": 0}
+{"id": "14_gin_managed_failed_nonref", "sent": "Dan managed to mix a gin tonic but Jessica failed to mix a gin tonic. It's not a big deal.", "expected": -1}
+{"id": "14_gin_managed_managed_sref", "sent": "Dan managed to mix a gin tonic and Jessica managed to mix a gin tonic as well. The gin tonic was very strong.", "expected": 0}
+{"id": "14_gin_managed_managed_pref", "sent": "Dan managed to mix a gin tonic and Jessica managed to mix a gin tonic as well. The gin tonics were very strong.", "expected": 1}
+{"id": "14_gin_managed_managed_nonref", "sent": "Dan managed to mix a gin tonic and Jessica managed to mix a gin tonic as well. It's not a big deal.", "expected": -1}
+{"id": "14_gin_failed_managed_sref", "sent": "Dan failed to mix a gin tonic but Jessica managed to mix a gin tonic. The gin tonic was very strong.", "expected": 1}
+{"id": "14_gin_failed_managed_pref", "sent": "Dan failed to mix a gin tonic but Jessica managed to mix a gin tonic. The gin tonics were very strong.", "expected": 0}
+{"id": "14_gin_failed_managed_nonref", "sent": "Dan failed to mix a gin tonic but Jessica managed to mix a gin tonic. It's not a big deal.", "expected": -1}
+{"id": "14_gin_failed_failed_sref", "sent": "Dan failed to mix a gin tonic and Jessica failed to mix a gin tonic as well. The gin tonic was very strong.", "expected": 0}
+{"id": "14_gin_failed_failed_pref", "sent": "Dan failed to mix a gin tonic and Jessica failed to mix a gin tonic as well. The gin tonics were very strong.", "expected": 0}
+{"id": "14_gin_failed_failed_nonref", "sent": "Dan failed to mix a gin tonic and Jessica failed to mix a gin tonic as well. It's not a big deal.", "expected": -1}
+{"id": "15_bone_affirmative_negation_sref", "sent": "David discovered a bone on his archeological expedition but Andy didn't discover a bone on his archeological expedition. The bone likely belonged to an extinct bird species.", "expected": 1}
+{"id": "15_bone_affirmative_negation_pref", "sent": "David discovered a bone on his archeological expedition but Andy didn't discover a bone on his archeological expedition. The bones likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_affirmative_negation_nonref", "sent": "David discovered a bone on his archeological expedition but Andy didn't discover a bone on his archeological expedition. It's not a big deal.", "expected": -1}
+{"id": "15_bone_affirmative_affirmative_sref", "sent": "David discovered a bone on his archeological expedition and Andy discovered a bone on his archeological expedition too. The bone likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_affirmative_affirmative_pref", "sent": "David discovered a bone on his archeological expedition and Andy discovered a bone on his archeological expedition too. The bones likely belonged to an extinct bird species.", "expected": 1}
+{"id": "15_bone_affirmative_affirmative_nonref", "sent": "David discovered a bone on his archeological expedition and Andy discovered a bone on his archeological expedition too. It's not a big deal.", "expected": -1}
+{"id": "15_bone_negation_affirmative_sref", "sent": "David didn't discover a bone on his archeological expedition but Andy discovered a bone on his archeological expedition. The bone likely belonged to an extinct bird species.", "expected": 1}
+{"id": "15_bone_negation_affirmative_pref", "sent": "David didn't discover a bone on his archeological expedition but Andy discovered a bone on his archeological expedition. The bones likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_negation_affirmative_nonref", "sent": "David didn't discover a bone on his archeological expedition but Andy discovered a bone on his archeological expedition. It's not a big deal.", "expected": -1}
+{"id": "15_bone_negation_negation_sref", "sent": "David didn't discover a bone on his archeological expedition and Andy didn't discover a bone on his archeological expedition either. The bone likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_negation_negation_pref", "sent": "David didn't discover a bone on his archeological expedition and Andy didn't discover a bone on his archeological expedition either. The bones likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_negation_negation_nonref", "sent": "David didn't discover a bone on his archeological expedition and Andy didn't discover a bone on his archeological expedition either. It's not a big deal.", "expected": -1}
+{"id": "15_bone_know_doubt_sref", "sent": "I know that David discovered a bone on his archeological expedition but I doubt that Andy discovered a bone on his archeological expedition. The bone likely belonged to an extinct bird species.", "expected": 1}
+{"id": "15_bone_know_doubt_pref", "sent": "I know that David discovered a bone on his archeological expedition but I doubt that Andy discovered a bone on his archeological expedition. The bones likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_know_doubt_nonref", "sent": "I know that David discovered a bone on his archeological expedition but I doubt that Andy discovered a bone on his archeological expedition. It's not a big deal.", "expected": -1}
+{"id": "15_bone_know_know_sref", "sent": "I know that David discovered a bone on his archeological expedition and I know that Andy discovered a bone on his archeological expedition as well. The bone likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_know_know_pref", "sent": "I know that David discovered a bone on his archeological expedition and I know that Andy discovered a bone on his archeological expedition as well. The bones likely belonged to an extinct bird species.", "expected": 1}
+{"id": "15_bone_know_know_nonref", "sent": "I know that David discovered a bone on his archeological expedition and I know that Andy discovered a bone on his archeological expedition as well. It's not a big deal.", "expected": -1}
+{"id": "15_bone_doubt_know_sref", "sent": "I doubt that David discovered a bone on his archeological expedition but I know that Andy discovered a bone on his archeological expedition. The bone likely belonged to an extinct bird species.", "expected": 1}
+{"id": "15_bone_doubt_know_pref", "sent": "I doubt that David discovered a bone on his archeological expedition but I know that Andy discovered a bone on his archeological expedition. The bones likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_doubt_know_nonref", "sent": "I doubt that David discovered a bone on his archeological expedition but I know that Andy discovered a bone on his archeological expedition. It's not a big deal.", "expected": -1}
+{"id": "15_bone_doubt_doubt_sref", "sent": "I doubt that David discovered a bone on his archeological expedition and I doubt that Andy discovered a bone on his archeological expedition as well. The bone likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_doubt_doubt_pref", "sent": "I doubt that David discovered a bone on his archeological expedition and I doubt that Andy discovered a bone on his archeological expedition as well. The bones likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_doubt_doubt_nonref", "sent": "I doubt that David discovered a bone on his archeological expedition and I doubt that Andy discovered a bone on his archeological expedition as well. It's not a big deal.", "expected": -1}
+{"id": "15_bone_managed_failed_sref", "sent": "David managed to discover a bone on his archeological expedition but Andy failed to discover a bone on his archeological expedition. The bone likely belonged to an extinct bird species.", "expected": 1}
+{"id": "15_bone_managed_failed_pref", "sent": "David managed to discover a bone on his archeological expedition but Andy failed to discover a bone on his archeological expedition. The bones likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_managed_failed_nonref", "sent": "David managed to discover a bone on his archeological expedition but Andy failed to discover a bone on his archeological expedition. It's not a big deal.", "expected": -1}
+{"id": "15_bone_managed_managed_sref", "sent": "David managed to discover a bone on his archeological expedition and Andy managed to discover a bone on his archeological expedition as well. The bone likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_managed_managed_pref", "sent": "David managed to discover a bone on his archeological expedition and Andy managed to discover a bone on his archeological expedition as well. The bones likely belonged to an extinct bird species.", "expected": 1}
+{"id": "15_bone_managed_managed_nonref", "sent": "David managed to discover a bone on his archeological expedition and Andy managed to discover a bone on his archeological expedition as well. It's not a big deal.", "expected": -1}
+{"id": "15_bone_failed_managed_sref", "sent": "David failed to discover a bone on his archeological expedition but Andy managed to discover a bone on his archeological expedition. The bone likely belonged to an extinct bird species.", "expected": 1}
+{"id": "15_bone_failed_managed_pref", "sent": "David failed to discover a bone on his archeological expedition but Andy managed to discover a bone on his archeological expedition. The bones likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_failed_managed_nonref", "sent": "David failed to discover a bone on his archeological expedition but Andy managed to discover a bone on his archeological expedition. It's not a big deal.", "expected": -1}
+{"id": "15_bone_failed_failed_sref", "sent": "David failed to discover a bone on his archeological expedition and Andy failed to discover a bone on his archeological expedition as well. The bone likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_failed_failed_pref", "sent": "David failed to discover a bone on his archeological expedition and Andy failed to discover a bone on his archeological expedition as well. The bones likely belonged to an extinct bird species.", "expected": 0}
+{"id": "15_bone_failed_failed_nonref", "sent": "David failed to discover a bone on his archeological expedition and Andy failed to discover a bone on his archeological expedition as well. It's not a big deal.", "expected": -1}
+{"id": "16_house_affirmative_negation_sref", "sent": "Lisa built a house but Jordan didn't build a house. The house is the most beautiful building I have ever seen.", "expected": 1}
+{"id": "16_house_affirmative_negation_pref", "sent": "Lisa built a house but Jordan didn't build a house. The houses are the most beautiful buildings I have ever seen.", "expected": 0}
+{"id": "16_house_affirmative_negation_nonref", "sent": "Lisa built a house but Jordan didn't build a house. It's not a big deal.", "expected": -1}
+{"id": "16_house_affirmative_affirmative_sref", "sent": "Lisa built a house and Jordan built a house too. The house is the most beautiful building I have ever seen.", "expected": 0}
+{"id": "16_house_affirmative_affirmative_pref", "sent": "Lisa built a house and Jordan built a house too. The houses are the most beautiful buildings I have ever seen.", "expected": 1}
+{"id": "16_house_affirmative_affirmative_nonref", "sent": "Lisa built a house and Jordan built a house too. It's not a big deal.", "expected": -1}
+{"id": "16_house_negation_affirmative_sref", "sent": "Lisa didn't build a house but Jordan built a house. The house is the most beautiful building I have ever seen.", "expected": 1}
+{"id": "16_house_negation_affirmative_pref", "sent": "Lisa didn't build a house but Jordan built a house. The houses are the most beautiful buildings I have ever seen.", "expected": 0}
+{"id": "16_house_negation_affirmative_nonref", "sent": "Lisa didn't build a house but Jordan built a house. It's not a big deal.", "expected": -1}
+{"id": "16_house_negation_negation_sref", "sent": "Lisa didn't build a house and Jordan didn't build a house either. The house is the most beautiful building I have ever seen.", "expected": 0}
+{"id": "16_house_negation_negation_pref", "sent": "Lisa didn't build a house and Jordan didn't build a house either. The houses are the most beautiful buildings I have ever seen.", "expected": 0}
+{"id": "16_house_negation_negation_nonref", "sent": "Lisa didn't build a house and Jordan didn't build a house either. It's not a big deal.", "expected": -1}
+{"id": "16_house_know_doubt_sref", "sent": "I know that Lisa built a house but I doubt that Jordan built a house. The house is the most beautiful building I have ever seen.", "expected": 1}
+{"id": "16_house_know_doubt_pref", "sent": "I know that Lisa built a house but I doubt that Jordan built a house. The houses are the most beautiful buildings I have ever seen.", "expected": 0}
+{"id": "16_house_know_doubt_nonref", "sent": "I know that Lisa built a house but I doubt that Jordan built a house. It's not a big deal.", "expected": -1}
+{"id": "16_house_know_know_sref", "sent": "I know that Lisa built a house and I know that Jordan built a house as well. The house is the most beautiful building I have ever seen.", "expected": 0}
+{"id": "16_house_know_know_pref", "sent": "I know that Lisa built a house and I know that Jordan built a house as well. The houses are the most beautiful buildings I have ever seen.", "expected": 1}
+{"id": "16_house_know_know_nonref", "sent": "I know that Lisa built a house and I know that Jordan built a house as well. It's not a big deal.", "expected": -1}
+{"id": "16_house_doubt_know_sref", "sent": "I doubt that Lisa built a house but I know that Jordan built a house. The house is the most beautiful building I have ever seen.", "expected": 1}
+{"id": "16_house_doubt_know_pref", "sent": "I doubt that Lisa built a house but I know that Jordan built a house. The houses are the most beautiful buildings I have ever seen.", "expected": 0}
+{"id": "16_house_doubt_know_nonref", "sent": "I doubt that Lisa built a house but I know that Jordan built a house. It's not a big deal.", "expected": -1}
+{"id": "16_house_doubt_doubt_sref", "sent": "I doubt that Lisa built a house and I doubt that Jordan built a house as well. The house is the most beautiful building I have ever seen.", "expected": 0}
+{"id": "16_house_doubt_doubt_pref", "sent": "I doubt that Lisa built a house and I doubt that Jordan built a house as well. The houses are the most beautiful buildings I have ever seen.", "expected": 0}
+{"id": "16_house_doubt_doubt_nonref", "sent": "I doubt that Lisa built a house and I doubt that Jordan built a house as well. It's not a big deal.", "expected": -1}
+{"id": "16_house_managed_failed_sref", "sent": "Lisa managed to build a house but Jordan failed to build a house. The house is the most beautiful building I have ever seen.", "expected": 1}
+{"id": "16_house_managed_failed_pref", "sent": "Lisa managed to build a house but Jordan failed to build a house. The houses are the most beautiful buildings I have ever seen.", "expected": 0}
+{"id": "16_house_managed_failed_nonref", "sent": "Lisa managed to build a house but Jordan failed to build a house. It's not a big deal.", "expected": -1}
+{"id": "16_house_managed_managed_sref", "sent": "Lisa managed to build a house and Jordan managed to build a house as well. The house is the most beautiful building I have ever seen.", "expected": 0}
+{"id": "16_house_managed_managed_pref", "sent": "Lisa managed to build a house and Jordan managed to build a house as well. The houses are the most beautiful buildings I have ever seen.", "expected": 1}
+{"id": "16_house_managed_managed_nonref", "sent": "Lisa managed to build a house and Jordan managed to build a house as well. It's not a big deal.", "expected": -1}
+{"id": "16_house_failed_managed_sref", "sent": "Lisa failed to build a house but Jordan managed to build a house. The house is the most beautiful building I have ever seen.", "expected": 1}
+{"id": "16_house_failed_managed_pref", "sent": "Lisa failed to build a house but Jordan managed to build a house. The houses are the most beautiful buildings I have ever seen.", "expected": 0}
+{"id": "16_house_failed_managed_nonref", "sent": "Lisa failed to build a house but Jordan managed to build a house. It's not a big deal.", "expected": -1}
+{"id": "16_house_failed_failed_sref", "sent": "Lisa failed to build a house and Jordan failed to build a house as well. The house is the most beautiful building I have ever seen.", "expected": 0}
+{"id": "16_house_failed_failed_pref", "sent": "Lisa failed to build a house and Jordan failed to build a house as well. The houses are the most beautiful buildings I have ever seen.", "expected": 0}
+{"id": "16_house_failed_failed_nonref", "sent": "Lisa failed to build a house and Jordan failed to build a house as well. It's not a big deal.", "expected": -1}

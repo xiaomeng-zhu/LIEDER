@@ -1,0 +1,6 @@
+{
+    "model":"llama",
+    "exp":"base",
+    "size":"7B",
+    "hf_name":"huggyllama/llama-7b"
+}
