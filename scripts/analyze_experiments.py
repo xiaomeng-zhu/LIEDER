@@ -4,14 +4,22 @@ from helper import read_csv, output_dictlist_to_csv
 
 config_f = sys.argv[1]
 METRIC = sys.argv[2]
+model_series = sys.argv[3]
+
 with open(config_f) as f:
     config_dict = json.load(f)
 model_name = config_dict["model"]
-model_size = config_dict["size"]
 exp_version = config_dict["exp"]
-result_path = f"results/{exp_version}/{exp_version}_{model_name}_{model_size}.csv"
-summed_result_path = f"results/{exp_version}/{exp_version}_{model_name}_{model_size}_summed.csv"
-accuracy_result_path = f"results/{exp_version}/{exp_version}_{model_name}_{model_size}_accuracy_{METRIC}.csv"
+
+if model_series == "llama": # need to get size information for llama series
+    model_size = config_dict["size"]
+    result_path = f"results/{exp_version}/{exp_version}_{model_name}_{model_size}.csv"
+    summed_result_path = f"results/{exp_version}/{exp_version}_{model_name}_{model_size}_summed.csv"
+    accuracy_result_path = f"results/{exp_version}/{exp_version}_{model_name}_{model_size}_accuracy_{METRIC}.csv"
+else:
+    result_path = f"results/{exp_version}/{exp_version}_{model_name}.csv"
+    summed_result_path = f"results/{exp_version}/{exp_version}_{model_name}_summed.csv"
+    accuracy_result_path = f"results/{exp_version}/{exp_version}_{model_name}_accuracy_{METRIC}.csv"
 
 GROUP_SIZE = 12
 
