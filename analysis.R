@@ -149,7 +149,7 @@ plot_comparisons_an <- function(df, comp_levels, model_levels, ncol, nrow_legend
 }
 
 
-plot_singular_comparisons_across_version <- function(df) {
+plot_singular_comparisons_across_version_an <- function(df) {
   df_singular <- df %>% subset(type %in% c("p(sg|pos_neg)>p(sg|pos_pos)", 
                                            "p(sg|neg_pos)>p(sg|pos_pos)")) %>% 
     mutate(type = factor(type, 
@@ -228,14 +228,14 @@ base.singular.an <- plot_comparisons_an(baselines.an, s_comp, model_levels, 4, 1
 base.plural.an <- plot_comparisons_an(baselines.an, p_comp, model_levels, 3, 1)
 base.sp.an <- plot_comparisons_an(baselines.an, sp_comp, model_levels, 3, 1)
 base.singular.distance.an <- plot_comparisons_an(baselines.an, s_distance_comp, model_levels, 1, 3)
-base.vs.diff.singular.an <- plot_singular_comparisons_across_version(model.an)
+base.vs.diff.singular.an <- plot_singular_comparisons_across_version_an(model.an)
 
 # save plots
-ggsave("plots/exp1_singular.pdf", base.singular.an, width=8, height = 2, dpi=300)
-ggsave("plots/exp1_plural.pdf", base.plural.an, width=8, height = 2, dpi=300)
-ggsave("plots/exp1_sp.pdf", base.sp.an, width=8, height = 2, dpi=300)
-ggsave("plots/exp1_singular_distance.pdf", base.singular.distance.an, width=4.5, height = 3, dpi=300)
-ggsave("plots/exp2_singular.pdf", base.vs.diff.singular.an, width=8, height = 2, dpi=300)
+# ggsave("plots/exp1_singular.pdf", base.singular.an, width=8, height = 2, dpi=300)
+# ggsave("plots/exp1_plural.pdf", base.plural.an, width=8, height = 2, dpi=300)
+# ggsave("plots/exp1_sp.pdf", base.sp.an, width=8, height = 2, dpi=300)
+# ggsave("plots/exp1_singular_distance.pdf", base.singular.distance.an, width=4.5, height = 3, dpi=300)
+# ggsave("plots/exp2_singular.pdf", base.vs.diff.singular.an, width=8, height = 2, dpi=300)
 
 ############################ SIGNIFICANCE TESTING ##########################
 model.an.subset <- subset(model.an, 
@@ -248,8 +248,95 @@ glm.model<- glmer(correct ~ version+type + (1|id), data = model.an.subset, famil
 summary(glm.model)
 
 ############################ APPENDIX ###########################
-#================ ALL SENTTYPE ===============
 
+#================ ALL SENTTYPE ===============
+plot_comparisons <- function(df, comp_levels, model_levels, ncol, nrow_legend) {
+  df <- df %>% subset(type %in% comp_levels) %>% 
+    mutate(type=factor(type,
+                       levels=comp_levels)) %>% 
+    mutate(model = factor(model,
+                          levels = model_levels))
+  plot <- df %>% 
+    group_by(model, type, sent_type) %>% 
+    summarize(accuracy=mean(correct), ci_low = ci.low(correct), ci_high = ci.high(correct)) %>%
+    ggplot(aes(x=sent_type, fill=model, y=accuracy)) + 
+    geom_bar(stat="identity", alpha=0.8, position=position_dodge()) + 
+    ylim(0,1) + 
+    xlab("Comparison Type") + 
+    ylab("% expected") + 
+    facet_wrap(~type, ncol=ncol) +
+    geom_hline(yintercept = 0.5, color="#666666", lty=2) + 
+    geom_errorbar(aes(ymin=accuracy - ci_low, ymax=accuracy + ci_high), 
+                  width = 0.4, 
+                  col="#666666", 
+                  position=position_dodge(width=1)) +
+    theme(legend.position="bottom", axis.title.x = element_blank(),
+          # axis.text.x = element_blank(),
+          legend.text = element_text(size=10),
+          # axis.ticks.x = element_blank(),
+          legend.key.size = unit(0.3, 'cm')) + guides(fill = guide_legend(nrow = nrow_legend, byrow=TRUE)) + col_scale
+  
+  return (plot)
+  
+}
+
+base.davinci <- analyze_model_res("results/base/base_davinci-002_accuracy_ref.csv","davinci-002", "Implicit")
+base.llama2.7 <- analyze_model_res("results/base/base_llama2_7B_accuracy_ref.csv", "llama2-7B", "Implicit")
+base.llama2.13 <- analyze_model_res("results/base/base_llama2_13B_accuracy_ref.csv", "llama2-13B", "Implicit")
+base.llama2.70 <- analyze_model_res("results/base/base_llama2_70B_accuracy_ref.csv", "llama2-70B", "Implicit")
+base.llama3.8 <- analyze_model_res("results/base/base_llama3_8B_accuracy_ref.csv", "llama3-8B", "Implicit")
+base.llama3.70 <- analyze_model_res("results/base/base_llama3_70B_accuracy_ref.csv", "llama3-70B", "Implicit")
+
+human <- analyze_model_res("human/human_accuracy.csv", "human", "Implicit")
+
+diff.davinci <- analyze_model_res("results/diff/diff_davinci-002_accuracy_ref.csv","davinci-002", "Explicit")
+diff.llama2.7 <- analyze_model_res("results/diff/diff_llama2_7B_accuracy_ref.csv", "llama2-7B", "Explicit")
+diff.llama2.13 <- analyze_model_res("results/diff/diff_llama2_13B_accuracy_ref.csv", "llama2-13B", "Explicit")
+diff.llama2.70 <- analyze_model_res("results/diff/diff_llama2_70B_accuracy_ref.csv", "llama2-70B", "Explicit")
+diff.llama3.8 <- analyze_model_res("results/diff/diff_llama3_8B_accuracy_ref.csv", "llama3-8B", "Explicit")
+diff.llama3.70 <- analyze_model_res("results/diff/diff_llama3_70B_accuracy_ref.csv", "llama3-70B", "Explicit")
+
+model.bases <- rbind(
+  base.davinci,
+  base.llama2.7,
+  base.llama2.13,
+  base.llama2.70,
+  base.llama3.8,
+  base.llama3.70
+)
+
+model.diffs <- rbind(
+  diff.davinci,
+  diff.llama2.7,
+  diff.llama2.13,
+  diff.llama2.70,
+  diff.llama3.8,
+  diff.llama3.70
+)
+
+model <- rbind(model.bases, model.diffs)
+baselines <- rbind(model.bases, human)
+
+base.singular <- plot_comparisons(baselines, s_comp, model_levels, 4, 1)
+base.plural <- plot_comparisons(baselines, p_comp, model_levels, 3, 1)
+base.sp <- plot_comparisons(baselines, sp_comp, model_levels, 3, 1)
+base.singular.distance <- plot_comparisons(baselines, s_distance_comp, model_levels, 1, 3)
+
+diff.singular <- plot_comparisons(model.diffs, s_comp, model_levels, 4, 1)
+diff.plural <- plot_comparisons(model.diffs, p_comp, model_levels, 3, 1)
+diff.sp <- plot_comparisons(model.diffs, sp_comp, model_levels, 3, 1)
+diff.singular.distance <- plot_comparisons(baselines, s_distance_comp, model_levels, 1, 3)
+
+# # save plots
+# ggsave("plots/exp1_singular_alltype.pdf", base.singular, width=8, height = 2, dpi=300)
+# ggsave("plots/exp1_plural_alltype.pdf", base.plural, width=8, height = 2, dpi=300)
+# ggsave("plots/exp1_sp_alltype.pdf", base.sp, width=8, height = 2, dpi=300)
+# ggsave("plots/exp1_singular_distance_alltype.pdf", base.singular.distance, width=4.5, height = 3, dpi=300)
+# 
+# ggsave("plots/exp2_singular_alltype.pdf", diff.singular, width=8, height = 2, dpi=300)
+# ggsave("plots/exp2_plural_alltype.pdf", diff.plural, width=8, height = 2, dpi=300)
+# ggsave("plots/exp2_sp_alltype.pdf", diff.sp, width=8, height = 2, dpi=300)
+# ggsave("plots/exp2_singular_distance_alltype.pdf", diff.singular.distance, width=4.5, height = 3, dpi=300)
 
 #================ VERSION: TWO ================
 

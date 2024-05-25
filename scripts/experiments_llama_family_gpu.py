@@ -36,26 +36,26 @@ print("Finished loading stimuli")
 
 # ======= load in tokenizer and model ======
 
-print("Loading tokenizer...")
-tokenizer = AutoTokenizer.from_pretrained(hf_name)
-print("Finished loading tokenizer")
-print(f"Loading {model_name} {model_size}...")
-model = AutoModelForCausalLM.from_pretrained(hf_name, device_map='auto', cache_dir="new_cache_dir/").to(DEVICE)
-print(f"Finished loading {model_name} {model_size}")
+# print("Loading tokenizer...")
+# tokenizer = AutoTokenizer.from_pretrained(hf_name)
+# print("Finished loading tokenizer")
+# print(f"Loading {model_name} {model_size}...")
+# model = AutoModelForCausalLM.from_pretrained(hf_name, device_map='auto', cache_dir="new_cache_dir/").to(DEVICE)
+# print(f"Finished loading {model_name} {model_size}")
 
 # ======= loading to gpus after downloading ======
-# tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path=hf_name, trust_remote_code=True)
-# config = AutoConfig.from_pretrained(hf_name, trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path=hf_name, trust_remote_code=True)
+config = AutoConfig.from_pretrained(hf_name, trust_remote_code=True)
 
-# with init_empty_weights():
-#     model = AutoModelForCausalLM.from_config(config, trust_remote_code=True)
+with init_empty_weights():
+    model = AutoModelForCausalLM.from_config(config, trust_remote_code=True)
 
-# model = load_checkpoint_and_dispatch(model, "new_cache_dir/models--meta-llama--Llama-2-70b-hf/snapshots/3aba440b59558f995867ba6e1f58f21d0336b5bb",
-#                                      device_map='auto',
-#                                      offload_folder="offload",
-#                                      offload_state_dict=True,
-#                                      dtype = "float16",
-#                                      no_split_module_classes=["LlamaDecoderLayer"])
+model = load_checkpoint_and_dispatch(model, "new_cache_dir/models--meta-llama--Llama-2-70b-hf/snapshots/3aba440b59558f995867ba6e1f58f21d0336b5bb",
+                                     device_map='auto',
+                                     offload_folder="offload",
+                                     offload_state_dict=True,
+                                     dtype = "float16",
+                                     no_split_module_classes=["LlamaDecoderLayer"])
 
 
 def main(tokenizer, model, data):
