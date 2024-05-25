@@ -10,6 +10,7 @@ fill_cols = c(
   "#ae2012", # llama2 70B
   "#a4fba6", # llama3 8B
   "#0f9200", # llama3 70B
+  "#add8e6", # babbage
   "#2986cc", # davinci
   "#000000"
 )
@@ -39,8 +40,8 @@ sp_comp_all <- c("p(sg|pos_neg)>p(pl|pos_neg)",
                  "p(pl|pos_pos)>p(sg|pos_pos)",
                  "p(pl|pos_pos)>p(sg|neg_neg)")
 
-model_levels_original <- c("llama2-7B", "llama2-13B", "llama2-70B", "llama3-8B", "llama3-70B", "davinci-002", "human")
-model_levels <- c("Llama 2 7B", "Llama 2 13B", "Llama 2 70B", "Llama 3 8B", "Llama 3 70B", "davinci-002", "Human")
+model_levels_original <- c("llama2-7B", "llama2-13B", "llama2-70B", "llama3-8B", "llama3-70B", "babbage-002", "davinci-002", "human")
+model_levels <- c("Llama 2 7B", "Llama 2 13B", "Llama 2 70B", "Llama 3 8B", "Llama 3 70B", "babbage-002", "davinci-002", "Human")
 
 ########################### DEFINE FUNCTIONS ##########################
 analyze_model_res_an_only <- function(result_path, model_name, version) {
@@ -70,6 +71,7 @@ analyze_model_res_an_only <- function(result_path, model_name, version) {
                             type=="neg_pos_p>pos_neg_p" ~ "p(pl|neg_pos)>p(pl|pos_neg)"
     ))
   d <- d %>% mutate(model = case_when(model=="davinci-002" ~ "davinci-002",
+                                      model=="babbage-002" ~ "babbage-002",
                                       model=="llama2-7B" ~ "Llama 2 7B",
                                       model=="llama2-13B" ~ "Llama 2 13B",
                                       model=="llama2-70B" ~ "Llama 2 70B",
@@ -109,6 +111,7 @@ analyze_model_res <- function(result_path, model_name, version) {
                             type=="neg_pos_p>pos_neg_p" ~ "p(pl|neg_pos)>p(pl|pos_neg)"
     ))
   d <- d %>% mutate(model = case_when(model=="davinci-002" ~ "davinci-002",
+                                      model=="babbage-002" ~ "babbage-002",
                                       model=="llama2-7B" ~ "Llama 2 7B",
                                       model=="llama2-13B" ~ "Llama 2 13B",
                                       model=="llama2-70B" ~ "Llama 2 70B",
@@ -188,6 +191,7 @@ plot_singular_comparisons_across_version_an <- function(df) {
 ########################### LOAD DATA ##########################
 
 base.davinci.an <- analyze_model_res_an_only("results/base/base_davinci-002_accuracy_ref.csv","davinci-002", "Implicit")
+base.babbage.an <- analyze_model_res_an_only("results/base/base_babbage-002_accuracy_ref.csv","babbage-002", "Implicit")
 base.llama2.7.an <- analyze_model_res_an_only("results/base/base_llama2_7B_accuracy_ref.csv", "llama2-7B", "Implicit")
 base.llama2.13.an <- analyze_model_res_an_only("results/base/base_llama2_13B_accuracy_ref.csv", "llama2-13B", "Implicit")
 base.llama2.70.an <- analyze_model_res_an_only("results/base/base_llama2_70B_accuracy_ref.csv", "llama2-70B", "Implicit")
@@ -197,6 +201,7 @@ base.llama3.70.an <- analyze_model_res_an_only("results/base/base_llama3_70B_acc
 human.an <- analyze_model_res_an_only("human/human_accuracy.csv", "human", "Implicit")
 
 diff.davinci.an <- analyze_model_res_an_only("results/diff/diff_davinci-002_accuracy_ref.csv","davinci-002", "Explicit")
+diff.babbage.an <- analyze_model_res_an_only("results/diff/diff_babbage-002_accuracy_ref.csv","babbage-002", "Explicit")
 diff.llama2.7.an <- analyze_model_res_an_only("results/diff/diff_llama2_7B_accuracy_ref.csv", "llama2-7B", "Explicit")
 diff.llama2.13.an <- analyze_model_res_an_only("results/diff/diff_llama2_13B_accuracy_ref.csv", "llama2-13B", "Explicit")
 diff.llama2.70.an <- analyze_model_res_an_only("results/diff/diff_llama2_70B_accuracy_ref.csv", "llama2-70B", "Explicit")
@@ -205,6 +210,7 @@ diff.llama3.70.an <- analyze_model_res_an_only("results/diff/diff_llama3_70B_acc
 
 model.bases.an <- rbind(
   base.davinci.an,
+  base.babbage.an,
   base.llama2.7.an,
   base.llama2.13.an,
   base.llama2.70.an,
@@ -214,6 +220,7 @@ model.bases.an <- rbind(
 
 model.diffs.an <- rbind(
   diff.davinci.an,
+  diff.babbage.an,
   diff.llama2.7.an,
   diff.llama2.13.an,
   diff.llama2.70.an,

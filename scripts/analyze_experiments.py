@@ -73,7 +73,7 @@ def read_expected_info(data_fname):
 def get_continuation_prob(tokens, logprobs):
     critical_token_idx = -1
     for i, token in enumerate(tokens):
-        if token == "▁The" or token == "ĠThe" or token == "▁It" or token == "ĠIt":
+        if token == "▁The" or token == "ĠThe" or token == "▁It" or token == "ĠIt" or token == " The" or token == " It":
             critical_token_idx = i-1
             break
 
