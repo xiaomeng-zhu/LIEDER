@@ -9,4 +9,4 @@
 
 module load miniconda
 conda activate the
-python scripts/experiments_llama_family_gpu.py config/two_llama2_70B.json
+python scripts/experiments_llama_family_gpu.py config/two_llama3_70B.json
