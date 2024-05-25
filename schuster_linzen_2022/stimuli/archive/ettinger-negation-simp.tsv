@@ -1,0 +1,19 @@
+item	context_aff	context_neg	target_aff	target_neg
+0	A trout is a	A trout is not a	fish	tool
+1	A salmon is a	A salmon is not a	fish	flower
+2	An ant is a	An ant is not a	insect	vegetable
+3	A bee is a	A bee is not a	insect	building
+4	A robin is a	A robin is not a	bird	tree
+5	A sparrow is a	A sparrow is not a	bird	vehicle
+6	An oak is a	An oak is not a	tree	vehicle
+7	A pine is a	A pine is not a	tree	tool
+8	A rose is a	A rose is not a	flower	insect
+9	A daisy is a	A daisy is not a	flower	bird
+10	A carrot is a	A carrot is not a	vegetable	fish
+11	A pea is a	A pea is not a	vegetable	building
+12	A hammer is a	A hammer is not a	tool	insect
+13	A saw is a	A saw is not a	tool	vegetable
+14	A car is a	A car is not a	vehicle	tree
+15	A truck is a	A truck is not a	vehicle	flower
+16	A hotel is a	A hotel is not a	building	fish
+17	A house is a	A house is not a	building	bird

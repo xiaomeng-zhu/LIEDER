@@ -1,0 +1,214 @@
+id,sentence,type,pronoun,tokens,continuation,referential_it,non-referential/event it,noteworthy,
+1_dog_affirmative,John owns a dog and it,affirmative,it,John|##owns|##a|##dog|##and|##it|'s|##a|##big|##deal|.|##He|'s|##a|##big|##fan|##of|##the|##show|##and|##he|'s|##a|##big|##fan|##of|##the|##show|'s|##characters,John owns a dog and it's a big deal. He's a big fan of the show and he's a big fan of the show's characters,0,1,0,
+1_dog_negated,John doesn't own a dog and it,negated,it,John|##doesn|'t|##own|##a|##dog|##and|##it|'s|##not|##a|##big|##deal|.|##He|'s|##a|##good|##dog|.|##He|'s|##a|##good|##dog|.|##He|'s|##a|##good,John doesn't own a dog and it's not a big deal. He's a good dog. He's a good dog. He's a good,0,0,0,
+1_dog_know,I know that John owns a dog. It,know,it,I|##know|##that|##John|##owns|##a|##dog|.|##It|'s|##a|##dog|.|##It|'s|##a|##dog|.|##It|'s|##a|##dog|.|##It|'s|##a|##dog|.|##It|'s,I know that John owns a dog. It's a dog. It's a dog. It's a dog. It's a dog. It's,1,0,0,
+1_dog_doubt,I doubt that John owns a dog. It,doubt,it,I|##doubt|##that|##John|##owns|##a|##dog|.|##It|'s|##not|##like|##he|'s|##a|##dog|##owner|.|##He|'s|##a|##dog|##owner|.|##He|'s|##a|##dog|##owner|.,I doubt that John owns a dog. It's not like he's a dog owner. He's a dog owner. He's a dog owner.,0,1,0,
+1_dog_modal,John wants to own a dog and it,modal,it,"John|##wants|##to|##own|##a|##dog|##and|##it|'s|##not|##a|##good|##idea|##to|##have|##a|##dog|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##be|##a|##dog|##owner","John wants to own a dog and it's not a good idea to have a dog.
+
+""I'm not going to be a dog owner",0,1,0,
+1_dog_managed,John managed to adopt a dog. It,managed,it,"John|##managed|##to|##adopt|##a|##dog|.|##It|##was|##named|##""|B|obby|""|##and|##he|##was|##named|##after|##his|##father|.|Ċ|Ċ|""|I|##was|##very|##happy|##with","John managed to adopt a dog. It was named ""Bobby"" and he was named after his father.
+
+""I was very happy with",1,0,0,
+1_dog_failed,John failed to adopt a dog. It,failed,it,John|##failed|##to|##adopt|##a|##dog|.|##It|##was|##a|##dog|##that|##was|##a|##bit|##too|##big|##for|##him|.|##He|##was|##a|##bit|##too|##big|##for|##me|.|##I,John failed to adopt a dog. It was a dog that was a bit too big for him. He was a bit too big for me. I,1,0,0,
+2_car_affirmative,Lucy has a car and it,affirmative,it,Lu|cy|##has|##a|##car|##and|##it|'s|##a|##big|##one|.|##She|'s|##got|##a|##lot|##of|##money|##and|##she|'s|##got|##a|##lot|##of|##friends|.|##She|'s,Lucy has a car and it's a big one. She's got a lot of money and she's got a lot of friends. She's,1,0,0,
+2_car_negated,Lucy doesn't have a car and it,negated,it,Lu|cy|##doesn|'t|##have|##a|##car|##and|##it|'s|##not|##like|##she|'s|##going|##to|##be|##able|##to|##drive|##it|.|##She|'s|##going|##to|##have|##to|##get|##a,Lucy doesn't have a car and it's not like she's going to be able to drive it. She's going to have to get a,0,0,1,
+2_car_know,I know that Lucy has a car. It,know,it,I|##know|##that|##Lucy|##has|##a|##car|.|##It|'s|##a|##car|##that|##she|'s|##driving|.|##She|'s|##driving|##it|.|##She|'s|##driving|##it|.|##She|'s|##driving,I know that Lucy has a car. It's a car that she's driving. She's driving it. She's driving it. She's driving,1,0,0,
+2_car_doubt,I doubt that Lucy has a car. It,doubt,it,I|##doubt|##that|##Lucy|##has|##a|##car|.|##It|'s|##not|##like|##she|'s|##going|##to|##be|##able|##to|##drive|##it|.|##She|'s|##going|##to|##have|##to|##get|##a,I doubt that Lucy has a car. It's not like she's going to be able to drive it. She's going to have to get a,0,1,1,
+2_car_modal,Lucy wants to have a car and it,modal,it,"Lu|cy|##wants|##to|##have|##a|##car|##and|##it|'s|##going|##to|##be|##a|##lot|##of|##fun|.|Ċ|Ċ|""|I|'m|##going|##to|##be|##a|##lot|##of|##fun","Lucy wants to have a car and it's going to be a lot of fun.
+
+""I'm going to be a lot of fun",0,1,0,
+2_car_managed,Lucy managed to rent a car. It,managed,it,"Lu|cy|##managed|##to|##rent|##a|##car|.|##It|##was|##a|##nice|##car|,|##but|##it|##was|##not|##a|##good|##one|.|##She|##had|##to|##drive|##it|##to|##the|##airport","Lucy managed to rent a car. It was a nice car, but it was not a good one. She had to drive it to the airport",1,0,0,
+2_car_failed,Lucy failed to rent a car. It,failed,it,"Lu|cy|##failed|##to|##rent|##a|##car|.|##It|##was|##a|##car|##that|##she|##had|##bought|##for|##her|##husband|.|Ċ|Ċ|""|I|##was|##driving|##home|##from|##work|##and","Lucy failed to rent a car. It was a car that she had bought for her husband.
+
+""I was driving home from work and",1,0,0,
+3_bear_affirmative,Carol saw a bear at the zoo and it,affirmative,it,Car|ol|##saw|##a|##bear|##at|##the|##zoo|##and|##it|##was|##a|##big|##bear|.|##He|##was|##scared|.|##He|##was|##scared|##of|##the|##bear|.|##He|##was|##scared|##of,Carol saw a bear at the zoo and it was a big bear. He was scared. He was scared of the bear. He was scared of,1,0,0,
+3_bear_negated,Carol didn't see a bear at the zoo and it,negated,it,"Car|ol|##didn|'t|##see|##a|##bear|##at|##the|##zoo|##and|##it|##was|##a|##bear|##that|##was|##not|##a|##bear|.|Ċ|Ċ|""|I|##was|##just|##trying|##to|##get","Carol didn't see a bear at the zoo and it was a bear that was not a bear.
+
+""I was just trying to get",1,0,0,
+3_bear_know,I know that Carol saw a bear at the zoo. It,know,it,"I|##know|##that|##Carol|##saw|##a|##bear|##at|##the|##zoo|.|##It|##was|##a|##bear|##that|##was|##very|##big|##and|##had|##a|##big|##head|.|##She|##said|,|##""|I","I know that Carol saw a bear at the zoo. It was a bear that was very big and had a big head. She said, ""I",1,0,0,
+3_bear_doubt,I doubt that Carol saw a bear at the zoo. It,doubt,it,I|##doubt|##that|##Carol|##saw|##a|##bear|##at|##the|##zoo|.|##It|##was|##a|##bear|##that|##was|##a|##little|##bit|##bigger|##than|##her|.|##She|##was|##a|##little|##bit|##more,I doubt that Carol saw a bear at the zoo. It was a bear that was a little bit bigger than her. She was a little bit more,1,0,0,
+3_bear_modal,Carol wants to see a bear at the zoo and it,modal,it,"Car|ol|##wants|##to|##see|##a|##bear|##at|##the|##zoo|##and|##it|'s|##not|##going|##to|##be|##a|##big|##deal|.|Ċ|Ċ|""|I|##think|##it|'s|##going|##to","Carol wants to see a bear at the zoo and it's not going to be a big deal.
+
+""I think it's going to",0,1,0,
+3_bear_managed,Carol managed to see a bear at the zoo. It,managed,it,"Car|ol|##managed|##to|##see|##a|##bear|##at|##the|##zoo|.|##It|##was|##a|##bear|##that|##was|##about|##to|##be|##killed|##by|##a|##bear|.|Ċ|Ċ|""|I|##was","Carol managed to see a bear at the zoo. It was a bear that was about to be killed by a bear.
+
+""I was",1,0,0,
+3_bear_failed,Carol failed to see a bear at the zoo. It,failed,it,Car|ol|##failed|##to|##see|##a|##bear|##at|##the|##zoo|.|##It|##was|##a|##bear|##that|##had|##been|##shot|##by|##a|##police|##officer|.|Ċ|Ċ|The|##zoo|##said|##it,"Carol failed to see a bear at the zoo. It was a bear that had been shot by a police officer.
+
+The zoo said it",1,0,0,
+4_book_affirmative,Susan published a book and it,affirmative,it,"Susan|##published|##a|##book|##and|##it|##was|##called|##""|The|##Secret|##Life|##of|##the|##American|##Conservative|.""|##It|##was|##a|##book|##that|##was|##written|##by|##a|##man|##who|##was|##a","Susan published a book and it was called ""The Secret Life of the American Conservative."" It was a book that was written by a man who was a",1,0,0,
+4_book_negated,Susan didn't publish a book and it,negated,it,Susan|##didn|'t|##publish|##a|##book|##and|##it|##was|##a|##book|##that|##I|##didn|'t|##want|##to|##read|.|##I|##didn|'t|##want|##to|##read|##it|.|##I|##didn|'t,Susan didn't publish a book and it was a book that I didn't want to read. I didn't want to read it. I didn't,1,0,0,
+4_book_know,I know that Susan published a book. It,know,it,I|##know|##that|##Susan|##published|##a|##book|.|##It|'s|##a|##book|##about|##the|##life|##of|##a|##woman|##who|##was|##raped|##by|##a|##man|.|##It|'s|##a|##book|##about,I know that Susan published a book. It's a book about the life of a woman who was raped by a man. It's a book about,1,0,0,
+4_book_doubt,I doubt that Susan published a book. It,doubt,it,I|##doubt|##that|##Susan|##published|##a|##book|.|##It|'s|##not|##like|##she|##was|##a|##feminist|.|##She|##was|##a|##feminist|.|##She|##was|##a|##feminist|.|##She|##was|##a,I doubt that Susan published a book. It's not like she was a feminist. She was a feminist. She was a feminist. She was a,0,1,0,
+4_book_modal,Susan wants to publish a book and it,modal,it,"Susan|##wants|##to|##publish|##a|##book|##and|##it|'s|##a|##good|##idea|##to|##do|##it|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##be|##a|##writer|,|##I|'m","Susan wants to publish a book and it's a good idea to do it.
+
+""I'm not going to be a writer, I'm",0,1,0,
+4_book_managed,Susan managed to write a book. It,managed,it,Susan|##managed|##to|##write|##a|##book|.|##It|##was|##called|##The|##Art|##of|##the|##Deal|.|##It|##was|##a|##book|##about|##the|##art|##of|##the|##deal|.|##It|##was|##a,Susan managed to write a book. It was called The Art of the Deal. It was a book about the art of the deal. It was a,1,0,0,
+4_book_failed,Susan failed to write a book. It,failed,it,Susan|##failed|##to|##write|##a|##book|.|##It|##was|##a|##book|##about|##the|##life|##of|##a|##man|##who|##was|##a|##man|##of|##great|##courage|##and|##great|##courage|.|##He|##was,Susan failed to write a book. It was a book about the life of a man who was a man of great courage and great courage. He was,1,0,0,
+5_shirt_affirmative,Mary found a shirt at the store and it,affirmative,it,"Mary|##found|##a|##shirt|##at|##the|##store|##and|##it|##was|##a|##shirt|##with|##a|##picture|##of|##her|.|##She|##said|##she|##was|##going|##to|##buy|##it|.|Ċ|Ċ|""","Mary found a shirt at the store and it was a shirt with a picture of her. She said she was going to buy it.
+
+""",1,0,0,
+5_shirt_negated,Mary didn't find a shirt at the store and it,negated,it,Mary|##didn|'t|##find|##a|##shirt|##at|##the|##store|##and|##it|##was|##a|##little|##too|##big|##for|##her|.|##She|##was|##so|##excited|##to|##get|##her|##shirt|##back|.|Ċ,"Mary didn't find a shirt at the store and it was a little too big for her. She was so excited to get her shirt back.
+",1,0,0,
+5_shirt_know,I know that Mary found a shirt at the store. It,know,it,I|##know|##that|##Mary|##found|##a|##shirt|##at|##the|##store|.|##It|##was|##a|##shirt|##that|##she|##had|##bought|##for|##her|##daughter|.|##She|##had|##bought|##it|##for|##her|##daughter,I know that Mary found a shirt at the store. It was a shirt that she had bought for her daughter. She had bought it for her daughter,1,0,0,
+5_shirt_doubt,I doubt that Mary found a shirt at the store. It,doubt,it,I|##doubt|##that|##Mary|##found|##a|##shirt|##at|##the|##store|.|##It|##was|##a|##shirt|##that|##was|##in|##the|##closet|.|##She|##was|##wearing|##a|##shirt|##that|##was|##in|##the,I doubt that Mary found a shirt at the store. It was a shirt that was in the closet. She was wearing a shirt that was in the,1,0,0,
+5_shirt_modal,Mary wants to find a shirt at the store and it,modal,it,"Mary|##wants|##to|##find|##a|##shirt|##at|##the|##store|##and|##it|'s|##a|##good|##idea|##to|##get|##one|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##be|##able|##to","Mary wants to find a shirt at the store and it's a good idea to get one.
+
+""I'm not going to be able to",0,1,0,
+5_shirt_managed,Mary managed to find a shirt at the store. It,managed,it,"Mary|##managed|##to|##find|##a|##shirt|##at|##the|##store|.|##It|##was|##a|##shirt|##that|##had|##been|##torn|##off|.|Ċ|Ċ|""|I|'m|##sorry|,|##I|##didn|'t","Mary managed to find a shirt at the store. It was a shirt that had been torn off.
+
+""I'm sorry, I didn't",1,0,0,
+5_shirt_failed,Mary failed to find a shirt at the store. It,failed,it,"Mary|##failed|##to|##find|##a|##shirt|##at|##the|##store|.|##It|##was|##a|##shirt|##that|##had|##been|##left|##on|##the|##floor|.|Ċ|Ċ|""|I|##was|##like|,|##'","Mary failed to find a shirt at the store. It was a shirt that had been left on the floor.
+
+""I was like, '",1,0,0,
+6_rat_affirmative,Carla got a pet rat and it,affirmative,it,Car|la|##got|##a|##pet|##rat|##and|##it|##was|##a|##little|##bit|##of|##a|##pain|##in|##the|##ass|.|##She|##was|##a|##little|##bit|##of|##a|##pain|##in|##the|##ass,Carla got a pet rat and it was a little bit of a pain in the ass. She was a little bit of a pain in the ass,1,0,0,
+6_rat_negated,Carla didn't get a pet rat and it,negated,it,"Car|la|##didn|'t|##get|##a|##pet|##rat|##and|##it|##was|##a|##little|##bit|##of|##a|##surprise|##to|##see|##her|##in|##the|##hospital|.|Ċ|Ċ|""|I|##was|##just","Carla didn't get a pet rat and it was a little bit of a surprise to see her in the hospital.
+
+""I was just",0,1,0,
+6_rat_know,I know that Carla got a pet rat. It,know,it,I|##know|##that|##Car|la|##got|##a|##pet|##rat|.|##It|'s|##a|##rat|.|##I|##know|##that|##Car|la|##got|##a|##pet|##rat|.|##It|'s|##a|##rat|.,I know that Carla got a pet rat. It's a rat. I know that Carla got a pet rat. It's a rat.,1,0,0,
+6_rat_doubt,I doubt that Carla got a pet rat. It,doubt,it,I|##doubt|##that|##Car|la|##got|##a|##pet|##rat|.|##It|'s|##not|##like|##she|'s|##a|##bad|##person|.|##She|'s|##just|##a|##little|##bit|##of|##a|##jerk|.,I doubt that Carla got a pet rat. It's not like she's a bad person. She's just a little bit of a jerk.,0,1,0,
+6_rat_modal,Carla wants to get a pet rat and it,modal,it,"Car|la|##wants|##to|##get|##a|##pet|##rat|##and|##it|'s|##a|##little|##bit|##of|##a|##challenge|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##be|##able|##to|##do","Carla wants to get a pet rat and it's a little bit of a challenge.
+
+""I'm not going to be able to do",0,1,0,
+6_rat_managed,Carla managed to get a pet rat. It,managed,it,"Car|la|##managed|##to|##get|##a|##pet|##rat|.|##It|##was|##a|##little|##bit|##of|##a|##pain|##in|##the|##ass|,|##but|##she|##was|##able|##to|##get|##it|##to|##eat","Carla managed to get a pet rat. It was a little bit of a pain in the ass, but she was able to get it to eat",0,1,0,
+6_rat_failed,Carla failed to get a pet rat. It,failed,it,"Car|la|##failed|##to|##get|##a|##pet|##rat|.|##It|##was|##a|##cat|.|Ċ|Ċ|""|I|##was|##like|,|##'|Oh|##my|##God|,|##I|'m|##so|##sorry","Carla failed to get a pet rat. It was a cat.
+
+""I was like, 'Oh my God, I'm so sorry",1,0,0,
+7_beer_affirmative,Sam ordered a beer at the bar and it,affirmative,it,Sam|##ordered|##a|##beer|##at|##the|##bar|##and|##it|##was|##a|##good|##one|.|##I|##was|##a|##little|##disappointed|##that|##I|##didn|'t|##get|##to|##try|##it|.|##I|'m,Sam ordered a beer at the bar and it was a good one. I was a little disappointed that I didn't get to try it. I'm,1,0,0,
+7_beer_negated,Sam didn't order a beer at the bar and it,negated,it,"Sam|##didn|'t|##order|##a|##beer|##at|##the|##bar|##and|##it|##was|##a|##little|##too|##late|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##be|##able|##to|##go|##to","Sam didn't order a beer at the bar and it was a little too late.
+
+""I'm not going to be able to go to",0,1,0,
+7_beer_know,I know that Sam ordered a beer at the bar. It,know,it,I|##know|##that|##Sam|##ordered|##a|##beer|##at|##the|##bar|.|##It|##was|##a|##good|##beer|.|##I|##know|##that|##Sam|##ordered|##a|##beer|##at|##the|##bar|.|##It|##was,I know that Sam ordered a beer at the bar. It was a good beer. I know that Sam ordered a beer at the bar. It was,1,0,0,
+7_beer_doubt,I doubt that Sam ordered a beer at the bar. It,doubt,it,"I|##doubt|##that|##Sam|##ordered|##a|##beer|##at|##the|##bar|.|##It|##was|##a|##good|##idea|##to|##have|##a|##beer|##with|##him|.|Ċ|Ċ|""|I|##don|'t|##know","I doubt that Sam ordered a beer at the bar. It was a good idea to have a beer with him.
+
+""I don't know",0,1,0,
+7_beer_modal,Sam wants to order a beer at the bar and it,modal,it,"Sam|##wants|##to|##order|##a|##beer|##at|##the|##bar|##and|##it|'s|##a|##good|##idea|##to|##get|##a|##drink|##before|##the|##bar|##closes|.|Ċ|Ċ|""|I|'m|##not","Sam wants to order a beer at the bar and it's a good idea to get a drink before the bar closes.
+
+""I'm not",0,1,0,
+7_beer_managed,Sam managed to order a beer at the bar. It,managed,it,"Sam|##managed|##to|##order|##a|##beer|##at|##the|##bar|.|##It|##was|##a|##good|##one|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##lie|,|##I|##was|##really|##excited","Sam managed to order a beer at the bar. It was a good one.
+
+""I'm not going to lie, I was really excited",1,0,0,
+7_beer_failed,Sam failed to order a beer at the bar. It,failed,it,"Sam|##failed|##to|##order|##a|##beer|##at|##the|##bar|.|##It|##was|##a|##good|##night|'s|##sleep|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##lie|,|##I|##was","Sam failed to order a beer at the bar. It was a good night's sleep.
+
+""I'm not going to lie, I was",0,1,0,
+8_cake_affirmative,Michael baked a cake and it,affirmative,it,Michael|##baked|##a|##cake|##and|##it|##was|##delicious|.|##I|'m|##not|##sure|##if|##I|'ll|##ever|##make|##it|##again|.|Ċ|Ċ|I|'m|##not|##sure|##if|##I|'ll,"Michael baked a cake and it was delicious. I'm not sure if I'll ever make it again.
+
+I'm not sure if I'll",1,0,0,
+8_cake_negated,Michael didn't bake a cake and it,negated,it,Michael|##didn|'t|##bake|##a|##cake|##and|##it|##was|##a|##cake|.|##He|##didn|'t|##bake|##a|##cake|##and|##it|##was|##a|##cake|.|##He|##didn|'t|##bake|##a|##cake,Michael didn't bake a cake and it was a cake. He didn't bake a cake and it was a cake. He didn't bake a cake,1,0,0,
+8_cake_know,I know that Michael baked a cake. It,know,it,I|##know|##that|##Michael|##baked|##a|##cake|.|##It|##was|##a|##cake|##that|##was|##made|##with|##a|##little|##bit|##of|##sugar|##and|##a|##little|##bit|##of|##butter|.|##It|##was,I know that Michael baked a cake. It was a cake that was made with a little bit of sugar and a little bit of butter. It was,1,0,0,
+8_cake_doubt,I doubt that Michael baked a cake. It,doubt,it,I|##doubt|##that|##Michael|##baked|##a|##cake|.|##It|'s|##not|##like|##he|##was|##going|##to|##make|##a|##cake|.|##He|##was|##going|##to|##make|##a|##cake|.|##He|##was,I doubt that Michael baked a cake. It's not like he was going to make a cake. He was going to make a cake. He was,0,1,0,
+8_cake_modal,Michael wants to bake a cake and it,modal,it,Michael|##wants|##to|##bake|##a|##cake|##and|##it|'s|##not|##going|##to|##be|##a|##cake|.|##He|##wants|##to|##bake|##a|##cake|##and|##it|'s|##not|##going|##to|##be|##a,Michael wants to bake a cake and it's not going to be a cake. He wants to bake a cake and it's not going to be a,1,0,0,
+8_cake_managed,Michael managed to bake a cake. It,managed,it,Michael|##managed|##to|##bake|##a|##cake|.|##It|##was|##a|##cake|##that|##was|##made|##with|##a|##little|##bit|##of|##sugar|##and|##a|##little|##bit|##of|##butter|.|##It|##was|##a,Michael managed to bake a cake. It was a cake that was made with a little bit of sugar and a little bit of butter. It was a,1,0,0,
+8_cake_failed,Michael failed to bake a cake. It,failed,it,Michael|##failed|##to|##bake|##a|##cake|.|##It|##was|##a|##cake|##that|##was|##too|##big|##for|##him|.|##He|##was|##so|##angry|.|##He|##was|##so|##angry|.|##He|##was,Michael failed to bake a cake. It was a cake that was too big for him. He was so angry. He was so angry. He was,1,0,0,
+9_letter_affirmative,Carolyn wrote a letter to her parents and it,affirmative,it,"Car|olyn|##wrote|##a|##letter|##to|##her|##parents|##and|##it|##was|##sent|##to|##her|##parents|.|Ċ|Ċ|""|I|##am|##so|##sorry|##for|##the|##pain|##and|##suffering|##that|##I","Carolyn wrote a letter to her parents and it was sent to her parents.
+
+""I am so sorry for the pain and suffering that I",1,0,0,
+9_letter_negated,Carolyn didn't write a letter to her parents and it,negated,it,"Car|olyn|##didn|'t|##write|##a|##letter|##to|##her|##parents|##and|##it|##was|##a|##long|##time|##before|##she|##got|##a|##response|.|Ċ|Ċ|""|I|##was|##just|##trying|##to","Carolyn didn't write a letter to her parents and it was a long time before she got a response.
+
+""I was just trying to",0,1,0,
+9_letter_know,I know that Carolyn wrote a letter to her parents. It,know,it,"I|##know|##that|##Carolyn|##wrote|##a|##letter|##to|##her|##parents|.|##It|##was|##a|##very|##personal|##letter|.|##She|##said|,|##""|I|'m|##sorry|,|##but|##I|'m|##not","I know that Carolyn wrote a letter to her parents. It was a very personal letter. She said, ""I'm sorry, but I'm not",1,0,0,
+9_letter_doubt,I doubt that Carolyn wrote a letter to her parents. It,doubt,it,"I|##doubt|##that|##Carolyn|##wrote|##a|##letter|##to|##her|##parents|.|##It|##was|##a|##letter|##to|##her|##parents|,|##and|##she|##was|##very|##upset|.|##She|##said|,|##""|I","I doubt that Carolyn wrote a letter to her parents. It was a letter to her parents, and she was very upset. She said, ""I",1,0,0,
+9_letter_modal,Carolyn wants to write a letter to her parents and it,modal,it,"Car|olyn|##wants|##to|##write|##a|##letter|##to|##her|##parents|##and|##it|'s|##not|##going|##to|##be|##easy|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##be|##able|##to","Carolyn wants to write a letter to her parents and it's not going to be easy.
+
+""I'm not going to be able to",0,1,0,
+9_letter_managed,Carolyn managed to write a letter to her parents. It,managed,it,"Car|olyn|##managed|##to|##write|##a|##letter|##to|##her|##parents|.|##It|##was|##a|##letter|##that|##she|##wrote|##to|##her|##mother|,|##who|##was|##in|##the|##hospital|.|Ċ|Ċ","Carolyn managed to write a letter to her parents. It was a letter that she wrote to her mother, who was in the hospital.
+
+",1,0,0,
+9_letter_failed,Carolyn failed to write a letter to her parents. It,failed,it,"Car|olyn|##failed|##to|##write|##a|##letter|##to|##her|##parents|.|##It|##was|##a|##letter|##to|##her|##parents|,|##and|##she|##was|##not|##allowed|##to|##write|##it|.|Ċ|Ċ","Carolyn failed to write a letter to her parents. It was a letter to her parents, and she was not allowed to write it.
+
+",1,0,0,
+10_hat_affirmative,Chris knitted a hat and it,affirmative,it,Chris|##kn|itted|##a|##hat|##and|##it|##was|##a|##great|##idea|.|##I|##was|##so|##excited|##to|##get|##it|.|##I|##was|##so|##excited|##to|##get|##it|.|##I|##was,Chris knitted a hat and it was a great idea. I was so excited to get it. I was so excited to get it. I was,0,1,0,
+10_hat_negated,Chris didn't knit a hat and it,negated,it,Chris|##didn|'t|##knit|##a|##hat|##and|##it|##was|##a|##hat|.|##I|##didn|'t|##know|##what|##to|##do|##with|##it|.|##I|##didn|'t|##know|##what|##to|##do|##with,Chris didn't knit a hat and it was a hat. I didn't know what to do with it. I didn't know what to do with,1,0,0,
+10_hat_know,I know that Chris knitted a hat. It,know,it,I|##know|##that|##Chris|##kn|itted|##a|##hat|.|##It|'s|##a|##hat|##that|##I|'m|##going|##to|##wear|##for|##the|##rest|##of|##my|##life|.|##I|'m|##going|##to,I know that Chris knitted a hat. It's a hat that I'm going to wear for the rest of my life. I'm going to,1,0,0,
+10_hat_doubt,I doubt that Chris knitted a hat. It,doubt,it,I|##doubt|##that|##Chris|##kn|itted|##a|##hat|.|##It|'s|##not|##like|##he|'s|##a|##bad|##person|.|##He|'s|##just|##a|##guy|##who|'s|##been|##through|##a|##lot,I doubt that Chris knitted a hat. It's not like he's a bad person. He's just a guy who's been through a lot,0,1,0,
+10_hat_modal,Chris wants to knit a hat and it,modal,it,"Chris|##wants|##to|##knit|##a|##hat|##and|##it|'s|##a|##little|##bit|##of|##a|##challenge|.|##I|'m|##not|##sure|##if|##I|##can|##do|##it|,|##but|##I|'m|##sure","Chris wants to knit a hat and it's a little bit of a challenge. I'm not sure if I can do it, but I'm sure",0,1,0,
+10_hat_managed,Chris managed to knit a hat. It,managed,it,"Chris|##managed|##to|##knit|##a|##hat|.|##It|##was|##a|##little|##too|##big|##for|##my|##head|,|##but|##I|##was|##able|##to|##knit|##it|##in|##a|##little|##bit|.|Ċ","Chris managed to knit a hat. It was a little too big for my head, but I was able to knit it in a little bit.
+",1,0,0,
+10_hat_failed,Chris failed to knit a hat. It,failed,it,Chris|##failed|##to|##knit|##a|##hat|.|##It|##was|##a|##hat|##that|##was|##too|##big|##for|##him|.|##He|##was|##so|##proud|##of|##it|.|##He|##was|##so|##proud|##of,Chris failed to knit a hat. It was a hat that was too big for him. He was so proud of it. He was so proud of,1,0,0,
+11_cod_affirmative,Sarah caught a cod and it,affirmative,it,"Sarah|##caught|##a|##cod|##and|##it|##was|##a|##good|##one|.|Ċ|Ċ|""|I|'m|##not|##sure|##if|##it|'s|##a|##cod|##or|##not|,|##but|##I|##think|##it","Sarah caught a cod and it was a good one.
+
+""I'm not sure if it's a cod or not, but I think it",1,0,0,
+11_cod_negated,Sarah didn't catch a cod and it,negated,it,"Sarah|##didn|'t|##catch|##a|##cod|##and|##it|##was|##a|##little|##bit|##of|##a|##surprise|##to|##see|##her|##get|##a|##little|##bit|##of|##a|##break|.|Ċ|Ċ|""|I","Sarah didn't catch a cod and it was a little bit of a surprise to see her get a little bit of a break.
+
+""I",0,1,0,
+11_cod_know,I know that Sarah caught a cod. It,know,it,"I|##know|##that|##Sarah|##caught|##a|##cod|.|##It|##was|##a|##cod|##that|##was|##in|##the|##bag|.|##I|##was|##like|,|##""|Oh|,|##that|'s|##a|##cod|.""","I know that Sarah caught a cod. It was a cod that was in the bag. I was like, ""Oh, that's a cod.""",1,0,0,
+11_cod_doubt,I doubt that Sarah caught a cod. It,doubt,it,I|##doubt|##that|##Sarah|##caught|##a|##cod|.|##It|##was|##a|##cod|##that|##was|##found|##in|##the|##woods|.|##It|##was|##a|##cod|##that|##was|##found|##in|##the|##woods|.,I doubt that Sarah caught a cod. It was a cod that was found in the woods. It was a cod that was found in the woods.,1,0,1,
+11_cod_modal,Sarah wants to catch a cod and it,modal,it,"Sarah|##wants|##to|##catch|##a|##cod|##and|##it|'s|##a|##good|##idea|##to|##get|##her|##to|##go|##to|##the|##beach|.|Ċ|Ċ|""|I|'m|##going|##to|##go|##to","Sarah wants to catch a cod and it's a good idea to get her to go to the beach.
+
+""I'm going to go to",0,1,0,
+11_cod_managed,Sarah managed to catch a cod. It,managed,it,"Sarah|##managed|##to|##catch|##a|##cod|.|##It|##was|##a|##cod|##that|##had|##been|##caught|##in|##the|##sea|.|Ċ|Ċ|""|I|'m|##sorry|,|##but|##I|'m|##not","Sarah managed to catch a cod. It was a cod that had been caught in the sea.
+
+""I'm sorry, but I'm not",1,0,0,
+11_cod_failed,Sarah failed to catch a cod. It,failed,it,"Sarah|##failed|##to|##catch|##a|##cod|.|##It|##was|##a|##cod|##that|##had|##been|##caught|##in|##the|##sea|.|Ċ|Ċ|""|I|'m|##sorry|,|##but|##I|'m|##not","Sarah failed to catch a cod. It was a cod that had been caught in the sea.
+
+""I'm sorry, but I'm not",0,1,0,
+12_ticket_affirmative,Thomas booked a ticket in advance and it,affirmative,it,"Thomas|##booked|##a|##ticket|##in|##advance|##and|##it|##was|##a|##good|##one|.|Ċ|Ċ|""|I|##was|##really|##excited|##to|##get|##to|##see|##the|##team|##and|##the|##fans|,""","Thomas booked a ticket in advance and it was a good one.
+
+""I was really excited to get to see the team and the fans,""",1,0,0,
+12_ticket_negated,Thomas didn't book a ticket in advance and it,negated,it,"Thomas|##didn|'t|##book|##a|##ticket|##in|##advance|##and|##it|##was|##a|##little|##late|##to|##get|##in|.|Ċ|Ċ|""|I|##was|##just|##trying|##to|##get|##in|##and|##get","Thomas didn't book a ticket in advance and it was a little late to get in.
+
+""I was just trying to get in and get",0,1,0,
+12_ticket_know,I know that Thomas booked a ticket in advance. It,know,it,I|##know|##that|##Thomas|##booked|##a|##ticket|##in|##advance|.|##It|##was|##a|##good|##idea|##to|##get|##him|##to|##come|##to|##the|##hotel|.|##He|##was|##very|##nice|##and|##very,I know that Thomas booked a ticket in advance. It was a good idea to get him to come to the hotel. He was very nice and very,0,1,0,
+12_ticket_doubt,I doubt that Thomas booked a ticket in advance. It,doubt,it,I|##doubt|##that|##Thomas|##booked|##a|##ticket|##in|##advance|.|##It|'s|##not|##like|##he|##was|##going|##to|##be|##able|##to|##get|##a|##ticket|##in|##advance|.|##He|##was|##going,I doubt that Thomas booked a ticket in advance. It's not like he was going to be able to get a ticket in advance. He was going,0,1,0,
+12_ticket_modal,Thomas wants to book a ticket in advance and it,modal,it,"Thomas|##wants|##to|##book|##a|##ticket|##in|##advance|##and|##it|'s|##not|##a|##big|##deal|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##be|##a|##big|##fan|##of|##the","Thomas wants to book a ticket in advance and it's not a big deal.
+
+""I'm not going to be a big fan of the",0,1,0,
+12_ticket_managed,Thomas managed to book a ticket. It,managed,it,"Thomas|##managed|##to|##book|##a|##ticket|.|##It|##was|##a|##good|##one|.|Ċ|Ċ|""|I|##was|##just|##trying|##to|##get|##a|##seat|,""|##he|##said|.|##""|I","Thomas managed to book a ticket. It was a good one.
+
+""I was just trying to get a seat,"" he said. ""I",1,0,0,
+12_ticket_failed,Thomas failed to book a ticket. It,failed,it,"Thomas|##failed|##to|##book|##a|##ticket|.|##It|##was|##a|##good|##thing|##he|##didn|'t|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##be|##a|##part|##of|##that|,""","Thomas failed to book a ticket. It was a good thing he didn't.
+
+""I'm not going to be a part of that,""",0,1,0,
+13_bed_affirmative,Luke bought a bed and it,affirmative,it,Luke|##bought|##a|##bed|##and|##it|##was|##a|##nice|##bed|.|##I|##was|##so|##happy|.|##I|##was|##so|##happy|.|##I|##was|##so|##happy|.|##I|##was|##so|##happy,Luke bought a bed and it was a nice bed. I was so happy. I was so happy. I was so happy. I was so happy,1,0,0,
+13_bed_negated,Luke didn't buy a bed and it,negated,it,"Luke|##didn|'t|##buy|##a|##bed|##and|##it|##was|##a|##big|##deal|.|Ċ|Ċ|""|I|##was|##like|,|##'|I|'m|##going|##to|##go|##to|##bed|##and|##I","Luke didn't buy a bed and it was a big deal.
+
+""I was like, 'I'm going to go to bed and I",0,1,0,
+13_bed_know,I know that Luke bought a bed. It,know,it,I|##know|##that|##Luke|##bought|##a|##bed|.|##It|##was|##a|##nice|##one|.|##I|'m|##sure|##he|##would|##have|##liked|##it|.|##I|'m|##sure|##he|##would|##have|##liked,I know that Luke bought a bed. It was a nice one. I'm sure he would have liked it. I'm sure he would have liked,1,0,0,
+13_bed_doubt,I doubt that Luke bought a bed. It,doubt,it,"I|##doubt|##that|##Luke|##bought|##a|##bed|.|##It|##was|##a|##very|##expensive|##one|.|Ċ|Ċ|""|I|'m|##not|##sure|##if|##he|##bought|##a|##bed|##or|##not|,""","I doubt that Luke bought a bed. It was a very expensive one.
+
+""I'm not sure if he bought a bed or not,""",1,0,0,
+13_bed_modal,Luke wants to buy a bed and it,modal,it,Luke|##wants|##to|##buy|##a|##bed|##and|##it|'s|##not|##going|##to|##be|##easy|.|##He|'s|##got|##to|##get|##a|##job|.|##He|'s|##got|##to|##get|##a|##job,Luke wants to buy a bed and it's not going to be easy. He's got to get a job. He's got to get a job,0,1,0,
+13_bed_managed,Luke managed to buy a bed. It,managed,it,"Luke|##managed|##to|##buy|##a|##bed|.|##It|##was|##a|##nice|##one|,|##but|##I|##didn|'t|##want|##to|##spend|##the|##money|##on|##it|.|##I|##was|##going|##to|##have","Luke managed to buy a bed. It was a nice one, but I didn't want to spend the money on it. I was going to have",1,0,0,
+13_bed_failed,Luke failed to buy a bed. It,failed,it,"Luke|##failed|##to|##buy|##a|##bed|.|##It|##was|##a|##very|##expensive|##bed|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##buy|##a|##bed|.|##I|'m|##not|##going","Luke failed to buy a bed. It was a very expensive bed.
+
+""I'm not going to buy a bed. I'm not going",1,0,0,
+14_gin_affirmative,Dan drank a gin tonic and it,affirmative,it,"Dan|##drank|##a|##gin|##ton|ic|##and|##it|##was|##a|##good|##night|'s|##sleep|.|Ċ|Ċ|""|I|'m|##not|##going|##to|##lie|,|##I|##was|##really|##excited|##to","Dan drank a gin tonic and it was a good night's sleep.
+
+""I'm not going to lie, I was really excited to",0,1,0,
+14_gin_negated,Dan didn't drink a gin tonic and it,negated,it,"Dan|##didn|'t|##drink|##a|##gin|##ton|ic|##and|##it|##was|##a|##bit|##of|##a|##shock|##to|##see|##him|##drink|##it|.|Ċ|Ċ|""|I|##was|##just|##trying|##to","Dan didn't drink a gin tonic and it was a bit of a shock to see him drink it.
+
+""I was just trying to",0,1,1,
+14_gin_know,I know that Dan drank a gin tonic. It,know,it,I|##know|##that|##Dan|##drank|##a|##gin|##ton|ic|.|##It|##was|##a|##good|##thing|.|##I|'m|##not|##sure|##if|##he|##was|##drinking|##it|##or|##not|.|##I|##don,I know that Dan drank a gin tonic. It was a good thing. I'm not sure if he was drinking it or not. I don,0,1,0,
+14_gin_doubt,I doubt that Dan drank a gin tonic. It,doubt,it,I|##doubt|##that|##Dan|##drank|##a|##gin|##ton|ic|.|##It|##was|##a|##very|##strong|##drink|.|##I|##think|##he|##was|##very|##drunk|.|##I|##think|##he|##was|##very|##drunk,I doubt that Dan drank a gin tonic. It was a very strong drink. I think he was very drunk. I think he was very drunk,1,0,0,
+14_gin_modal,Dan wants to drink a gin tonic and it,modal,it,"Dan|##wants|##to|##drink|##a|##gin|##ton|ic|##and|##it|'s|##a|##good|##thing|##he|'s|##got|##a|##gin|##ton|ic|.|Ċ|Ċ|""|I|'m|##not|##going|##to","Dan wants to drink a gin tonic and it's a good thing he's got a gin tonic.
+
+""I'm not going to",0,1,0,
+14_gin_managed,Dan managed to mix a gin tonic. It,managed,it,"Dan|##managed|##to|##mix|##a|##gin|##ton|ic|.|##It|##was|##a|##nice|##touch|.|Ċ|Ċ|""|I|'m|##not|##sure|##if|##I|'m|##going|##to|##be|##able|##to","Dan managed to mix a gin tonic. It was a nice touch.
+
+""I'm not sure if I'm going to be able to",1,0,0,
+14_gin_failed,Dan failed to mix a gin tonic. It,failed,it,"Dan|##failed|##to|##mix|##a|##gin|##ton|ic|.|##It|##was|##a|##bit|##of|##a|##mess|.|Ċ|Ċ|""|I|'m|##not|##sure|##if|##I|'m|##going|##to|##be","Dan failed to mix a gin tonic. It was a bit of a mess.
+
+""I'm not sure if I'm going to be",1,0,0,
+15_bone_affirmative,David discovered a bone on his archeological expedition and it,affirmative,it,David|##discovered|##a|##bone|##on|##his|##arche|ological|##expedition|##and|##it|##was|##a|##bone|##that|##had|##been|##cut|##off|##by|##a|##man|##who|##had|##been|##killed|##by|##a|##bear|.,David discovered a bone on his archeological expedition and it was a bone that had been cut off by a man who had been killed by a bear.,1,0,0,
+15_bone_negated,David didn't discover a bone on this archeological expedition and it,negated,it,"David|##didn|'t|##discover|##a|##bone|##on|##this|##arche|ological|##expedition|##and|##it|##was|##a|##very|##small|##piece|##of|##rock|.|Ċ|Ċ|""|I|##was|##very|##surprised|##to|##find","David didn't discover a bone on this archeological expedition and it was a very small piece of rock.
+
+""I was very surprised to find",1,0,0,
+15_bone_know,I know that David discovered a bone on his archeological expedition. It,know,it,I|##know|##that|##David|##discovered|##a|##bone|##on|##his|##arche|ological|##expedition|.|##It|##was|##a|##bone|##that|##he|##had|##found|##in|##the|##cave|##of|##the|##same|##name|.|##He,I know that David discovered a bone on his archeological expedition. It was a bone that he had found in the cave of the same name. He,1,0,0,
+15_bone_doubt,I doubt that David discovered a bone on his archeological expedition. It,doubt,it,I|##doubt|##that|##David|##discovered|##a|##bone|##on|##his|##arche|ological|##expedition|.|##It|##was|##a|##bone|##that|##he|##had|##found|##in|##the|##cave|##of|##the|##same|##name|.|Ċ,"I doubt that David discovered a bone on his archeological expedition. It was a bone that he had found in the cave of the same name.
+",1,0,0,
+15_bone_modal,David wants to discover a bone on his archeological expedition and it,modal,it,"David|##wants|##to|##discover|##a|##bone|##on|##his|##arche|ological|##expedition|##and|##it|'s|##a|##good|##idea|##to|##get|##him|##to|##the|##site|.|Ċ|Ċ|""|I|'m|##not","David wants to discover a bone on his archeological expedition and it's a good idea to get him to the site.
+
+""I'm not",0,1,0,
+15_bone_managed,David managed to discover a bone on his archeological expedition. It,managed,it,David|##managed|##to|##discover|##a|##bone|##on|##his|##arche|ological|##expedition|.|##It|##was|##a|##bone|##that|##had|##been|##cut|##off|##by|##a|##man|##who|##had|##been|##killed|##by|##a,David managed to discover a bone on his archeological expedition. It was a bone that had been cut off by a man who had been killed by a,1,0,0,
+15_bone_failed,David failed to discover a bone on his archeological expedition. It,failed,it,David|##failed|##to|##discover|##a|##bone|##on|##his|##arche|ological|##expedition|.|##It|##was|##discovered|##in|##the|##late|##1800|s|.|Ċ|Ċ|The|##bones|##were|##found|##in|##the|##area,"David failed to discover a bone on his archeological expedition. It was discovered in the late 1800s.
+
+The bones were found in the area",1,0,0,
+16_house_affirmative,Lisa built a house and it,affirmative,it,Lisa|##built|##a|##house|##and|##it|##was|##a|##beautiful|##house|.|##I|##was|##so|##happy|.|##I|##was|##so|##happy|.|##I|##was|##so|##happy|.|##I|##was|##so|##happy,Lisa built a house and it was a beautiful house. I was so happy. I was so happy. I was so happy. I was so happy,1,0,0,
+16_house_negated,Lisa didn't build a house and it,negated,it,Lisa|##didn|'t|##build|##a|##house|##and|##it|##was|##a|##lot|##of|##work|.|##She|##was|##a|##little|##bit|##of|##a|##mess|.|##She|##was|##a|##little|##bit|##of|##a,Lisa didn't build a house and it was a lot of work. She was a little bit of a mess. She was a little bit of a,0,1,0,
+16_house_know,I know that Lisa built a house. It,know,it,I|##know|##that|##Lisa|##built|##a|##house|.|##It|'s|##not|##a|##house|##that|##I|'m|##going|##to|##build|.|##It|'s|##a|##house|##that|##I|'m|##going|##to|##build,I know that Lisa built a house. It's not a house that I'm going to build. It's a house that I'm going to build,1,0,0,
+16_house_doubt,I doubt that Lisa built a house. It,doubt,it,I|##doubt|##that|##Lisa|##built|##a|##house|.|##It|'s|##not|##like|##she|##was|##going|##to|##build|##a|##house|.|##She|##was|##going|##to|##build|##a|##house|.|Ċ|Ċ,"I doubt that Lisa built a house. It's not like she was going to build a house. She was going to build a house.
+
+",0,1,0,
+16_house_modal,Lisa wants to build a house and it,modal,it,Lisa|##wants|##to|##build|##a|##house|##and|##it|'s|##not|##going|##to|##be|##easy|.|##She|'s|##got|##to|##get|##her|##own|##place|.|##She|'s|##got|##to|##get|##her,Lisa wants to build a house and it's not going to be easy. She's got to get her own place. She's got to get her,0,1,0,
+16_house_managed,Lisa managed to build a house. It,managed,it,"Lisa|##managed|##to|##build|##a|##house|.|##It|##was|##a|##small|##house|,|##but|##it|##was|##a|##nice|##one|.|##It|##was|##a|##nice|##house|.|##It|##was|##a|##nice","Lisa managed to build a house. It was a small house, but it was a nice one. It was a nice house. It was a nice",1,0,0,
+16_house_failed,Lisa failed to build a house. It,failed,it,"Lisa|##failed|##to|##build|##a|##house|.|##It|##was|##a|##small|##house|,|##but|##it|##was|##a|##house|##that|##was|##built|##for|##her|.|##She|##had|##a|##lot|##of|##money","Lisa failed to build a house. It was a small house, but it was a house that was built for her. She had a lot of money",1,0,0,

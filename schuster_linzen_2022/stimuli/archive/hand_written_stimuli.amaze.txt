@@ -1,0 +1,224 @@
+affirmative_i;1_dog_affirmative;john owns a dog and it follows him everywhere he goes.
+affirmative_s;1_dog_affirmative;john owns a dog and he is thinking about getting another one.
+negated_i;1_dog_negated;john doesn't own a dog and it follows him everywhere he goes.
+negated_s;1_dog_negated;john doesn't own a dog and he isn't planning on getting one.
+know_i;1_dog_know;i know that john owns a dog. it follows him everywhere he goes.
+know_s;1_dog_know;i know that john owns a dog. he is thinking about getting another one.
+doubt_i;1_dog_doubt;i doubt that john owns a dog. it follows him everywhere he goes.
+doubt_s;1_dog_doubt;i doubt that john owns a dog. he doesn't own any other pets either.
+modal_i;1_dog_modal;john wants to own a dog and it follows him everywhere he goes.
+modal_s;1_dog_modal;john wants to own a dog and he cannot wait to move to a building that allows pets.
+managed_i;1_dog_managed;john managed to adopt a dog. it follows him everywhere he goes.
+managed_s;1_dog_managed;john managed to adopt a dog. he only needed permission from his landlord.
+failed_i;1_dog_failed;john failed to adopt a dog. it follows him everywhere he goes.
+failed_s;1_dog_failed;john failed to adopt a dog. he doesn't have a big enough apartment.
+affirmative_i;2_car_affirmative;lucy has a car and it has a self-driving mode.
+affirmative_s;2_car_affirmative;lucy has a car and she loves to go on roadtrips.
+negated_i;2_car_negated;lucy doesn't have a car and it has a self-driving mode.
+negated_s;2_car_negated;lucy doesn't have a car and she only buys second-hand clothes.
+know_i;2_car_know;i know that lucy has a car. it has a self-driving mode.
+know_s;2_car_know;i know that lucy has a car. she loves to go on roadtrips.
+doubt_i;2_car_doubt;i doubt that lucy has a car. it has a self-driving mode.
+doubt_s;2_car_doubt;i doubt that lucy has a car. she also only buys second-hand clothes.
+modal_i;2_car_modal;lucy wants to have a car and it has a self-driving mode.
+modal_s;2_car_modal;lucy wants to have a car and she also wants to get a motorcycle.
+managed_i;2_car_managed;lucy managed to rent a car. it has a self-driving mode.
+managed_s;2_car_managed;lucy managed to rent a car. she found a place that was open late.
+failed_i;2_car_failed;lucy failed to rent a car. it has a self-driving mode.
+failed_s;2_car_failed;lucy failed to rent a car. she couldn't find a place that was open late.
+affirmative_i;3_bear_affirmative;carol saw a bear at the zoo and it was taller than she expected.
+affirmative_s;3_bear_affirmative;carol saw a bear at the zoo and she took amazing pictures of it.
+negated_i;3_bear_negated;carol didn't see a bear at the zoo and it was taller than she expected.
+negated_s;3_bear_negated;carol didn't see a bear at the zoo and she went home disappointed.
+know_i;3_bear_know;i know that carol saw a bear at the zoo. it was taller than she expected.
+know_s;3_bear_know;i know that carol saw a bear at the zoo. she took amazing pictures of it.
+doubt_i;3_bear_doubt;i doubt that carol saw a bear at the zoo. it was taller than she expected.
+doubt_s;3_bear_doubt;i doubt that carol saw a bear at the zoo. she didn't get to see any other big animals either.
+modal_i;3_bear_modal;carol wants to see a bear at the zoo and it is taller than she expected.
+modal_s;3_bear_modal;carol wants to see a bear at the zoo and she does not stop talking about it.
+managed_i;3_bear_managed;carol managed to see a bear at the zoo. it was taller than she expected.
+managed_s;3_bear_managed;carol managed to see a bear at the zoo. she took amazing pictures of it.
+failed_i;3_bear_failed;carol failed to see a bear at the zoo. it was taller than she expected.
+failed_s;3_bear_failed;carol failed to see a bear at the zoo. she didn't get to see any other big animals either.
+affirmative_i;4_book_affirmative;susan published a book and it is a real page-turner.
+affirmative_s;4_book_affirmative;susan published a book and she is going on tour later this year.
+negated_i;4_book_negated;susan didn't publish a book and it is a real page-turner.
+negated_s;4_book_negated;susan didn't publish a book and she doesn't intend to so in the near future.
+know_i;4_book_know;i know that susan published a book. it is a real page-turner.
+know_s;4_book_know;i know that susan published a book. she is going on tour later this year.
+doubt_i;4_book_doubt;i doubt that susan published a book. it is a real page-turner.
+doubt_s;4_book_doubt;i doubt that susan published a book. she also hasn't written any good articles lately.
+modal_i;4_book_modal;susan wants to publish a book and it is a real page-turner.
+modal_s;4_book_modal;susan wants to publish a book and she committed to writing at least 2 pages a day.
+managed_i;4_book_managed;susan managed to write a book. it is a real page-turner.
+managed_s;4_book_managed;susan managed to write a book. she is going on tour later this year.
+failed_i;4_book_failed;susan failed to write a book. it is a real page-turner.
+failed_s;4_book_failed;susan failed to write a book. she also hasn't written any good articles lately.
+affirmative_i;5_shirt_affirmative;mary found a shirt at the store and it looks amazing on her.
+affirmative_s;5_shirt_affirmative;mary found a shirt at the store and she wore it at the wedding.
+negated_i;5_shirt_negated;mary didn't find a shirt at the store and it looks amazing on her.
+negated_s;5_shirt_negated;mary didn't find a shirt at the store and she had to wear a t-shirt instead.
+know_i;5_shirt_know;i know that mary found a shirt at the store. it looks amazing on her.
+know_s;5_shirt_know;i know that mary found a shirt at the store. she wore it at the wedding.
+doubt_i;5_shirt_doubt;i doubt that mary found a shirt at the store. it looks amazing on her.
+doubt_s;5_shirt_doubt;i doubt that mary found a shirt at the store. she didn't manage to get any other nice clothes either.
+modal_i;5_shirt_modal;mary wants to find a shirt at the store and it looks amazing on her.
+modal_s;5_shirt_modal;mary wants to find a shirt at the store and she checked that the store is open on sundays. 
+managed_i;5_shirt_managed;mary managed to find a shirt at the store. it looks amazing on her.
+managed_s;5_shirt_managed;mary managed to find a shirt at the store. she wore it at the wedding.
+failed_i;5_shirt_failed;mary failed to find a shirt at the store. it looks amazing on her.
+failed_s;5_shirt_failed;mary failed to find a shirt at the store. she didn't manage to get any other nice clothes either.
+affirmative_i;6_rat_affirmative;carla got a pet rat and it is very noisy at night.
+affirmative_s;6_rat_affirmative;carla got a pet rat and she constantly posts photos of it.
+negated_i;6_rat_negated;carla didn't get a pet rat and it is very noisy at night.
+negated_s;6_rat_negated;carla didn't get a pet rat and she is already regretting her decision.
+know_i;6_rat_know;i know that carla got a pet rat. it is very noisy at night.
+know_s;6_rat_know;i know that carla got a pet rat. she constantly posts photos of it.
+doubt_i;6_rat_doubt;i doubt that carla got a pet rat. it is very noisy at night.
+doubt_s;6_rat_doubt;i doubt that carla got a pet rat. she wasn't particularly impressed by the chinchillas either.
+modal_i;6_rat_modal;carla wants to get a pet rat and it is very noisy at night.
+modal_s;6_rat_modal;carla wants to get a pet rat and she already bought a cage.
+managed_i;6_rat_managed;carla managed to get a pet rat. it is very noisy at night.
+managed_s;6_rat_managed;carla managed to get a pet rat. she found one at the store at the mall.
+failed_i;6_rat_failed;carla failed to get a pet rat. it is very noisy at night.
+failed_s;6_rat_failed;carla failed to get a pet rat. she tried three different stores.
+affirmative_i;7_beer_affirmative;sam ordered a beer at the bar and it was warm.
+affirmative_s;7_beer_affirmative;sam ordered a beer at the bar and he gave a very generous tip.
+negated_i;7_beer_negated;sam didn't order a beer at the bar and it was warm.
+negated_s;7_beer_negated;sam didn't order a beer at the bar and he also didn't do any drugs.
+know_i;7_beer_know;i know that sam ordered a beer at the bar. it was warm.
+know_s;7_beer_know;i know that sam ordered a beer at the bar. he gave a very generous tip.
+doubt_i;7_beer_doubt;i doubt that sam ordered a beer at the bar. it was warm.
+doubt_s;7_beer_doubt;i doubt that sam ordered a beer at the bar. he also couldn't get a drink with his fake id anywhere else.
+modal_i;7_beer_modal;sam wants to order a beer at the bar and it is warm.
+modal_s;7_beer_modal;sam wants to order a beer at the bar and he also wants to get some fries.
+managed_i;7_beer_managed;sam managed to order a beer at the bar. it was warm.
+managed_s;7_beer_managed;sam managed to order a beer at the bar. he had to stand in line for ten minutes though.
+failed_i;7_beer_failed;sam failed to order a beer at the bar. it was warm.
+failed_s;7_beer_failed;sam failed to order a beer at the bar. he also couldn't get a drink with his fake id anywhere else.
+affirmative_i;8_cake_affirmative;michael baked a cake and it was the best thing at the picnic.
+affirmative_s;8_cake_affirmative;michael baked a cake and he also made a pie.
+negated_i;8_cake_negated;michael didn't bake a cake and it was the best thing at the picnic.
+negated_s;8_cake_negated;michael didn't bake a cake and he also didn't bring anythinng else to the picnic.
+know_i;8_cake_know;i know that michael baked a cake. it was the best thing at the picnic.
+know_s;8_cake_know;i know that michael baked a cake. he also made a pie.
+doubt_i;8_cake_doubt;i doubt that michael baked a cake. it was the best thing at the picnic.
+doubt_s;8_cake_doubt;i doubt that michael baked a cake. he also didn't prepare anything else for the picnic.
+modal_i;8_cake_modal;michael wants to bake a cake and it is the best thing at the picnic.
+modal_s;8_cake_modal;michael wants to bake a cake and he already chose a recipe.
+managed_i;8_cake_managed;michael managed to bake a cake. it was the best thing at the picnic.
+managed_s;8_cake_managed;michael managed to bake a cake. he also made a pie.
+failed_i;8_cake_failed;michael failed to bake a cake. it was the best thing at the picnic.
+failed_s;8_cake_failed;michael failed to bake a cake. he also didn't prepare anything else for the picnic.
+affirmative_i;9_letter_affirmative;carolyn wrote a letter to her parents and it arrived three days after she sent it.
+affirmative_s;9_letter_affirmative;carolyn wrote a letter to her parents and she also gave them a call.
+negated_i;9_letter_negated;carolyn didn't write a letter to her parents and it arrived three days after she sent it.
+negated_s;9_letter_negated;carolyn didn't write a letter to her parents and she also didn't explain anything when she visitited them last year.
+know_i;9_letter_know;i know that carolyn wrote a letter to her parents. it arrived three days after she sent it.
+know_s;9_letter_know;i know that carolyn wrote a letter to her parents. she also gave them a call.
+doubt_i;9_letter_doubt;i doubt that carolyn wrote a letter to her parents. it arrived three days after she sent it.
+doubt_s;9_letter_doubt;i doubt that carolyn wrote a letter to her parents. she also didn't give them a call.
+modal_i;9_letter_modal;carolyn wants to write a letter to her parents and it arrives three days after she sends it.
+modal_s;9_letter_modal;carolyn wants to write a letter to her parents and she also plans to send them a gift.
+managed_i;9_letter_managed;carolyn managed to write a letter to her parents. it arrived three days after she sent it.
+managed_s;9_letter_managed;carolyn managed to write a letter to her parents. she also gave them a call.
+failed_i;9_letter_failed;carolyn failed to write a letter to her parents. it arrived three days after she sent it.
+failed_s;9_letter_failed;carolyn failed to write a letter to her parents. she also didn't give them a call.
+affirmative_i;10_hat_affirmative;chris knitted a hat and it was very colorful.
+affirmative_s;10_hat_affirmative;chris knitted a hat and he was very proud of it.
+negated_i;10_hat_negated;chris didn't knit a hat and it was very colorful.
+negated_s;10_hat_negated;chris didn't knit a hat and he didn't do any of the other assignments either.
+know_i;10_hat_know;i know that chris knitted a hat. it was very colorful.
+know_s;10_hat_know;i know that chris knitted a hat. he was very proud of it.
+doubt_i;10_hat_doubt;i doubt that chris knitted a hat. it was very colorful.
+doubt_s;10_hat_doubt;i doubt that chris knitted a hat. he didn't do any of the other assignments either.
+modal_i;10_hat_modal;chris wants to knit a hat and it is very colorful.
+modal_s;10_hat_modal;chris wants to knit a hat and he already chose the color for the yarn.
+managed_i;10_hat_managed;chris managed to knit a hat. it was very colorful.
+managed_s;10_hat_managed;chris managed to knit a hat. he was very proud of it.
+failed_i;10_hat_failed;chris failed to knit a hat. it was very colorful.
+failed_s;10_hat_failed;chris failed to knit a hat. he didn't do any of the other assignments either.
+affirmative_i;11_cod_affirmative;sarah caught a cod and it made a fantastic dinner.
+affirmative_s;11_cod_affirmative;sarah caught a cod and she ate it for dinner.
+negated_i;11_cod_negated;sarah didn't catch a cod and it made a fantastic dinner.
+negated_s;11_cod_negated;sarah didn't catch a cod and she got dinner from the store instead.
+know_i;11_cod_know;i know that sarah caught a cod. it made a fantastic dinner.
+know_s;11_cod_know;i know that sarah caught a cod. she ate it for dinner.
+doubt_i;11_cod_doubt;i doubt that sarah caught a cod. it made a fantastic dinner.
+doubt_s;11_cod_doubt;i doubt that sarah caught a cod. she also didn't catch any shrimp.
+modal_i;11_cod_modal;sarah wants to catch a cod and it makes a fantastic dinner.
+modal_s;11_cod_modal;sarah wants to catch a cod and she is obsessed with fishing blogs.
+managed_i;11_cod_managed;sarah managed to catch a cod. it made a fantastic dinner.
+managed_s;11_cod_managed;sarah managed to catch a cod. she ate it for dinner.
+failed_i;11_cod_failed;sarah failed to catch a cod. it made a fantastic dinner.
+failed_s;11_cod_failed;sarah failed to catch a cod. she also didn't catch any shrimp.
+affirmative_i;12_ticket_affirmative;thomas booked a ticket in advance and it was much cheaper than he expected.
+affirmative_s;12_ticket_affirmative;thomas booked a ticket in advance and he also made a hoel reservation.
+negated_i;12_ticket_negated;thomas didn't book a ticket in advance and it was much cheaper than he expected.
+negated_s;12_ticket_negated;thomas didn't book a ticket in advance and he couldn't get one at the airport.
+know_i;12_ticket_know;i know that thomas booked a ticket in advance. it was much cheaper than he expected.
+know_s;12_ticket_know;i know that thomas booked a ticket in advance. he also made a hotel reservation.
+doubt_i;12_ticket_doubt;i doubt that thomas booked a ticket in advance. it was much cheaper than he expected.
+doubt_s;12_ticket_doubt;i doubt that thomas booked a ticket in advance. he didn't even show up at the airport until an hour before the flight.
+modal_i;12_ticket_modal;thomas wants to book a ticket in advance and it is much cheaper than he expected.
+modal_s;12_ticket_modal;thomas wants to book a ticket in advance and he started to look for cheap flights.
+managed_i;12_ticket_managed;thomas managed to book a ticket. it was much cheaper than he expected.
+managed_s;12_ticket_managed;thomas managed to book a ticket. he also made a hotel reservation.
+failed_i;12_ticket_failed;thomas failed to book a ticket. it was much cheaper than he expected.
+failed_s;12_ticket_failed;thomas failed to book a ticket. he also didn't show up at the airport until an hour before the flight.
+affirmative_i;13_bed_affirmative;luke bought a bed and it was delivered the next day.
+affirmative_s;13_bed_affirmative;luke bought a bed and he also got a new dresser.
+negated_i;13_bed_negated;luke didn't buy a bed and it was delivered the next day.
+negated_s;13_bed_negated;luke didn't buy a bed and he also refused to get a new dresser.
+know_i;13_bed_know;i know that luke bought a bed. it was delivered the next day.
+know_s;13_bed_know;i know that luke bought a bed. he also got a new dresser.
+doubt_i;13_bed_doubt;i doubt that luke bought a bed. it was delivered the next day.
+doubt_s;13_bed_doubt;i doubt that luke bought a bed. he didn't get a mattress either.
+modal_i;13_bed_modal;luke wants to buy a bed and it is delivered the next day.
+modal_s;13_bed_modal;luke wants to buy a bed and he also wants to get a dresser.
+managed_i;13_bed_managed;luke managed to buy a bed. it was delivered the next day.
+managed_s;13_bed_managed;luke managed to buy a bed. he also got a new dresser.
+failed_i;13_bed_failed;luke failed to buy a bed. it was delivered the next day.
+failed_s;13_bed_failed;luke failed to buy a bed. he didn't get a mattress either.
+affirmative_i;14_gin_affirmative;dan drank a gin tonic and it was very strong.
+affirmative_s;14_gin_affirmative;dan drank a gin tonic and he regretted it the next morning.
+negated_i;14_gin_negated;dan didn't drink a gin tonic and it was very strong.
+negated_s;14_gin_negated;dan didn't drink a gin tonic and he left before everyone else was drunk.
+know_i;14_gin_know;i know that dan drank a gin tonic. it was very strong.
+know_s;14_gin_know;i know that dan drank a gin tonic. he regretted it in the morning.
+doubt_i;14_gin_doubt;i doubt that dan drank a gin tonic. it was very strong.
+doubt_s;14_gin_doubt;i doubt that dan drank a gin tonic. he didn't get any other drinks either.
+modal_i;14_gin_modal;dan wants to drink a gin tonic and it is very strong.
+modal_s;14_gin_modal;dan wants to drink a gin tonic and he cannot wait for dry january to be over.
+managed_i;14_gin_managed;dan managed to mix a gin tonic. it was very strong.
+managed_s;14_gin_managed;dan managed to mix a gin tonic. he served it with a cucumber.
+failed_i;14_gin_failed;dan failed to mix a gin tonic. it was very strong.
+failed_s;14_gin_failed;dan failed to mix a gin tonic. he hadn't bough any tonic water.
+affirmative_i;15_bone_affirmative;david discovered a bone on his archeological expedition and it likely belonged to an extinct bird species.
+affirmative_s;15_bone_affirmative;david discovered a bone on his archeological expedition and he brought it back to the lab for an extensive analysis.
+negated_i;15_bone_negated;david didn't discover a bone on this archeological expedition and it likely belonged to an extinct bird species.
+negated_s;15_bone_negated;david didn't discover a bone on this archeological expedition and he also didn't find anything else worth analyzing.
+know_i;15_bone_know;i know that david discovered a bone on his archeological expedition. it likely belonged to an extinct bird species.
+know_s;15_bone_know;i know that david discovered a bone on his archeological expedition. he brought it back to the lab for an extensive analysis.
+doubt_i;15_bone_doubt;i doubt that david discovered a bone on his archeological expedition. it likely belonged to an extinct bird species.
+doubt_s;15_bone_doubt;i doubt that david discovered a bone on his archeological expedition. he also didn't find anything else worth analyzing.
+modal_i;15_bone_modal;david wants to discover a bone on his archeological expedition and it likely belongs to an extinct bird.
+modal_s;15_bone_modal;david wants to discover a bone on his archeological expedition and he is prepared to spend a long time at the excavation site.
+managed_i;15_bone_managed;david managed to discover a bone on his archeological expedition. it likely belonged to an extinct bird species.
+managed_s;15_bone_managed;david managed to discover a bone on his archeological expedition. he brought it back to the lab for an extensive analysis.
+failed_i;15_bone_failed;david failed to discover a bone on his archeological expedition. it likely belonged to an extinct bird species.
+failed_s;15_bone_failed;david failed to discover a bone on his archeological expedition. he also didn't find anything else worth analyzing.
+affirmative_i;16_house_affirmative;lisa built a house and it is the most beautiful building i have ever seen.
+affirmative_s;16_house_affirmative;lisa built a house and she made sure that every room gets a lot of sunlight.
+negated_i;16_house_negated;lisa didn't build a house and it is the most beautiful building i have ever seen.
+negated_s;16_house_negated;lisa didn't build a house and she lied about several other things as well.
+know_i;16_house_know;i know that lisa built a house. it is the most beautiful building i have ever seen.
+know_s;16_house_know;i know that lisa built a house. she made sure that every room gets a lot of sunlight.
+doubt_i;16_house_doubt;i doubt that lisa built a house. it is the most beautiful building i have ever seen.
+doubt_s;16_house_doubt;i doubt that lisa built a house. she lied about several other things as well.
+modal_i;16_house_modal;lisa wants to build a house and it is the most beautiful building i have ever seen.
+modal_s;16_house_modal;lisa wants to build a house and she already bought a plot of land.
+managed_i;16_house_managed;lisa managed to build a house. it is the most beautiful building i have ever seen.
+managed_s;16_house_managed;lisa managed to build a house. she made sure that every room gets a lot of sunlight.
+failed_i;16_house_failed;lisa failed to build a house. it is the most beautiful building i have ever seen.
+failed_s;16_house_failed;lisa failed to build a house. she lied about several other things as well.

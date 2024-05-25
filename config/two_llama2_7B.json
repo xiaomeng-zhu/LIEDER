@@ -1,0 +1,6 @@
+{
+    "model":"llama2",
+    "exp":"two",
+    "size":"7B",
+    "hf_name":"meta-llama/Llama-2-7b-hf"
+}

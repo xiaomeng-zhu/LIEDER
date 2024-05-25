@@ -1,0 +1,313 @@
+id,sentence,type,pronoun,tokens,log_probs,continuation
+1_dog_affirmative,John owns dogs and they,affirmative,it,"John| owns| dogs| and| they| are| very| cute|.|
+|
+|John| owns| dogs| and",-12.05151|-10.199555|-1.7167671|-4.073183|-1.3159114|-2.6136863|-2.2803595|-0.6303612|-1.1520212|-0.0011231161|-1.8737514|-1.8403416|-0.9400532|-0.1430766,"John owns dogs and they are very cute.
+
+John owns dogs and"
+1_dog_negated,John doesn't own dogs and they,negated,it,"John| doesn|'t| own| dogs| and| they| don|'t| have| a| cat|.|
+|
+|John| doesn",-9.116043|-0.3797415|-5.7230887|-7.4335866|-3.2686217|-4.8219123|-1.6011995|-0.005419229|-1.871778|-1.2689596|-1.5921042|-0.83912325|-1.0118868|-0.0023998371|-2.2535417|-1.4300297,"John doesn't own dogs and they don't have a cat.
+
+John doesn"
+1_dog_know,I know that John owns dogs. They,know,it,"I| know| that| John| owns| dogs|.| They| are| very| cute|.|
+|
+|I| know| that| John",-4.262452|-2.390003|-7.7231784|-8.214559|-8.860041|-1.7504234|-4.757856|-1.1517426|-2.7016227|-2.1885862|-0.57829124|-1.4394643|-0.0007470167|-1.9345368|-0.9385949|-0.122532256|-0.6693891,"I know that John owns dogs. They are very cute.
+
+I know that John"
+1_dog_doubt,I doubt that John owns dogs. They,doubt,it,"I| doubt| that| John| owns| dogs|.| They| are| too| much| trouble|.|
+|
+|I| doubt| that",-8.072716|-1.9201941|-7.7560396|-9.350591|-8.9218025|-1.5556065|-6.0608945|-1.7690835|-2.2614822|-1.433537|-0.87012213|-0.7446884|-1.5117166|-0.00068253983|-2.4830081|-0.91731256|-0.14631273,"I doubt that John owns dogs. They are too much trouble.
+
+I doubt that"
+1_dog_modal,John wants to own dogs and they,modal,it,"John| wants| to| own| dogs| and| they| are| not| allowed| in| the| building|.|
+|
+|John",-10.131632|-0.41485745|-7.4697704|-8.808033|-2.2330313|-5.230457|-1.7395067|-2.2996457|-0.6165884|-0.92385536|-0.74327546|-1.64206|-0.6851275|-1.1330972|-0.0016911771|-1.7102482,"John wants to own dogs and they are not allowed in the building.
+
+John"
+1_dog_managed,John managed to adopt dogs. They,managed,it,"John| managed| to| adopt| dogs|.| They| were| a| pair| of| German| She|pher|ds|,| and",-10.893146|-0.40163732|-10.016038|-11.96298|-4.3281784|-3.1115053|-1.3370007|-3.0129516|-2.8586206|-0.17098787|-3.3641431|-0.78355074|-0.09754003|-0.00025932747|-1.2695179|-2.1890206,"John managed to adopt dogs. They were a pair of German Shepherds, and"
+1_dog_failed,John failed to adopt dogs. They,failed,it,"John| failed| to| adopt| dogs|.| They| were| too| much| trouble|.|
+|
+|John| was| a",-11.397318|-0.6134152|-8.953412|-11.616639|-3.0582635|-4.0522428|-1.6546428|-2.051321|-1.2596265|-1.2174442|-0.63337827|-1.6087955|-0.0022089588|-1.7075727|-2.2903018|-1.7427071,"John failed to adopt dogs. They were too much trouble.
+
+John was a"
+2_car_affirmative,Lucy has cars and they,affirmative,it,"Lu|cy| has| cars| and| they| are| all| very| nice|.| She| has| a| Mercedes|,",-1.6441532|-5.217131|-13.064311|-2.148841|-5.961973|-1.4638307|-2.3537023|-3.0438874|-1.8961204|-1.0154363|-1.6111709|-1.3344401|-0.76128125|-3.1640496|-1.3957248,"Lucy has cars and they are all very nice. She has a Mercedes,"
+2_car_negated,Lucy doesn't have cars and they,negated,it,"Lu|cy| doesn|'t| have| cars| and| they| don|'t| have| a| car|.|
+|
+|They| don",-1.6437902|-7.2948627|-0.39902702|-2.6889431|-11.312664|-3.2366083|-5.104254|-1.4511784|-0.0023275432|-0.7272354|-2.6532493|-2.41844|-1.413597|-1.9187927|-0.0021170285|-2.5154316|-1.7137977,"Lucy doesn't have cars and they don't have a car.
+
+They don"
+2_car_know,I know that Lucy has cars. They,know,it,I| know| that| Lucy| has| cars|.| They|'re| all| over| the| place|.| I|'ve| seen| them,-4.262303|-2.3906283|-8.977656|-2.560508|-12.779828|-2.7495484|-4.3166375|-1.5158958|-2.251644|-1.5188574|-0.47814584|-1.3333882|-0.83346766|-1.5474554|-2.0077336|-0.83974254|-0.5959259,I know that Lucy has cars. They're all over the place. I've seen them
+2_car_doubt,I doubt that Lucy has cars. They,doubt,it,"I| doubt| that| Lucy| has| cars|.| They|'re| probably| all| in| the| garage|.""|
+|
+|""",-8.072402|-1.9173833|-10.228864|-3.1989944|-11.875529|-3.2739575|-3.8061986|-1.6387329|-1.9032447|-2.0927591|-2.1074152|-0.9423305|-1.3732727|-1.2476803|-0.3337678|-0.0002997486|-0.45151034,"I doubt that Lucy has cars. They're probably all in the garage.""
+
+"""
+2_car_modal,Lucy wants to have cars and they,modal,it,Lu|cy| wants| to| have| cars| and| they| are| expensive|.| She| wants| to| have| a| house| and,-1.6444104|-7.67158|-0.47012976|-4.1471033|-12.799646|-1.8314885|-7.488176|-2.1057305|-2.2199113|-0.91468686|-1.8234748|-1.1043546|-0.5487339|-0.82751364|-1.0155123|-1.9796242|-0.6186901,Lucy wants to have cars and they are expensive. She wants to have a house and
+2_car_managed,Lucy managed to rent cars. They,managed,it,"Lu|cy| managed| to| rent| cars|.| They| were| all| the| same|,| but| she| didn|'t| care",-1.6446073|-9.065939|-0.42915657|-10.117308|-9.325436|-4.5667396|-2.4918244|-1.9532224|-3.175203|-2.9804015|-0.20984082|-1.9794422|-2.5617297|-1.5702146|-2.4617355|-0.24183437|-0.91132194,"Lucy managed to rent cars. They were all the same, but she didn't care"
+2_car_failed,Lucy failed to rent cars. They,failed,it,Lu|cy| failed| to| rent| cars|.| They| were| all| taken|.| She| tried| to| rent| a| boat,-1.6444117|-10.958992|-0.25630152|-10.823963|-6.719537|-3.8601649|-4.0658937|-1.7820021|-1.560841|-1.583689|-0.51412356|-1.5481579|-2.3338168|-1.1070248|-1.7869426|-0.380469|-1.8102636,Lucy failed to rent cars. They were all taken. She tried to rent a boat
+3_bear_affirmative,Carol saw bears at the zoo and they,affirmative,it,"Car|ol| saw| bears| at| the| zoo| and| they| were| so| cute|.|
+|
+|I| saw| a| bear",-4.5730557|-8.131914|-13.187149|-3.4537418|-1.0710056|-2.0610666|-2.22752|-3.7006657|-0.9238208|-2.4436123|-1.0391605|-1.0328571|-1.5159217|-0.0017118911|-2.6953466|-2.0700166|-1.1753019|-1.1608745,"Carol saw bears at the zoo and they were so cute.
+
+I saw a bear"
+3_bear_negated,Carol didn't see bears at the zoo and they,negated,it,Car|ol| didn|'t| see| bears| at| the| zoo| and| they| didn|'t| see| her|.| She| was| too| busy| looking,-4.5737367|-6.219467|-0.33748707|-4.1512704|-12.900539|-3.6487195|-1.5968012|-2.2570477|-3.831548|-4.053204|-1.2473059|-0.001315517|-1.6784489|-0.7965993|-0.71160674|-1.4943079|-2.1372344|-2.9192755|-1.1537433|-1.5553398,Carol didn't see bears at the zoo and they didn't see her. She was too busy looking
+3_bear_know,I know that Carol saw bears at the zoo. They,know,it,"I| know| that| Carol| saw| bears| at| the| zoo|.| They| were| in| a| cage|.|
+|
+|I| know| that",-4.26207|-2.3886948|-10.563387|-7.2194057|-11.708115|-3.4840035|-1.0760145|-2.9122968|-1.5910276|-4.981286|-1.1444511|-2.5205047|-1.1579294|-0.3677543|-0.7407888|-1.87245|-0.0010707263|-1.773918|-0.7030667|-0.112460144,"I know that Carol saw bears at the zoo. They were in a cage.
+
+I know that"
+3_bear_doubt,I doubt that Carol saw bears at the zoo. They,doubt,it,"I| doubt| that| Carol| saw| bears| at| the| zoo|.| They| were| probably| in| the| wild|.|
+|
+|I| doubt",-8.071989|-1.9223516|-11.009945|-6.742662|-12.608182|-3.4379873|-1.5817193|-3.1131334|-1.3559238|-5.004501|-2.0565352|-1.1957904|-1.8620646|-0.9995705|-2.9187262|-0.9446209|-1.6173851|-0.0019561825|-2.5263011|-1.5605347,"I doubt that Carol saw bears at the zoo. They were probably in the wild.
+
+I doubt"
+3_bear_modal,Carol wants to see bears at the zoo and they,modal,it,"Car|ol| wants| to| see| bears| at| the| zoo| and| they| go| to| the| zoo|.|
+|
+|Car|ol| wants",-4.5725837|-8.4969015|-0.49553382|-3.58068|-11.988602|-4.1690855|-0.96373945|-0.96822137|-3.0119634|-4.4926205|-2.1005836|-1.0841815|-0.38529733|-0.51022846|-0.8689414|-1.5102642|-0.0019944662|-1.7988827|-0.0019076335|-0.5328428,"Carol wants to see bears at the zoo and they go to the zoo.
+
+Carol wants"
+3_bear_managed,Carol managed to see bears at the zoo. They,managed,it,"Car|ol| managed| to| see| bears| at| the| zoo|.| They| were| in| a| cage|,| but| she| was| able| to",-4.5725837|-9.506661|-0.4126607|-5.89211|-13.595181|-3.319576|-1.8008999|-2.4804664|-1.979726|-3.760976|-0.85450995|-2.6853335|-0.9884181|-1.6508629|-1.1008115|-0.5270844|-1.3729956|-1.8514786|-1.5915968|-0.0106732,"Carol managed to see bears at the zoo. They were in a cage, but she was able to"
+3_bear_failed,Carol failed to see bears at the zoo. They,failed,it,"Car|ol| failed| to| see| bears| at| the| zoo|.| They| were| all| hiding|.|
+|
+|The| zoo| was| closed",-4.5725837|-11.260001|-0.22960266|-3.2256975|-13.34653|-3.2539103|-1.4286314|-2.7512577|-1.4454771|-4.5495524|-1.024537|-2.3075004|-1.9874644|-1.1120082|-1.0463527|-0.0021581836|-2.9040709|-2.0954022|-1.6720659|-2.0231383,"Carol failed to see bears at the zoo. They were all hiding.
+
+The zoo was closed"
+4_book_affirmative,Susan published books and they,affirmative,it,Susan| published| books| and| they| were| very| successful|.| She| was| a| very| good| writer,-9.221799|-6.4109516|-2.7676158|-7.7009864|-1.6706593|-2.6848402|-1.232182|-0.5335837|-1.6738051|-1.7540898|-1.7603601|-1.8942608|-1.5067834|-0.59366196,Susan published books and they were very successful. She was a very good writer
+4_book_negated,Susan didn't publish books and they,negated,it,Susan| didn|'t| publish| books| and| they| didn|'t| have| a| website|.| They| didn|'t| even,-6.3202176|-0.33390546|-10.213263|-6.110932|-4.0782266|-4.9497337|-1.4802115|-0.0015039567|-1.6164808|-1.3583248|-2.1188297|-0.7474758|-1.9679831|-1.7589234|-0.0012231303|-1.4097265,Susan didn't publish books and they didn't have a website. They didn't even
+4_book_know,I know that Susan published books. They,know,it,I| know| that| Susan| published| books|.| They| were| very| good|.| I| know| that| she| was| a,-4.2624497|-2.3897922|-9.862944|-11.801618|-5.9222198|-3.1234555|-4.630198|-1.1665901|-3.004786|-1.662445|-1.0318736|-1.537102|-2.5623877|-0.4490533|-1.0073498|-1.5479487|-1.2128865,I know that Susan published books. They were very good. I know that she was a
+4_book_doubt,I doubt that Susan published books. They,doubt,it,"I| doubt| that| Susan| published| books|.| They| were| probably| published| by| her| husband|,| who| was| a",-8.071989|-1.9223516|-9.430104|-12.702593|-7.2439127|-3.213055|-4.8564816|-1.1337305|-1.4853388|-1.8452005|-0.3624338|-1.8314052|-1.4152508|-1.2795871|-2.2316668|-1.2202091|-1.030371,"I doubt that Susan published books. They were probably published by her husband, who was a"
+4_book_modal,Susan wants to publish books and they,modal,it,"Susan| wants| to| publish| books| and| they| are| looking| for| a| publisher|.|
+|
+|Susan| wants",-7.760685|-0.38770884|-7.7566867|-5.7644567|-2.4949036|-6.0814633|-1.9755014|-2.9155357|-0.19280913|-1.3470895|-2.104911|-0.5985948|-1.5898535|-0.004638122|-2.511734|-1.8727603,"Susan wants to publish books and they are looking for a publisher.
+
+Susan wants"
+4_book_managed,Susan managed to write books. They,managed,it,Susan| managed| to| write| books|.| They| were| not| as| good| as| the| ones| she| had| written,-9.99577|-0.09541632|-6.20614|-7.774005|-4.0184712|-4.1232953|-1.2514077|-2.5243812|-2.407839|-1.0261232|-0.06645072|-2.05166|-1.021221|-0.9007845|-1.0610417|-0.92747635,Susan managed to write books. They were not as good as the ones she had written
+4_book_failed,Susan failed to write books. They,failed,it,Susan| failed| to| write| books|.| They| were| not| her| for|te|.| She| was| a| great,-11.023036|-0.21683748|-5.9102583|-6.887488|-2.5321152|-5.1273723|-1.7671776|-2.8137507|-2.6825535|-2.2812107|-0.0012037387|-0.3403114|-1.4392234|-1.4957521|-1.2124779|-3.0252051,Susan failed to write books. They were not her forte. She was a great
+5_shirt_affirmative,Mary found shirts at the store and they,affirmative,it,"Mary| found| shirts| at| the| store| and| they| were| able| to| get| back| to| the| house|.|
+",-7.6194596|-13.219799|-4.198933|-1.0824496|-3.6964834|-2.1337817|-3.144585|-1.7335205|-2.8943272|-0.005830067|-1.5865386|-2.4197228|-0.6734876|-0.47493443|-1.955127|-1.6986891|-2.1668208,"Mary found shirts at the store and they were able to get back to the house.
+"
+5_shirt_negated,Mary didn't find shirts at the store and they,negated,it,Mary| didn|'t| find| shirts| at| the| store| and| they| were| out| of| stock| at| the| other| store|.| She,-7.4551835|-0.45375654|-5.7980075|-13.478244|-3.5845768|-1.1964227|-1.8785852|-3.2313294|-4.045698|-2.0517237|-2.0947235|-0.08233397|-1.7961183|-1.4299142|-0.66010815|-1.9783354|-1.3982378|-0.8009659|-1.5055889,Mary didn't find shirts at the store and they were out of stock at the other store. She
+5_shirt_know,I know that Mary found shirts at the store. They,know,it,"I| know| that| Mary| found| shirts| at| the| store|.| They| were| on| sale|.|
+|
+|I| know| that| Mary",-4.262352|-2.3885374|-9.143673|-6.7670074|-12.717768|-3.0385926|-1.6024085|-3.5616775|-2.463315|-4.4866843|-1.2041637|-1.3509297|-0.16573447|-1.1878464|-1.5505785|-0.00095103995|-1.9161999|-0.4849598|-0.10129927|-0.48839456,"I know that Mary found shirts at the store. They were on sale.
+
+I know that Mary"
+5_shirt_doubt,I doubt that Mary found shirts at the store. They,doubt,it,"I| doubt| that| Mary| found| shirts| at| the| store|.| They| were| probably| made| by| her| mother|.|
+|
+|Mary",-8.072012|-1.9181265|-9.088932|-6.6432657|-13.530943|-3.816995|-1.4887143|-3.0258458|-1.8152863|-3.4121714|-1.7675745|-0.48017868|-2.3843167|-0.8636839|-1.3571187|-1.095833|-1.2113196|-1.5842135|-0.0027548044|-2.9011436,"I doubt that Mary found shirts at the store. They were probably made by her mother.
+
+Mary"
+5_shirt_modal,Mary wants to find shirts at the store and they,modal,it,Mary| wants| to| find| shirts| at| the| store| and| they| are| all| out| of| her| size|.| She| is| upset,-9.947539|-0.5215013|-4.6814723|-12.316426|-4.6374073|-1.5334876|-2.1047487|-4.00906|-4.2307224|-1.871224|-2.2786877|-1.8381288|-0.45628706|-0.6301483|-0.03577312|-0.2992114|-1.318051|-2.164243|-2.568912,Mary wants to find shirts at the store and they are all out of her size. She is upset
+5_shirt_managed,Mary managed to find shirts at the store. They,managed,it,"Mary| managed| to| find| shirts| at| the| store|.| They| were| a| little| big|,| but| she| didn|'t| care",-10.077516|-0.2793577|-3.6577919|-11.245289|-4.3173566|-1.2318647|-3.4208548|-2.1223695|-2.9968662|-0.794546|-2.2843323|-0.80080247|-1.465703|-0.82992536|-0.100061916|-1.2808168|-1.978315|-0.21796864|-0.82101846,"Mary managed to find shirts at the store. They were a little big, but she didn't care"
+5_shirt_failed,Mary failed to find shirts at the store. They,failed,it,"Mary| failed| to| find| shirts| at| the| store|.| They| were| all| too| big|.|
+|
+|Mary| failed| to",-11.524528|-0.30735037|-4.043945|-13.483342|-4.02817|-1.2491907|-2.2073996|-1.8624436|-4.782556|-1.2819539|-1.3751932|-0.93105435|-1.1935173|-0.6102325|-1.2408873|-0.0014391888|-1.3831027|-2.3192306|-0.019738393,"Mary failed to find shirts at the store. They were all too big.
+
+Mary failed to"
+6_rat_affirmative,Carla got pet rats and they,affirmative,it,Car|la| got| pet| rats| and| they| were| so| cute|.| I| was| jealous|.| I| wanted,-4.754235|-7.336033|-11.330627|-8.065153|-2.6075587|-3.1572642|-1.8282645|-2.5070784|-0.90308905|-1.2318138|-1.8454458|-2.677598|-2.363307|-1.1353503|-1.3095946|-1.68992,Carla got pet rats and they were so cute. I was jealous. I wanted
+6_rat_negated,Carla didn't get pet rats and they,negated,it,"Car|la| didn|'t| get| pet| rats| and| they| were| not| allowed| to| be| in| the| house|.|
+",-4.7530766|-5.885615|-0.2810215|-4.247388|-11.523924|-7.597609|-4.287023|-3.8474438|-2.0847363|-2.7110713|-2.9241083|-0.774279|-1.8282514|-1.5137036|-0.6915328|-0.9231046|-0.6393185|-1.9230376,"Carla didn't get pet rats and they were not allowed to be in the house.
+"
+6_rat_know,I know that Carla got pet rats. They,know,it,I| know| that| Car|la| got| pet| rats|.| They| were| so| cute|.| I| think| she| had| two| of,-4.2625704|-2.3891652|-9.504979|-2.0953681|-5.992834|-11.665789|-6.030572|-2.5502546|-2.6775172|-1.4168713|-2.8228595|-0.68702143|-0.9705509|-1.3351135|-2.7236052|-1.2425373|-1.8248241|-1.179086|-1.013688,I know that Carla got pet rats. They were so cute. I think she had two of
+6_rat_doubt,I doubt that Carla got pet rats. They,doubt,it,I| doubt| that| Car|la| got| pet| rats|.| They|'re| not| exactly| the| most| popular| pet|.| I|'m,-8.071987|-1.9223529|-9.48205|-1.9990302|-5.5875134|-11.821439|-6.075518|-1.9400296|-3.0695987|-1.1668721|-1.9916843|-1.9967159|-1.5402999|-1.5529622|-1.6953018|-0.9098801|-1.6503869|-2.0323117|-1.9062814,I doubt that Carla got pet rats. They're not exactly the most popular pet. I'm
+6_rat_modal,Carla wants to get pet rats and they,modal,it,Car|la| wants| to| get| pet| rats| and| they| are| so| cute|.| I| want| to| get| a| pet,-4.75377|-8.314785|-0.4855908|-3.4402971|-10.282836|-6.6461887|-2.7926025|-4.4961634|-1.6502663|-3.0021994|-0.6755389|-1.3858181|-1.8127021|-1.9483056|-0.86595714|-0.5351413|-1.2403601|-2.3922756,Carla wants to get pet rats and they are so cute. I want to get a pet
+6_rat_managed,Carla managed to get pet rats. They,managed,it,Car|la| managed| to| get| pet| rats|.| They| were| so| cute|.| I| was| so| jealous|.| I,-4.754254|-10.335542|-0.38529548|-2.083691|-12.44899|-8.424905|-2.796474|-2.4573495|-1.2949569|-2.7525973|-0.9193446|-1.1602621|-1.8133131|-2.7757337|-2.5718827|-0.7912192|-0.58352816|-1.2662302,Carla managed to get pet rats. They were so cute. I was so jealous. I
+6_rat_failed,Carla failed to get pet rats. They,failed,it,Car|la| failed| to| get| pet| rats|.| They| were| too| expensive|.| She| got| a| ham|ster| instead,-4.753673|-11.147278|-0.23526886|-3.3548286|-13.026628|-7.831532|-3.3326328|-3.9393065|-1.659146|-1.9296293|-1.2646105|-0.829451|-1.4723201|-2.3494623|-1.0552704|-2.1004324|-0.0010966838|-0.28167793,Carla failed to get pet rats. They were too expensive. She got a hamster instead
+7_beer_affirmative,Sam ordered beers at the bar and they,affirmative,it,"Sam| ordered| beers| at| the| bar| and| they| took| a| table| in| the| corner|.|
+|
+|""",-9.449375|-8.4321165|-3.0363998|-0.17331974|-0.22789237|-0.94458175|-2.0902064|-1.8819684|-0.71724254|-0.58921945|-1.2428166|-0.28252986|-0.61193943|-0.5472333|-1.5981375|-0.000353232|-0.7733356,"Sam ordered beers at the bar and they took a table in the corner.
+
+"""
+7_beer_negated,Sam didn't order beers at the bar and they,negated,it,Sam| didn|'t| order| beers| at| the| bar| and| they| didn|'t| go| to| a| table|.| They| stood| in,-7.0193605|-0.28129226|-9.271524|-8.928959|-3.713899|-0.73882455|-0.6194329|-3.5988028|-2.4283957|-1.2378834|-0.0010522894|-2.424595|-0.74324954|-0.8599411|-0.28476247|-0.52616733|-1.1554645|-2.1723561|-1.8137119,Sam didn't order beers at the bar and they didn't go to a table. They stood in
+7_beer_know,I know that Sam ordered beers at the bar. They,know,it,"I| know| that| Sam| ordered| beers| at| the| bar|.| They| were| served| in| tall| glasses|,| and| I| remember| that",-4.261593|-2.3901029|-8.488113|-9.267272|-10.392135|-3.1679382|-0.47436962|-0.69492465|-1.8096493|-4.173409|-1.5414284|-2.5107703|-0.6819425|-2.0265217|-0.9700157|-1.360372|-1.5667108|-1.9589372|-2.2732255|-1.5161622,"I know that Sam ordered beers at the bar. They were served in tall glasses, and I remember that"
+7_beer_doubt,I doubt that Sam ordered beers at the bar. They,doubt,it,"I| doubt| that| Sam| ordered| beers| at| the| bar|.| They| were| probably| served| to| him| by| the| bartender|.|
+",-8.072357|-1.9217082|-8.651535|-9.895556|-11.697582|-3.2120988|-1.055088|-1.1165695|-1.3886422|-4.198316|-1.9428395|-0.76391613|-2.7903798|-1.3102294|-0.67516977|-1.8502271|-1.147796|-1.3871068|-0.94959164|-1.7589248,"I doubt that Sam ordered beers at the bar. They were probably served to him by the bartender.
+"
+7_beer_modal,Sam wants to order beers at the bar and they,modal,it,"Sam| wants| to| order| beers| at| the| bar| and| they|'re| all| out| of| beer|.|
+|
+|Sam|:",-8.37808|-0.40596014|-8.018745|-7.9809613|-2.9995801|-0.5590423|-0.37421963|-2.5504909|-4.6428885|-2.4615343|-2.4716666|-0.7293697|-0.44162872|-1.8450406|-0.768997|-1.7419496|-0.0013993168|-1.6907805|-1.534531,"Sam wants to order beers at the bar and they're all out of beer.
+
+Sam:"
+7_beer_managed,Sam managed to order beers at the bar. They,managed,it,"Sam| managed| to| order| beers| at| the| bar|.| They| were| served| in| frost|ed| glasses|,| and| the| foam",-9.609608|-0.13900305|-8.373603|-8.684558|-3.2232237|-0.33755833|-0.33572936|-2.3142402|-2.865982|-1.4444101|-2.2937546|-0.8514188|-2.2022395|-0.25061214|-0.71467775|-1.4726654|-1.2035587|-1.7489132|-2.222412,"Sam managed to order beers at the bar. They were served in frosted glasses, and the foam"
+7_beer_failed,Sam failed to order beers at the bar. They,failed,it,Sam| failed| to| order| beers| at| the| bar|.| They| were| served| to| him| in| a| frost|ed| glass|.,-11.335543|-0.36897922|-8.517813|-9.679587|-3.1181355|-0.572748|-0.76301295|-1.3032688|-4.3205037|-1.9174604|-3.057659|-1.6564882|-1.148068|-1.6810528|-1.5397094|-2.406635|-0.5410814|-1.0033656|-1.2126921,Sam failed to order beers at the bar. They were served to him in a frosted glass.
+8_cake_affirmative,Michael baked cakes and they,affirmative,it,"Michael| baked| cakes| and| they| were| delicious|.|
+|
+|I| was| so| happy| to",-13.238699|-6.073831|-1.871235|-5.205753|-1.67752|-1.9405937|-0.6706335|-1.4676125|-0.0028899538|-2.4939742|-3.0383153|-3.086367|-1.9566272|-1.3446385,"Michael baked cakes and they were delicious.
+
+I was so happy to"
+8_cake_negated,Michael didn't bake cakes and they,negated,it,"Michael| didn|'t| bake| cakes| and| they| didn|'t| have| a| dog|.|
+|
+|""|I",-6.964642|-0.29203805|-12.185942|-3.8481796|-3.6963224|-5.3005257|-1.1957105|-0.00089985156|-1.1321837|-1.3377566|-2.559143|-0.7986041|-1.5322926|-0.0008356018|-1.8723627|-1.9820173,"Michael didn't bake cakes and they didn't have a dog.
+
+""I"
+8_cake_know,I know that Michael baked cakes. They,know,it,I| know| that| Michael| baked| cakes|.| They| were| delicious|.| I| know| that| he| was| a| good,-4.262303|-2.3906283|-8.552139|-11.961956|-4.7146072|-2.8320556|-4.699309|-1.0774764|-2.2822096|-0.7987381|-1.8149322|-2.3684301|-0.42841613|-1.2284012|-2.222066|-1.3447311|-1.836569,I know that Michael baked cakes. They were delicious. I know that he was a good
+8_cake_doubt,I doubt that Michael baked cakes. They,doubt,it,"I| doubt| that| Michael| baked| cakes|.| They| were| probably| bought| from| a| bakery|.|
+|
+|I",-8.072716|-1.9201941|-8.698228|-12.180413|-5.4037924|-2.2663572|-5.408901|-1.5868468|-1.1712164|-2.133784|-1.2467059|-0.69102854|-1.1383955|-1.0727966|-1.9248315|-0.0019963782|-2.6497223,"I doubt that Michael baked cakes. They were probably bought from a bakery.
+
+I"
+8_cake_modal,Michael wants to bake cakes and they,modal,it,"Michael| wants| to| bake| cakes| and| they| are| all| delicious|.|
+|
+|Michael| wants| to| bake",-9.169137|-0.4879547|-9.4806385|-4.6288958|-1.9607464|-6.3083143|-2.1115773|-2.7376268|-2.4953818|-0.87691605|-1.5337276|-0.0029990503|-2.6203003|-2.0276697|-0.059313472|-0.819652,"Michael wants to bake cakes and they are all delicious.
+
+Michael wants to bake"
+8_cake_managed,Michael managed to bake cakes. They,managed,it,Michael| managed| to| bake| cakes|.| They| were| not| as| good| as| the| ones| his| mother| made,-9.136803|-0.20726703|-10.740409|-5.2968364|-3.7869506|-4.2396193|-1.0555829|-2.5703201|-1.8479131|-0.84178764|-0.037014533|-1.9990451|-0.5841344|-1.9255297|-0.88587004|-0.984654,Michael managed to bake cakes. They were not as good as the ones his mother made
+8_cake_failed,Michael failed to bake cakes. They,failed,it,"Michael| failed| to| bake| cakes|.| They| were| all| burnt|.|
+|
+|Michael| failed| to| bake",-10.14842|-0.33935633|-11.993453|-4.7746644|-2.9024127|-5.1329107|-1.3478539|-2.3551025|-2.2076108|-0.6731243|-0.97596824|-0.0028008292|-1.9832574|-1.6587213|-0.056384332|-0.70067286,"Michael failed to bake cakes. They were all burnt.
+
+Michael failed to bake"
+9_letter_affirmative,Carolyn wrote letters to her husband and they,affirmative,it,Car|olyn| wrote| letters| to| her| husband| and| they| were| returned| to| her| un|opened|.| She| was| not,-6.365723|-8.076578|-7.000133|-0.5815664|-1.6318985|-2.6742766|-1.8289741|-6.1657596|-0.6660721|-2.1619275|-1.1322227|-0.12321135|-0.7249896|-0.044318758|-0.29981115|-1.331014|-2.1745665|-2.4340577,Carolyn wrote letters to her husband and they were returned to her unopened. She was not
+9_letter_negated,Carolyn didn't write letters to her husband and they,negated,it,Car|olyn| didn|'t| write| letters| to| her| husband| and| they| didn|'t| have| a| phone|.| She| had| no| way,-6.3651624|-6.816657|-0.3128473|-7.8424916|-5.7674394|-2.3172045|-1.4129479|-2.8437133|-3.7522094|-5.292176|-1.2645206|-0.002265352|-1.7867334|-0.9147196|-1.3482927|-1.0511538|-1.6962769|-2.3306136|-1.4617422|-0.5701604,Carolyn didn't write letters to her husband and they didn't have a phone. She had no way
+9_letter_know,I know that Carolyn wrote letters to her husband. They,know,it,I| know| that| Carolyn| wrote| letters| to| her| husband|.| They| were| in| the| box|.| I| read| them|.| I,-4.262354|-2.388538|-11.130702|-6.91252|-5.164874|-0.50374806|-1.9054002|-3.2989259|-2.8401668|-3.9103549|-0.9486168|-2.6453853|-1.059471|-2.5411468|-1.8341576|-1.353635|-2.5914497|-0.36736968|-0.9078016|-1.3865824,I know that Carolyn wrote letters to her husband. They were in the box. I read them. I
+9_letter_doubt,I doubt that Carolyn wrote letters to her husband. They,doubt,it,"I| doubt| that| Carolyn| wrote| letters| to| her| husband|.| They| were| probably| written| by| her| mother|.|
+|
+|I",-8.072716|-1.914936|-11.421613|-8.1353445|-6.9665265|-0.87570083|-1.8712013|-3.1202097|-1.8493942|-4.0020223|-1.3268491|-2.1369715|-1.8696018|-0.254434|-1.8204619|-1.6810901|-1.4294317|-1.9819793|-0.002862875|-2.432038,"I doubt that Carolyn wrote letters to her husband. They were probably written by her mother.
+
+I"
+9_letter_modal,Carolyn wants to write letters to her parents and they,modal,it,Car|olyn| wants| to| write| letters| to| her| parents| and| they| are| not| allowed| to| send| them|.| She| wants| to,-6.365686|-8.318798|-0.48941863|-5.4909573|-6.077088|-0.54042757|-1.6374602|-3.5094664|-1.6480217|-6.116201|-2.1506777|-2.9346309|-1.988528|-0.27098662|-1.982377|-1.0077404|-0.7958155|-1.8400934|-1.945388|-0.1781132,Carolyn wants to write letters to her parents and they are not allowed to send them. She wants to
+9_letter_managed,Carolyn managed to write letters to her husband. They,managed,it,Car|olyn| managed| to| write| letters| to| her| husband|.| They| were| smuggled| out| of| the| camp| and| delivered| to| him,-6.36526|-9.5529|-0.48377866|-6.705553|-5.848302|-0.65263516|-1.1631078|-2.5679421|-3.4721985|-3.1523407|-0.48716232|-2.627364|-0.25317544|-0.6992911|-0.45517573|-1.0661575|-1.2371515|-1.4236568|-0.20631118|-0.9304019,Carolyn managed to write letters to her husband. They were smuggled out of the camp and delivered to him
+9_letter_failed,Carolyn failed to write letters to her husband. They,failed,it,Car|olyn| failed| to| write| letters| to| her| husband|.| They| were| not| the| kind| of| letters| that| could| be| written,-6.3660593|-12.248725|-0.22708441|-6.1429906|-5.773083|-1.1060934|-0.8880899|-2.6852853|-2.3019583|-5.140035|-1.2643768|-3.0201364|-3.1977367|-1.8511479|-0.16421756|-0.45477703|-1.0519654|-2.015538|-0.15695228|-1.4847407,Carolyn failed to write letters to her husband. They were not the kind of letters that could be written
+10_hat_affirmative,Chris knitted hats and they,affirmative,it,"Chris| kn|itted| hats| and| they| were| sold| in| the| shop|.|
+|
+|Chris| was",-11.728064|-3.9025278|-14.250046|-2.14046|-7.038184|-1.4746585|-2.0033329|-1.6275771|-1.3829371|-2.5845802|-1.0085565|-1.5480566|-0.013194049|-2.2276728|-2.4427936,"Chris knitted hats and they were sold in the shop.
+
+Chris was"
+10_hat_negated,Chris didn't knit hats and they,negated,it,"Chris| didn|'t| knit| hats| and| they| didn|'t| have| a| dog|.|
+|
+|""|I",-6.5022798|-0.2859294|-12.952939|-6.937487|-3.3440492|-6.278631|-1.6099074|-0.0009277116|-1.3128508|-1.4577624|-2.6244056|-0.7906304|-1.4594578|-0.0015683688|-1.6316679|-2.0415826,"Chris didn't knit hats and they didn't have a dog.
+
+""I"
+10_hat_know,I know that Chris knitted hats. They,know,it,I| know| that| Chris| kn|itted| hats|.| They| were| all| the| rage| in| the| early| 2000|s|.,-4.2614527|-2.3930755|-8.969145|-12.410083|-1.532822|-6.4485865|-3.6241322|-4.304554|-1.0673975|-2.918014|-2.494542|-0.53363746|-1.7000972|-0.8036196|-2.392607|-2.0980875|-0.21045616|-0.7286018,I know that Chris knitted hats. They were all the rage in the early 2000s.
+10_hat_doubt,I doubt that Chris knitted hats. They,doubt,it,"I| doubt| that| Chris| kn|itted| hats|.| They| were| probably| made| by| his| mother|.|
+|
+|I",-8.071989|-1.9195502|-9.081359|-12.33213|-2.0428877|-8.740838|-2.6638906|-4.948887|-1.3659599|-1.1159912|-1.6841843|-0.3758567|-1.6106181|-1.3630381|-1.2828454|-1.679487|-0.0027752453|-2.5259368,"I doubt that Chris knitted hats. They were probably made by his mother.
+
+I"
+10_hat_modal,Chris wants to knit hats and they,modal,it,"Chris| wants| to| knit| hats| and| they| are| going| to| knit| hats|.|
+|
+|Chris| is",-8.453152|-0.38206518|-10.752706|-5.511134|-2.2732403|-8.068027|-2.224655|-2.9314382|-0.06967098|-2.5382135|-1.0659822|-1.5013711|-1.5094813|-0.002386333|-2.1946728|-1.8689318,"Chris wants to knit hats and they are going to knit hats.
+
+Chris is"
+10_hat_managed,Chris managed to knit hats. They,managed,it,"Chris| managed| to| knit| hats|.| They| were| not| very| good|,| but| they| were| hats|.",-10.14026|-0.29697382|-10.66388|-9.07917|-4.503688|-3.9649785|-0.98059964|-2.8508818|-2.117747|-0.7521763|-0.9968696|-0.26983228|-1.1073831|-0.5444004|-2.0128837|-0.42784756,"Chris managed to knit hats. They were not very good, but they were hats."
+10_hat_failed,Chris failed to knit hats. They,failed,it,"Chris| failed| to| knit| hats|.| They| were| too| small|.|
+|
+|Chris| was| a| good",-11.017902|-0.44870222|-12.565589|-7.5913277|-2.6597087|-5.3225513|-1.3694137|-1.6707897|-1.3841344|-1.0474436|-1.4927831|-0.0027704637|-1.8478079|-2.5776174|-2.2578247|-2.952173,"Chris failed to knit hats. They were too small.
+
+Chris was a good"
+11_cod_affirmative,Sarah caught cods and they,affirmative,it,"Sarah| caught| c|ods| and| they| were| delicious|.|
+|
+|We| had| a| great| time",-9.238466|-12.493618|-7.0694175|-2.582993|-5.141605|-1.3356804|-1.7129557|-0.70489746|-1.860566|-0.0016650254|-2.3652732|-2.0826156|-0.8034186|-1.363659|-0.5802153,"Sarah caught cods and they were delicious.
+
+We had a great time"
+11_cod_negated,Sarah didn't catch cods and they,negated,it,"Sarah| didn|'t| catch| c|ods| and| they| didn|'t| catch| her|.|
+|
+|She| was| a",-6.185107|-0.35226032|-6.8194237|-12.404039|-7.882506|-3.1829567|-4.4906063|-1.3278538|-0.002515815|-1.0139146|-0.8294978|-0.56989956|-1.5916593|-0.0023432563|-2.2659292|-2.1077225|-2.4904454,"Sarah didn't catch cods and they didn't catch her.
+
+She was a"
+11_cod_know,I know that Sarah caught cods. They,know,it,I| know| that| Sarah| caught| c|ods|.| They| were| a| delic|acy| in| the| house|.| I| remember,-4.2621136|-2.389189|-9.186357|-9.608184|-10.899144|-6.8873124|-2.8196216|-4.2150216|-1.3030298|-3.0471213|-2.4376755|-0.0022599765|-1.6490725|-1.5978664|-2.4386554|-1.243109|-1.8966913|-2.2185817,I know that Sarah caught cods. They were a delicacy in the house. I remember
+11_cod_doubt,I doubt that Sarah caught cods. They,doubt,it,I| doubt| that| Sarah| caught| c|ods|.| They| are| not| a| fish| that| you| catch| with| a| rod,-8.071772|-1.9192162|-9.134005|-10.771866|-11.100106|-6.9985924|-2.7605371|-4.3218765|-1.7301329|-2.165721|-2.885987|-2.0102303|-0.9123804|-1.9084798|-1.0801036|-1.5468599|-0.5207833|-0.8017565,I doubt that Sarah caught cods. They are not a fish that you catch with a rod
+11_cod_modal,Sarah wants to catch cods and they,modal,it,"Sarah| wants| to| catch| c|ods| and| they| are| not| biting|.|
+|
+|I| want| to| catch",-7.400129|-0.56827205|-7.397457|-9.58326|-6.027134|-2.39241|-5.406866|-1.8043702|-2.4460604|-1.5813106|-0.9628853|-1.6263642|-0.0049937065|-2.7701035|-2.018691|-0.13782533|-0.7436013,"Sarah wants to catch cods and they are not biting.
+
+I want to catch"
+11_cod_managed,Sarah managed to catch cods. They,managed,it,"Sarah| managed| to| catch| c|ods|.| They| were| small|,| but| she| was| happy| to| have| them",-9.80778|-0.4723728|-4.2471204|-11.993759|-8.493559|-3.0402677|-3.0959258|-0.9318101|-2.4199865|-0.7637983|-0.45258164|-1.8083109|-1.7667953|-2.1220577|-1.1397294|-0.52729666|-1.038474,"Sarah managed to catch cods. They were small, but she was happy to have them"
+11_cod_failed,Sarah failed to catch cods. They,failed,it,Sarah| failed| to| catch| c|ods|.| They| were| too| fast| for| her|.| She| tried| to| catch,-10.271604|-0.23156925|-5.2844076|-11.394614|-8.190082|-2.4782715|-4.1275015|-1.4459926|-1.5780786|-1.7414887|-0.8440048|-0.06631173|-0.54013973|-1.5692533|-2.572083|-1.2504413|-1.2458563,Sarah failed to catch cods. They were too fast for her. She tried to catch
+12_ticket_affirmative,Thomas booked tickets in advance and they,affirmative,it,Thomas| booked| tickets| in| advance| and| they| were| waiting| for| them| at| the| airport|.| They| were,-13.497853|-4.509657|-4.1432533|-2.438482|-1.6797651|-2.7342868|-1.5711797|-2.4282677|-0.38419136|-0.923852|-0.47021002|-0.1804918|-1.1381646|-0.48581302|-1.7244308|-1.8526571,Thomas booked tickets in advance and they were waiting for them at the airport. They were
+12_ticket_negated,Thomas didn't book tickets in advance and they,negated,it,Thomas| didn|'t| book| tickets| in| advance| and| they| were| lucky| to| get| seats| on| the| train|.| The,-8.085151|-0.41566795|-10.82252|-5.3011365|-2.3781195|-0.2820551|-2.3364372|-3.1859863|-1.5338318|-2.618434|-0.33042598|-0.60246056|-1.317313|-0.96401876|-0.47907346|-2.0116544|-0.85526764|-2.10428,Thomas didn't book tickets in advance and they were lucky to get seats on the train. The
+12_ticket_know,I know that Thomas booked tickets in advance. They,know,it,"I| know| that| Thomas| booked| tickets| in| advance|.| They| are| not| available| now|.|
+|
+|(|9|02",-4.262303|-2.3906283|-9.547012|-11.057889|-5.9226193|-4.035154|-1.4124461|-2.3373957|-5.0894938|-2.2858684|-2.9093378|-2.7320929|-1.3091398|-0.46862736|-1.3200681|-0.0008513505|-2.2939606|-3.005526|-2.3600502,"I know that Thomas booked tickets in advance. They are not available now.
+
+(902"
+12_ticket_doubt,I doubt that Thomas booked tickets in advance. They,doubt,it,I| doubt| that| Thomas| booked| tickets| in| advance|.| They|'re| probably| still| in| the| queue|.| I|'ll| call,-8.071772|-1.9192162|-9.147954|-12.618949|-5.612268|-3.0256064|-0.78789383|-1.5055183|-4.454642|-2.3898234|-1.1796846|-2.3269918|-2.2263138|-0.89946705|-2.684388|-1.533096|-2.216011|-1.8395573|-2.1276073,I doubt that Thomas booked tickets in advance. They're probably still in the queue. I'll call
+12_ticket_modal,Thomas wants to book tickets in advance and they,modal,it,"Thomas| wants| to| book| tickets| in| advance| and| they| are| not| available|.|
+|
+|Thomas| wants| to| book",-9.069989|-0.51612777|-9.161218|-4.5173707|-4.0915365|-1.0036567|-2.8424497|-5.6937356|-1.5766159|-2.384673|-1.0527215|-1.4233814|-1.308761|-0.0011639334|-2.3384778|-1.7345457|-0.07691066|-0.55041695,"Thomas wants to book tickets in advance and they are not available.
+
+Thomas wants to book"
+12_ticket_managed,Thomas managed to book tickets. They,managed,it,"Thomas| managed| to| book| tickets|.| They| were| in| the| front| row|.|
+|
+|""|I",-10.682376|-0.18700664|-8.53595|-4.5637064|-4.704745|-4.015613|-1.7809768|-2.468132|-0.8324811|-2.349456|-0.28158525|-1.211709|-1.7366203|-0.0015189394|-1.8859597|-1.8740445,"Thomas managed to book tickets. They were in the front row.
+
+""I"
+12_ticket_failed,Thomas failed to book tickets. They,failed,it,"Thomas| failed| to| book| tickets|.| They| were| sold| out|.|
+|
+|(|9|02|)",-10.69713|-0.22591248|-8.468948|-4.582283|-4.555292|-4.930233|-2.4084244|-2.678789|-0.025381777|-0.40183505|-1.0643274|-0.001038922|-2.3062036|-2.694868|-2.1797693|-9.0437854e-05,"Thomas failed to book tickets. They were sold out.
+
+(902)"
+13_bed_affirmative,Luke bought beds and they,affirmative,it,Luke| bought| beds| and| they| were| delivered| and| set| up| yesterday|.| The| guys| were,-10.498858|-13.424655|-1.3507353|-6.14036|-1.7705803|-0.5174915|-1.6079087|-0.38741565|-0.06210335|-1.341754|-0.32052764|-1.2627244|-0.9263604|-0.5511671,Luke bought beds and they were delivered and set up yesterday. The guys were
+13_bed_negated,Luke didn't buy beds and they,negated,it,Luke| didn|'t| buy| beds| and| they| didn|'t| have| a| lot| of| money|.| He|'d,-7.279735|-0.32902908|-6.288381|-13.598763|-3.557959|-5.183621|-1.623125|-0.0016232328|-0.9419069|-1.7498952|-2.3425097|-0.026341654|-1.0035514|-1.0546474|-1.8674383|-1.8534688,Luke didn't buy beds and they didn't have a lot of money. He'd
+13_bed_know,I know that Luke bought beds. They,know,it,I| know| that| Luke| bought| beds|.| They|'re| in| the| back| of| his| truck|.| I|'ll,-4.262695|-2.3908381|-9.410399|-7.994382|-12.625174|-3.3141596|-3.752777|-1.7211393|-1.4233494|-0.54102373|-2.4486501|-0.36803684|-0.881588|-0.64124|-1.0294299|-1.4210591|-2.0515654,I know that Luke bought beds. They're in the back of his truck. I'll
+13_bed_doubt,I doubt that Luke bought beds. They,doubt,it,"I| doubt| that| Luke| bought| beds|.| They| were| probably| already| there|.|bytes:\xe2\x80|bytes:\x9d|
+|
+|bytes:\xe2\x80",-8.071989|-1.9223516|-9.933194|-7.988282|-13.131543|-2.7388191|-3.323278|-1.8154993|-0.6399923|-2.5792701|-0.7634353|-1.0376221|-2.1963112|-0.08072042|-0.27555543|-0.00010784233|-0.44668585,"I doubt that Luke bought beds. They were probably already there.”
+
+"
+13_bed_modal,Luke wants to buy beds and they,modal,it,"Luke| wants| to| buy| beds| and| they| are| on| sale|.|
+|
+|I| want| to| buy",-9.492295|-0.51707846|-5.5003214|-12.731704|-2.2560146|-5.7398314|-2.2022576|-2.9720647|-0.2768582|-1.2232436|-1.740193|-0.0018328062|-2.9427412|-2.1103656|-0.21630204|-0.6344319,"Luke wants to buy beds and they are on sale.
+
+I want to buy"
+13_bed_managed,Luke managed to buy beds. They,managed,it,"Luke| managed| to| buy| beds|.| They| were| not| the| most| comfortable| beds|,| but| they| were",-10.014566|-0.38836226|-7.095442|-13.177426|-3.2819676|-2.9404829|-0.9622434|-2.8442802|-1.3713396|-1.1566818|-0.32099184|-1.346957|-1.1447784|-0.31558406|-0.4760753|-0.4815743,"Luke managed to buy beds. They were not the most comfortable beds, but they were"
+13_bed_failed,Luke failed to buy beds. They,failed,it,"Luke| failed| to| buy| beds|.| They| had| to| sleep| on| the| floor|.|
+|
+|Luke",-10.240045|-0.20149662|-7.576544|-12.706798|-2.4091246|-4.142042|-2.2229352|-0.7727893|-0.92418927|-0.30170187|-0.42731163|-0.36489725|-0.60351443|-0.9962221|-0.003191217|-1.9234309,"Luke failed to buy beds. They had to sleep on the floor.
+
+Luke"
+14_gin_affirmative,Dan drank gin tonics and they,affirmative,it,"Dan| drank| gin| ton|ics| and| they| talked| about| the| war|.|
+|
+|""|I| was",-11.277711|-7.5544224|-5.8624306|-0.45223898|-1.4655578|-5.6058793|-1.5404203|-0.55103827|-1.3567748|-2.7119334|-0.76056844|-1.9231153|-0.0005151868|-1.5275897|-1.5986241|-2.0609481,"Dan drank gin tonics and they talked about the war.
+
+""I was"
+14_gin_negated,Dan didn't drink gin tonics and they,negated,it,Dan| didn|'t| drink| gin| ton|ics| and| they| didn|'t| have| any| beer|.| He| ordered| a| glass,-7.3993907|-0.2973943|-7.3705273|-7.887656|-6.7034764|-1.102663|-3.3712962|-4.898914|-1.595706|-0.0016679501|-1.4440984|-1.0702014|-1.9178275|-0.9271193|-1.6206615|-1.9917464|-0.3950672|-2.0491827,Dan didn't drink gin tonics and they didn't have any beer. He ordered a glass
+14_gin_know,I know that Dan drank gin tonics. They,know,it,I| know| that| Dan| drank| gin| ton|ics|.| They| were| his| favorite| drink|.| I| know| that| he| liked,-4.26245|-2.389608|-9.490878|-11.445304|-7.321491|-6.437407|-0.48223233|-1.7495255|-4.466984|-1.0386204|-0.82952505|-0.8294343|-0.5555888|-0.59363407|-1.6490456|-1.7432221|-0.39406252|-0.911697|-1.8154285,I know that Dan drank gin tonics. They were his favorite drink. I know that he liked
+14_gin_doubt,I doubt that Dan drank gin tonics. They,doubt,it,"I| doubt| that| Dan| drank| gin| ton|ics|.| They| were| probably| his| favorite| drink|.|
+|
+|I|bytes:\xe2\x80",-8.072357|-1.9222431|-9.317148|-11.89835|-7.2822795|-6.5209866|-1.0473646|-1.4863886|-4.580586|-1.5914043|-2.250533|-2.8252232|-2.5074399|-0.9392792|-1.0607448|-1.763359|-0.001092625|-2.3550768|-3.1950266,"I doubt that Dan drank gin tonics. They were probably his favorite drink.
+
+I"
+14_gin_modal,Dan wants to drink gin tonics and they,modal,it,"Dan| wants| to| drink| gin| ton|ics| and| they|'re| not| on| the| menu|.|
+|
+|""|I",-8.814036|-0.37022325|-7.836439|-7.6185975|-5.186189|-0.86443007|-1.8837857|-7.556801|-2.3586164|-2.1639142|-2.5560064|-0.079295054|-0.2679173|-0.8339761|-1.4970932|-0.0013443439|-1.8513901|-1.770352,"Dan wants to drink gin tonics and they're not on the menu.
+
+""I"
+14_gin_managed,Dan managed to mix gin tonics. They,managed,it,"Dan| managed| to| mix| gin| ton|ics|.| They| were| strong| and| cold| and| tasted| like| heaven|.|
+",-10.282484|-0.26015216|-9.3726635|-9.748092|-6.8904023|-0.44594544|-3.3677692|-3.7422931|-1.1414113|-2.973485|-1.0958189|-2.6002042|-0.84578353|-2.192743|-1.4083632|-2.107916|-0.2659912|-1.7551284,"Dan managed to mix gin tonics. They were strong and cold and tasted like heaven.
+"
+14_gin_failed,Dan failed to mix gin tonics. They,failed,it,"Dan| failed| to| mix| gin| ton|ics|.| They| were| too| sweet|.|
+|
+|Dan| was| a| bad",-11.863255|-0.38435608|-10.339265|-9.740011|-7.3800235|-0.82877916|-1.9489043|-4.785199|-1.019475|-2.3602338|-1.5732428|-0.6675081|-1.443182|-0.0005630759|-1.5420425|-2.2843747|-1.9470258|-3.0292664,"Dan failed to mix gin tonics. They were too sweet.
+
+Dan was a bad"
+15_bone_affirmative,David discovered bones on his archeological expedition and they,affirmative,it,David| discovered| bones| on| his| arche|ological| expedition| and| they| were| not| human|.| He| was| attacked| by| a| creature,-10.93297|-11.510822|-2.9489167|-2.3738937|-8.8558445|-0.03893424|-3.7782578|-2.7022653|-3.3171732|-1.6259892|-3.2332284|-0.902104|-0.61599267|-2.0204356|-2.6370249|-3.0554688|-0.55211025|-1.1434727|-1.8386679,David discovered bones on his archeological expedition and they were not human. He was attacked by a creature
+15_bone_negated,David didn't discover bones on his archeological expedition and they,negated,it,David| didn|'t| discover| bones| on| his| arche|ological| expedition| and| they| weren|'t| found| by| the| police|.| They| were| found,-7.5977235|-0.42839912|-9.828657|-11.161858|-3.5749872|-1.5269005|-10.20608|-0.030858433|-3.2277234|-5.32679|-4.2519836|-1.7693539|-0.0046365066|-2.9463904|-1.0673119|-1.7419934|-3.7289152|-1.1817575|-1.6961181|-0.31011024|-1.5871072,David didn't discover bones on his archeological expedition and they weren't found by the police. They were found
+15_bone_know,I know that David discovered bones on his archeological expedition. They,know,it,"I| know| that| David| discovered| bones| on| his| arche|ological| expedition|.| They| were| in| a| cave|,| and| he| was| the| only",-4.2624497|-2.3896077|-8.085063|-9.854516|-9.034478|-2.4929097|-1.7555071|-9.328185|-0.043521248|-3.5890632|-1.6078176|-3.6555886|-1.0563794|-2.9082658|-0.9231656|-1.1392149|-1.848093|-1.241151|-1.4424695|-2.365678|-2.0757682|-0.7459645,"I know that David discovered bones on his archeological expedition. They were in a cave, and he was the only"
+15_bone_doubt,I doubt that David discovered bones on his archeological expedition. They,doubt,it,I| doubt| that| David| discovered| bones| on| his| arche|ological| expedition|.| They| were| probably| planted| there| by| the| Neph|il|im|.,-8.072716|-1.9201941|-8.33011|-10.081807|-10.574351|-2.9410343|-1.6351656|-9.3960495|-0.020596309|-2.9226341|-1.2493876|-4.1504526|-1.2063333|-0.73641634|-2.2030087|-1.0642489|-1.1621877|-1.3392056|-3.3881907|-0.031899117|-0.015458142|-1.3965789,I doubt that David discovered bones on his archeological expedition. They were probably planted there by the Nephilim.
+15_bone_modal,David wants to discover bones on his archeological expedition and they,modal,it,David| wants| to| discover| bones| on| his| arche|ological| expedition| and| they| are| not| disappointed|.| They| find| a| skull| and| a,-9.359576|-0.3963176|-8.309263|-12.723458|-4.0048485|-2.474538|-8.07523|-0.05971859|-3.1091678|-3.111734|-5.858076|-2.1274295|-2.9141047|-2.5043085|-0.45993477|-1.8152227|-0.87575114|-1.3470037|-2.1692626|-1.2003022|-1.6447394,David wants to discover bones on his archeological expedition and they are not disappointed. They find a skull and a
+15_bone_managed,David managed to discover bones on his archeological expedition. They,managed,it,David| managed| to| discover| bones| on| his| arche|ological| expedition|.| They| were| the| bones| of| a| human| being|.| He| was,-10.866506|-0.21326357|-8.183801|-12.82732|-3.8617065|-2.148313|-9.468548|-0.04590495|-3.3152368|-1.4393638|-3.2965512|-1.2553926|-2.706183|-0.7280044|-0.058326863|-0.91658235|-2.6565943|-1.3832977|-1.1549752|-1.9517543|-2.1231375,David managed to discover bones on his archeological expedition. They were the bones of a human being. He was
+15_bone_failed,David failed to discover bones on his archeological expedition. They,failed,it,"David| failed| to| discover| bones| on| his| arche|ological| expedition|.| They| were| found| by| a| later| expedition|.|
+|
+|David",-11.303491|-0.29996997|-7.3911886|-10.919279|-3.7281923|-2.3592362|-8.208883|-0.023395546|-3.1429067|-1.7101681|-5.4082212|-1.3968834|-2.2189364|-1.4713227|-2.028819|-2.3258274|-0.44450298|-1.2240471|-1.1920631|-0.011898115|-1.719333,"David failed to discover bones on his archeological expedition. They were found by a later expedition.
+
+David"
+16_house_affirmative,Lisa built houses and they,affirmative,it,Lisa| built| houses| and| they| were| beautiful|.| She| was| a| great| cook| and| she,-10.505721|-6.646481|-2.3866956|-5.512802|-1.329774|-2.4259858|-0.79812586|-1.670685|-1.7947701|-1.4641556|-2.4537385|-1.9785515|-0.9625197|-1.775387,Lisa built houses and they were beautiful. She was a great cook and she
+16_house_negated,Lisa didn't build houses and they,negated,it,Lisa| didn|'t| build| houses| and| they| didn|'t| have| a| lot| of| money|.| They| had,-6.6920714|-0.290995|-10.485626|-6.3049855|-3.7581425|-4.887537|-1.033445|-0.0015408484|-1.6014826|-1.3969458|-2.4092898|-0.07279772|-0.59516895|-0.84618783|-2.0121243|-1.7712724,Lisa didn't build houses and they didn't have a lot of money. They had
+16_house_know,I know that Lisa built houses. They,know,it,I| know| that| Lisa| built| houses|.| They| were| beautiful|.| She| was| a| great| car|penter|.,-4.2621636|-2.392852|-9.868034|-10.303561|-6.251325|-2.96679|-5.084398|-1.1934983|-2.7789721|-1.1919616|-1.6483115|-1.6118438|-1.3044223|-2.1842692|-2.0686781|-0.0033891024|-0.6345689,I know that Lisa built houses. They were beautiful. She was a great carpenter.
+16_house_doubt,I doubt that Lisa built houses. They,doubt,it,"I| doubt| that| Lisa| built| houses|.| They| were| probably| built| by| a| contractor|.|
+|
+|I",-8.071785|-1.9196118|-10.116606|-10.372777|-7.1055355|-2.509189|-5.3353148|-1.7321646|-1.0580643|-1.4990276|-0.22179593|-2.3669589|-1.707336|-1.3156112|-2.1158957|-0.0017433002|-2.659451,"I doubt that Lisa built houses. They were probably built by a contractor.
+
+I"
+16_house_modal,Lisa wants to build houses and they,modal,it,"Lisa| wants| to| build| houses| and| they| are| going| to| build| houses|.|
+|
+|Lisa| wants",-8.666033|-0.3879156|-5.613029|-5.9075513|-2.76862|-6.0551567|-2.2136295|-2.6286936|-0.05234635|-1.5604393|-1.6453459|-1.3523293|-1.822419|-0.0014954205|-1.7677033|-1.4530389,"Lisa wants to build houses and they are going to build houses.
+
+Lisa wants"
+16_house_managed,Lisa managed to build houses. They,managed,it,"Lisa| managed| to| build| houses|.| They| were| small|,| but| they| were| houses|.| She| had",-9.757703|-0.10132421|-7.3653774|-8.20986|-4.359844|-3.8135476|-1.2236773|-2.1655793|-0.9475452|-1.3732837|-0.9253081|-0.58646846|-1.9077457|-0.43938646|-1.7349908|-2.412798,"Lisa managed to build houses. They were small, but they were houses. She had"
+16_house_failed,Lisa failed to build houses. They,failed,it,"Lisa| failed| to| build| houses|.| They| were| too| expensive|.|
+|
+|Lisa| failed| to| build",-11.308393|-0.17217872|-7.70166|-9.377029|-3.205723|-4.321231|-2.2823973|-2.966533|-1.8529896|-1.0619366|-1.6515307|-0.0030905874|-1.5808685|-1.7920461|-0.04849116|-0.6441986,"Lisa failed to build houses. They were too expensive.
+
+Lisa failed to build"

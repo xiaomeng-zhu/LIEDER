@@ -1,0 +1,15 @@
+practice;practice_01;The babysitter gave the screaming toddler a chocolate.
+practice;practice_02;The lifeguard kept an eye on his part of the beach all day.
+practice;practice_03;The new student was noticed by everyone when he came into the room.
+filler;filler_00;The vacant building overlooks the river that winds through town.
+filler;filler_01;The shoe salesman looked impatiently out the window while waiting for customers.
+filler;filler_02;The lawnmower did not always function properly when the grass was wet.
+filler;filler_03;The prisoners were unable to cross the field without being seen.
+filler;filler_04;The new experiment was the source of a great deal of excitement in the lab.
+filler;filler_05;The band had to set up their own equipment before the concert.
+filler;filler_06;Several construction workers lost their jobs when the housing market declined.
+filler;filler_07;The bulldozers were removing rubble from the demolished building.
+filler;filler_08;The squirrels gathered many nuts before the storm arrived.
+filler;filler_09;The quilts were sold by the side of the road for ten dollars.
+filler;filler_10;The documentary did not accurately portray the events surrounding the political scandal.
+filler;filler_11;The university town attracted lots of tourists during the summer.

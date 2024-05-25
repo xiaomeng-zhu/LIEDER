@@ -1,0 +1,15 @@
+practice;practice_01;The babysitter gave the screaming toddler a chocolate.;x-x-x configured calm else announces intends pre democrats.;0 1 2 3 4 5 6 7
+practice;practice_02;The lifeguard kept an eye on his part of the beach all day.;x-x-x propelled glad cent kid al else none sell yeah cents sir god.;0 1 2 3 4 5 6 7 8 9 10 11 12
+practice;practice_03;The new student was noticed by everyone when he came into the room.;x-x-x its awesome nice vessels miss universe lots jack ways fund cent sent.;0 1 2 3 4 5 6 7 8 9 10 11 12
+filler;filler_00;The vacant building overlooks the river that winds through town.;x-x-x hauled diseases marketers bill shall nice candy teacher lady.;0 1 2 3 4 5 6 7 8 9
+filler;filler_01;The shoe salesman looked impatiently out the window while waiting for customers.;x-x-x unto doubtful poetry metabolites jack sir indeed apply century gift democrats.;0 1 2 3 4 5 6 7 8 9 10 11
+filler;filler_02;The lawnmower did not always function properly when the grass was wet.;x-x-x rescinded mid app senate grateful thousand ride miss hates cent pays.;0 1 2 3 4 5 6 7 8 9 10 11
+filler;filler_03;The prisoners were unable to cross the field without being seen.;x-x-x investing jack exists gift miles dad learn amazing sweet soul.;0 1 2 3 4 5 6 7 8 9 10
+filler;filler_04;The new experiment was the source of a great deal of excitement in the lab.;x-x-x seen accurately hate cent thinks cold vs hours died keep midfielder safe bag suck.;0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+filler;filler_05;The band had to set up their own equipment before the concert.;x-x-x fail hill app yeah ago knows goes concluded minute mom imagine.;0 1 2 3 4 5 6 7 8 9 10 11
+filler;filler_06;Several construction workers lost their jobs when the housing market declined.;x-x-x thanksgiving greater nice funny glad tree yeah suppose latest nonsense.;0 1 2 3 4 5 6 7 8 9 10
+filler;filler_07;The bulldozers were removing rubble from the demolished building.;x-x-x speciation luck playoffs frenzy love hear dismissing tomorrow.;0 1 2 3 4 5 6 7 8
+filler;filler_08;The squirrels gathered many nuts before the storm arrived.;x-x-x rescinded patriots cent edit result feel hence correct.;0 1 2 3 4 5 6 7 8
+filler;filler_09;The quilts were sold by the side of the road for ten dollars.;x-x-x evaded anti luck die why goes sir yes lose hear yeah require.;0 1 2 3 4 5 6 7 8 9 10 11 12
+filler;filler_10;The documentary did not accurately portray the events surrounding the political scandal.;x-x-x encountered sir cent practicing chilled eat anyway scholarship feel certainly possess.;0 1 2 3 4 5 6 7 8 9 10 11
+filler;filler_11;The university town attracted lots of tourists during the summer.;x-x-x accurately okay synthetic hole sir withdraw cancer hate seemed.;0 1 2 3 4 5 6 7 8 9

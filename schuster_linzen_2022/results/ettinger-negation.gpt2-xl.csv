@@ -1,0 +1,137 @@
+pair_id,sentence,type,preferred,ll,np_ll
+0,"With proper equipment, scuba-diving is very  ||| safe ||| .",negation-natural,1,1.2299844,0.31526276
+0,"With proper equipment, scuba-diving isn't very  ||| safe ||| .",negation-natural,0,6.695393,6.0044847
+1,"With proper equipment, scuba-diving isn't very  ||| dangerous ||| .",negation-natural,1,1.9077623,1.9077623
+1,"With proper equipment, scuba-diving is very  ||| dangerous ||| .",negation-natural,0,5.1199923,5.1199923
+1,Traveling in Baghdad is very  ||| dangerous ||| .,negation-natural,1,3.162847,3.162847
+1,Traveling in Baghdad isn't very  ||| dangerous ||| .,negation-natural,0,5.7303324,5.7303324
+2,Traveling in Baghdad isn't very  ||| safe ||| .,negation-natural,1,3.8317223,2.6909773
+2,Traveling in Baghdad is very  ||| safe ||| .,negation-natural,0,4.9302597,3.8920336
+2,"In moderation, drinking red wine is  ||| good ||| .",negation-natural,1,6.9777465,2.4688387
+2,"In moderation, drinking red wine isn't  ||| good ||| .",negation-natural,0,8.812891,4.575666
+3,"In moderation, drinking red wine isn't  ||| bad ||| .",negation-natural,1,4.7416883,1.7996821
+3,"In moderation, drinking red wine is  ||| bad ||| .",negation-natural,0,9.677297,6.3580236
+3,Drinking tap water in developing countries is very  ||| dangerous ||| .,negation-natural,1,3.2007427,3.2007427
+3,Drinking tap water in developing countries isn't very  ||| dangerous ||| .,negation-natural,0,7.1434493,7.1434493
+4,Drinking tap water in developing countries isn't very  ||| safe ||| .,negation-natural,1,2.525797,1.3732455
+4,Drinking tap water in developing countries is very  ||| safe ||| .,negation-natural,0,4.706037,3.3141475
+4,Secondhand furniture is very  ||| cheap ||| .,negation-natural,1,5.8464193,5.8464193
+4,Secondhand furniture isn't very  ||| cheap ||| .,negation-natural,0,5.826214,5.826214
+5,Secondhand furniture isn't very  ||| expensive ||| .,negation-natural,1,3.799877,2.1884623
+5,Secondhand furniture is very  ||| expensive ||| .,negation-natural,0,3.6228497,2.2217374
+5,Most smokers find that quitting is very  ||| difficult ||| .,negation-natural,1,1.4802214,1.4802214
+5,Most smokers find that quitting isn't very  ||| difficult ||| .,negation-natural,0,2.3636622,2.3636622
+6,Most smokers find that quitting isn't very  ||| easy ||| .,negation-natural,1,2.3875952,1.5189124
+6,Most smokers find that quitting is very  ||| easy ||| .,negation-natural,0,4.8764224,3.456984
+6,Old computers may be  ||| slow ||| .,negation-natural,1,7.3134856,4.476051
+6,Old computers may not be  ||| slow ||| .,negation-natural,0,11.333662,8.415499
+7,Old computers may not be  ||| fast ||| .,negation-natural,1,10.293811,5.6658344
+7,Old computers may be  ||| fast ||| .,negation-natural,0,11.36892,7.344405
+7,A fast food dinner on a first date is very  ||| lame ||| .,negation-natural,1,9.433961,9.433961
+7,A fast food dinner on a first date isn't very  ||| lame ||| .,negation-natural,0,12.908855,12.908855
+8,A fast food dinner on a first date isn't very  ||| romantic ||| .,negation-natural,1,2.1799476,2.1799476
+8,A fast food dinner on a first date is very  ||| romantic ||| .,negation-natural,0,5.264695,5.264695
+8,Bulletproof vests are very  ||| safe ||| .,negation-natural,1,7.238306,5.404538
+8,Bulletproof vests aren't very  ||| safe ||| .,negation-natural,0,6.6502705,5.263714
+9,Bulletproof vests aren't very  ||| dangerous ||| .,negation-natural,1,8.176824,8.176824
+9,Bulletproof vests are very  ||| dangerous ||| .,negation-natural,0,7.390044,7.390044
+9,Terrorist bomb attacks are really  ||| dangerous ||| .,negation-natural,1,5.3127546,5.3127546
+9,Terrorist bomb attacks aren't really  ||| dangerous ||| .,negation-natural,0,8.900667,8.900667
+10,Terrorist bomb attacks aren't really  ||| safe ||| .,negation-natural,1,10.418317,8.981781
+10,Terrorist bomb attacks are really  ||| safe ||| .,negation-natural,0,12.177093,10.259197
+10,Vitamins and proteins are very  ||| good ||| .,negation-natural,1,6.9933743,3.7731533
+10,Vitamins and proteins aren't very  ||| good ||| .,negation-natural,0,5.7878456,1.9913249
+11,Vitamins and proteins aren't very  ||| bad ||| .,negation-natural,1,8.299063,6.216747
+11,Vitamins and proteins are very  ||| bad ||| .,negation-natural,0,9.937542,7.2749643
+11,Using strong suntan lotion is  ||| safe ||| .,negation-natural,1,8.423799,5.8610992
+11,Using strong suntan lotion isn't  ||| safe ||| .,negation-natural,0,8.656779,6.74132
+12,Using strong suntan lotion isn't  ||| dangerous ||| .,negation-natural,1,8.4518585,8.4518585
+12,Using strong suntan lotion is  ||| dangerous ||| .,negation-natural,0,10.189794,10.189794
+12,Rockets and missiles are very  ||| fast ||| .,negation-natural,1,7.2526474,5.0541706
+12,Rockets and missiles aren't very  ||| fast ||| .,negation-natural,0,6.663592,4.938507
+13,Rockets and missiles aren't very  ||| slow ||| .,negation-natural,1,9.287365,7.5458035
+13,Rockets and missiles are very  ||| slow ||| .,negation-natural,0,7.8983502,5.560916
+13,Keeping the door open for somebody is very  ||| polite ||| .,negation-natural,1,10.626959,10.626959
+13,Keeping the door open for somebody isn't very  ||| polite ||| .,negation-natural,0,7.831957,7.831957
+14,Keeping the door open for somebody isn't very  ||| rude ||| .,negation-natural,1,10.406122,10.406122
+14,Keeping the door open for somebody is very  ||| rude ||| .,negation-natural,0,10.099487,10.099487
+14,A baby bunny's fur is very  ||| soft ||| .,negation-natural,1,2.8921902,0.7681627
+14,A baby bunny's fur isn't very  ||| soft ||| .,negation-natural,0,3.8440583,2.1677878
+15,A baby bunny's fur isn't very  ||| hard ||| .,negation-natural,1,6.6417227,4.4880877
+15,A baby bunny's fur is very  ||| hard ||| .,negation-natural,0,8.0494995,5.242511
+15,Businessman Donald Trump is really  ||| rich ||| .,negation-natural,1,4.460999,3.447181
+15,Businessman Donald Trump isn't really  ||| rich ||| .,negation-natural,0,6.8295383,5.8123107
+16,Businessman Donald Trump isn't really  ||| poor ||| .,negation-natural,1,10.340865,9.411228
+16,Businessman Donald Trump is really  ||| poor ||| .,negation-natural,0,10.640247,8.811181
+100,A trout is a  ||| fish ||| .,negation-simple,1,4.1005545,1.7621139
+100,A trout is not a  ||| fish ||| .,negation-simple,0,2.879835,1.4854977
+101,A trout is not a  ||| tool ||| .,negation-simple,1,9.032623,7.4954453
+101,A trout is a  ||| tool ||| .,negation-simple,0,9.898337,7.857014
+101,A salmon is a  ||| fish ||| .,negation-simple,1,4.384407,2.206135
+101,A salmon is not a  ||| fish ||| .,negation-simple,0,2.9457684,1.5102315
+102,A salmon is not a  ||| flower ||| .,negation-simple,1,9.509592,8.25424
+102,A salmon is a  ||| flower ||| .,negation-simple,0,12.68015,10.7426
+102,An ant is an  ||| insect ||| .,negation-simple,1,4.2346516,4.2346516
+102,An ant is not an  ||| insect ||| .,negation-simple,0,2.8984313,2.8984313
+103,An ant is not a  ||| vegetable ||| .,negation-simple,1,7.533778,7.533778
+103,An ant is a  ||| vegetable ||| .,negation-simple,0,9.9124975,9.9124975
+103,A bee is an  ||| insect ||| .,negation-simple,1,3.1399472,3.1399472
+103,A bee is not an  ||| insect ||| .,negation-simple,0,1.8585193,1.8585193
+104,A bee is not a  ||| building ||| .,negation-simple,1,8.934985,7.3232994
+104,A bee is a  ||| building ||| .,negation-simple,0,13.246437,8.651789
+104,A robin is a  ||| bird ||| .,negation-simple,1,5.0777326,1.729318
+104,A robin is not a  ||| bird ||| .,negation-simple,0,3.5990345,2.099896
+105,A robin is not a  ||| tree ||| .,negation-simple,1,6.8487797,5.6143947
+105,A robin is a  ||| tree ||| .,negation-simple,0,11.038624,7.230467
+105,A sparrow is a  ||| bird ||| .,negation-simple,1,4.228879,1.4032954
+105,A sparrow is not a  ||| bird ||| .,negation-simple,0,2.5267107,1.160636
+106,A sparrow is not a  ||| vehicle ||| .,negation-simple,1,10.518847,10.518847
+106,A sparrow is a  ||| vehicle ||| .,negation-simple,0,13.015039,13.015039
+106,An oak is a  ||| tree ||| .,negation-simple,1,4.763672,1.3629348
+106,An oak is not a  ||| tree ||| .,negation-simple,0,2.077393,0.79904294
+107,An oak is not a  ||| vehicle ||| .,negation-simple,1,11.323276,11.323276
+107,An oak is a  ||| vehicle ||| .,negation-simple,0,12.752096,12.752096
+107,A pine is a  ||| tree ||| .,negation-simple,1,5.9570017,2.086096
+107,A pine is not a  ||| tree ||| .,negation-simple,0,2.758589,1.4308504
+108,A pine is not a  ||| tool ||| .,negation-simple,1,9.162598,7.605739
+108,A pine is a  ||| tool ||| .,negation-simple,0,10.3008995,8.048782
+108,A rose is a  ||| flower ||| .,negation-simple,1,4.6774807,2.3940578
+108,A rose is not a  ||| flower ||| .,negation-simple,0,3.7423096,2.164752
+109,A rose is not an  ||| insect ||| .,negation-simple,1,8.187942,8.187942
+109,A rose is an  ||| insect ||| .,negation-simple,0,8.877124,8.877124
+109,A daisy is a  ||| flower ||| .,negation-simple,1,6.059888,2.8903592
+109,A daisy is not a  ||| flower ||| .,negation-simple,0,3.3243802,2.1402285
+110,A daisy is not a  ||| bird ||| .,negation-simple,1,7.3552427,6.107234
+110,A daisy is a  ||| bird ||| .,negation-simple,0,10.823228,7.551856
+110,A carrot is a  ||| vegetable ||| .,negation-simple,1,5.0973043,5.0973043
+110,A carrot is not a  ||| vegetable ||| .,negation-simple,0,3.8376987,3.8376987
+111,A carrot is not a  ||| fish ||| .,negation-simple,1,7.7312675,6.370699
+111,A carrot is a  ||| fish ||| .,negation-simple,0,11.265913,9.475924
+111,A pea is a  ||| vegetable ||| .,negation-simple,1,5.139263,5.139263
+111,A pea is not a  ||| vegetable ||| .,negation-simple,0,3.924913,3.924913
+112,A pea is not a  ||| building ||| .,negation-simple,1,9.285223,7.9069366
+112,A pea is a  ||| building ||| .,negation-simple,0,13.966568,9.509125
+112,A hammer is a  ||| tool ||| .,negation-simple,1,6.7945743,1.9638013
+112,A hammer is not a  ||| tool ||| .,negation-simple,0,4.883594,3.1544075
+113,A hammer is not an  ||| insect ||| .,negation-simple,1,10.20157,10.20157
+113,A hammer is an  ||| insect ||| .,negation-simple,0,12.848685,12.848685
+113,A saw is a  ||| tool ||| .,negation-simple,1,7.112025,2.3692985
+113,A saw is not a  ||| tool ||| .,negation-simple,0,5.125396,3.0059168
+114,A saw is not a  ||| vegetable ||| .,negation-simple,1,10.611441,10.611441
+114,A saw is a  ||| vegetable ||| .,negation-simple,0,13.3341675,13.3341675
+114,A car is a  ||| vehicle ||| .,negation-simple,1,4.8817024,4.8817024
+114,A car is not a  ||| vehicle ||| .,negation-simple,0,4.628644,4.628644
+115,A car is not a  ||| tree ||| .,negation-simple,1,8.179952,7.096916
+115,A car is a  ||| tree ||| .,negation-simple,0,10.145567,8.809234
+115,A truck is a  ||| vehicle ||| .,negation-simple,1,7.134102,7.134102
+115,A truck is not a  ||| vehicle ||| .,negation-simple,0,4.054117,4.054117
+116,A truck is not a  ||| flower ||| .,negation-simple,1,10.110827,8.542919
+116,A truck is a  ||| flower ||| .,negation-simple,0,12.993408,10.870842
+116,A hotel is a  ||| building ||| .,negation-simple,1,9.629005,5.0157824
+116,A hotel is not a  ||| building ||| .,negation-simple,0,6.469461,4.986324
+117,A hotel is not a  ||| fish ||| .,negation-simple,1,12.804487,9.33869
+117,A hotel is a  ||| fish ||| .,negation-simple,0,14.093428,9.945348
+117,A house is a  ||| building ||| .,negation-simple,1,6.971441,4.0798798
+117,A house is not a  ||| building ||| .,negation-simple,0,5.755232,4.134137
+118,A house is not a  ||| bird ||| .,negation-simple,1,11.043783,8.525944
+118,A house is a  ||| bird ||| .,negation-simple,0,11.823945,8.892625

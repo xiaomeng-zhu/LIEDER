@@ -1,0 +1,137 @@
+negation:
+
+ANIMALS (a dog, an aardvark, a hippotamus, a kangaroo, a bird, a rat, a cat, a flamingo, a giraffe, a lion)
+
+owned didn't own
+saw didn't see
+kicked didn't kick
+brought didn't bring
+got didn't get
+bought didn't buy
+mentioned didn't mention
+visited didn't visit
+met didn't meet
+adopt didn't adopt
+
+
+had a long tail.
+had a red collar.
+had a colorful back.
+had a blind eye.
+had a shrill voice.
+enjoyed frolicking in the forest.
+preferred fish over other food.
+'s name was Fido.
+liked to swim in lakes.
+loved cheese.
+
+
+
+
+DRINKS (manhattan, negroni, pisco sour, coke, soda, martini, old fashioned, 
+gimlet, mojito, caipirinha)
+
+drunk didn't drink
+brought didn't bring
+got didn't get
+bought didn't buy
+made didn't make
+had didn't have
+slurp didn't slurp
+downed didn't down
+poured didn't pour
+ordered didn't order
+
+
+was bitter.
+was sour.
+was sweet.
+was warm.
+was cold.
+tasted strange.
+had to be served in a tall glass.
+cost a lot of money.
+came in a green bottle.
+glowed in the dark.
+
+
+VEHICLES (car, van, bus, truck, bike, motorcycle, convertible, oldtimer, limousine, scooter)
+
+bought didn't buy
+rented didn't rent
+fixed didn't fix
+leased didn't lease
+acquired didn't acquire
+destroyed didn't destroy
+stole didn't steal
+donated didn't donate
+repaired didn't repair
+ruined didn't ruin
+
+was blue.
+was fast.
+was slow.
+was eco-friendly.
+was expensive.
+had a flat tire.
+could seat multiple people.
+required a special cable.
+'s rear mirror was dirty.
+made squeaky noises.
+
+
+
+CLOTHES (a sweater, a shirt, a bracelet, a ring, a hat, a suit, a jacket, a jumpsuit, a bandana, a swimsuit)
+
+wore didn't wear
+bought didn't buy
+made didn't make
+donated didn't donate
+found didn't find
+ordered didn't order
+tried didn't try
+altered didn't alter
+lost didn't lose
+borrowed didn't borrow
+
+
+was cheap.
+was from Europe.
+was handmade.
+was appropriate for every occasion.
+was comfortable.
+could fit in the drawer.
+attracted many compliments.
+required a complicated cleaning procedure.
+suited everyone.
+left stains.
+
+
+
+FURNITURE (a chair, a desk, a bench, a bed, a shelf, a table, a dresser, a bookcase, a nightstand, a cabinet)
+
+assembled didn't assemble
+bought didn't buy
+built didnt build
+refurbished didn't refurbish
+sold didn't sell
+painted didn't paint
+sanded didn't sand
+stained didn't stain
+scratched didn't scratch
+burned didn't burn
+
+was valuable.
+was an antique.
+was made to order.
+was stable.
+was attached to the floor.
+fit into the room.
+stood out.
+made the apartment homely.
+required special care.
+came from Asia.
+
+
+
+

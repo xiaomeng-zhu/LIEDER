@@ -1,0 +1,17 @@
+pos_neg_s>pos_pos_s
+pos_neg_s>neg_neg_s
+neg_pos_s>pos_pos_s
+neg_pos_s>neg_neg_s
+neg_pos_s>pos_neg_s
+pos_pos_p>pos_neg_p
+pos_pos_p>neg_pos_p
+pos_pos_p>neg_neg_p
+neg_pos_p>pos_neg_p
+pos_neg_s>neg_pos_p
+pos_neg_s>pos_neg_p
+pos_neg_s>neg_neg_p
+neg_pos_s>pos_neg_p
+neg_pos_s>neg_pos_p
+neg_pos_s>neg_neg_p
+pos_pos_p>pos_pos_s
+pos_pos_p>neg_neg_s
