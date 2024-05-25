@@ -50,7 +50,7 @@ config = AutoConfig.from_pretrained(hf_name, trust_remote_code=True)
 with init_empty_weights():
     model = AutoModelForCausalLM.from_config(config, trust_remote_code=True)
 
-model = load_checkpoint_and_dispatch(model, "new_cache_dir/models--meta-llama--Llama-2-70b-hf/snapshots/3aba440b59558f995867ba6e1f58f21d0336b5bb",
+model = load_checkpoint_and_dispatch(model, "new_cache_dir/models--meta-llama--Meta-Llama-3-70B/snapshots/b4d08b7db49d488da3ac49adf25a6b9ac01ae338",
                                      device_map='auto',
                                      offload_folder="offload",
                                      offload_state_dict=True,
