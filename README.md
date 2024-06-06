@@ -3,21 +3,33 @@
 Discourse Entity (DE) recognition is the task of identifying novel and known entities introduced within a text. While previous work has found that large language models have basic, if imperfect, DE recognition abilities (Schuster and Linzen, 2022), it remains largely unassessed which of the fundamental semantic properties that govern the introduction and subsequent reference to DEs they have knowledge of. We propose the Linguistically-Informed Evaluation for Discourse Entity Recognition (LIEDER) dataset that allows for a detailed examination of language models’ knowledge of four crucial semantic properties: EXISTENCE, UNIQUENESS, PLURALITY, and NOVELTY. We find evidence that state-of-the-art large language models exhibit sensitivity to all of these properties except NOVELTY, which demonstrates that they have yet to reach human-level language understanding abilities.
 
 ## Design of LIEDER
+We outline four crucial semantic properties that language models ought to know for successful DE recognition:
 - **EXISTENCE**: A language model with human-level understanding abilities should only use definite descriptions to refer to entities that have been introduced into the discourse.
 - **UNIQUENESS**: A language model should use a singular definite description to refer to a previously introduced entity only when the referent is unique relative to the discourse.
 - **PLURALITY**: A language model should use a plural definite description only if the set of DEs contains more than one individual of the relevant sort.
 - **NOVELTY**: A language model should recognize that an occurrence of an indefinite noun phrase is associated with the introduction of a new entity into the discourse.
 
+Each example in LIEDER consists of two sentences: a context sentence followed by a continuation. There are four context types: `pos_neg`, `neg_pos`, `pos_pos`, `neg_neg` and two continuation types: singular and plural, which results in 8 different combinations.
+| Context type  | Context                                           | Singular Continuation     | Plural Continuation       |
+|---------------|---------------------------------------------------|---------------------------|---------------------------|
+| `pos_neg`     | John owns a dog but Mark doesn't own a dog.       | The dog is very cute.     | \#The dogs are very cute. |
+| `neg_pos`     | John doesn't own a dog but Mark owns a dog.       | The dog is very cute.     | \#The dogs are very cute. |
+| `pos_pos`     | John owns a dog and Mark owns a dog too.          | \#The dog is very cute.   | The dogs are very cute.   |
+| `neg_neg`     | John doesn't own a dog and Mark doesn't own a dog either. | \#The dog is very cute.   | \#The dogs are very cute. |
+
 ## Main Results
-### EXISTENCE
+### EXISTENCE & UNIQUENESS
 High accuracy on the first two panels suggests that models know EXISTENCE (i.e. singular definites cannot be used to refer to non-existing DEs).
-![Figure1](plots/exp1_singular.pdf)
+![exp1_singular](https://github.com/xiaomeng-zhu/LIEDER/assets/106610647/c0f51186-2de9-41fe-a4be-862e668dbcc7)
+
 
 ### UNIQUENESS
 Two possible hypotheses: 
 
 ### PLURALITY
-High accuracy on Figure 2 suggests that models know PLURALITY
+High accuracy in all three panels below suggests that models know PLURALITY.
+![exp1_plural](https://github.com/xiaomeng-zhu/LIEDER/assets/106610647/d93a2e47-b112-4af8-b20b-868effe9fd76)
+
 
 
 
