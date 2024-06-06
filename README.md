@@ -119,6 +119,12 @@ python scripts/analyze_experiments_two.py --config config/two_llama2_7B.json --m
 ```
 produces two files: `results/two/two_llama2_7B_summed.csv` and `results/two/two_llama2_7B_accuracy_ref.csv`. The former contains the summed conditional probability of the continuation given the context, and the latter contains the accuracy per comparisons.
 
+### View Accuracy with Associated Semantic Property
+To see the semantic property that is associated with each entry in the accuracy file, run 
+```
+python scripts/view_accuracy_with_type.py --accuracy_file <accuracy_file_name>
+```
+
 ## Generating Plots
 Follow `analysis.R` for plots and significance analysis.
 
