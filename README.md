@@ -1,4 +1,28 @@
-This is the Github repository of the ACL 2024 paper "LIEDER: Linguistically-Informed Evaluation Suite for Discourse Entity Recognition".
+# LIEDER: Linguistically-Informed Evaluation Suite for Discourse Entity Recognition
+## Abstract
+Discourse Entity (DE) recognition is the task of identifying novel and known entities introduced within a text. While previous work has found that large language models have basic, if imperfect, DE recognition abilities (Schuster and Linzen, 2022), it remains largely unassessed which of the fundamental semantic properties that govern the introduction and subsequent reference to DEs they have knowledge of. We propose the Linguistically-Informed Evaluation for Discourse Entity Recognition (LIEDER) dataset that allows for a detailed examination of language models’ knowledge of four crucial semantic properties: EXISTENCE, UNIQUENESS, PLURALITY, and NOVELTY. We find evidence that state-of-the-art large language models exhibit sensitivity to all of these properties except NOVELTY, which demonstrates that they have yet to reach human-level language understanding abilities.
+
+## Design of LIEDER
+- **EXISTENCE**: A language model with human-level understanding abilities should only use definite descriptions to refer to entities that have been introduced into the discourse.
+- **UNIQUENESS**: A language model should use a singular definite description to refer to a previously introduced entity only when the referent is unique relative to the discourse.
+- **PLURALITY**: A language model should use a plural definite description only if the set of DEs contains more than one individual of the relevant sort.
+- **NOVELTY**: A language model should recognize that an occurrence of an indefinite noun phrase is associated with the introduction of a new entity into the discourse.
+
+## Main Results
+### EXISTENCE
+High accuracy on the first two panels suggests that models know EXISTENCE (i.e. singular definites cannot be used to refer to non-existing DEs).
+![Figure1](plots/exp1_singular.pdf)
+
+### UNIQUENESS
+Two possible hypotheses: 
+
+### PLURALITY
+High accuracy on Figure 2 suggests that models know PLURALITY
+
+
+
+
+
 
 # Replication
 To replicate our results, start by `cd` into the repository and follow the instructions below:
