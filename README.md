@@ -48,7 +48,7 @@ Lower accuracy on the last two panels suggests two possibilities:
 - **Hypothesis 1**: During training, the models have successfully learned the EXISTENCE requirement, but they failed to learn UNIQUENESS.
 - **Hypothesis 2**: During training, the models have successfully learned both the EXISTENCE and UNIQUENESS requirements but fail to recognize that two distinct DEs have been introduced in `pos_pos` contexts, resulting in difficulties in distinguishing the infelicitous `pos_pos` from felicitous `pos_neg` and `neg_pos`. To put it in another way, they fail at the NOVELTY requirement.
 
-Experiments 2 and 3 will focus on teasing these two hypotheses apart.
+Experiments 2 and 3 (Appendix) will focus on teasing these two hypotheses apart.
 
 ### PLURALITY
 High accuracy in all three panels below suggests that models know PLURALITY.
