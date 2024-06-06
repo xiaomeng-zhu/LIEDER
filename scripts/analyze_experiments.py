@@ -1,10 +1,18 @@
-import csv, json, sys
+import csv, json, sys, argparse
 import numpy as np
 from helper import read_csv, output_dictlist_to_csv
 
-config_f = sys.argv[1]
-METRIC = sys.argv[2]
-model_series = sys.argv[3]
+parser = argparse.ArgumentParser(description="Analyzing Experiment Results...")
+    
+parser.add_argument("--config", help="Config file name e.g. config/..")
+parser.add_argument("--metric", help="ref or nonref", default="ref")
+parser.add_argument("--model_series", help="Llama or non-llama models")
+
+args = parser.parse_args()
+
+config_f = args.config
+METRIC = args.metric
+model_series = args.model_series
 
 with open(config_f) as f:
     config_dict = json.load(f)

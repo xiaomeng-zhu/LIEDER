@@ -418,7 +418,7 @@ model.base.vs.diff.subset <- subset(model.base.vs.diff,
   mutate(version=factor(version,
                         levels=base_vs_diff_level))
 
-library(lme4)
+
 glm.model.alltype.base.vs.diff <- glmer(correct ~ version+type + (1|id), data = model.base.vs.diff.subset, family = "binomial")
 summary(glm.model.alltype.base.vs.diff)
 
@@ -469,6 +469,6 @@ nonref.base.singular <- plot_comparisons(nonref.bases, s_comp, model_levels, 4, 
 nonref.base.plural <- plot_comparisons(nonref.bases, p_comp, model_levels, 3, 1)
 nonref.base.sp <- plot_comparisons(nonref.bases, sp_comp, model_levels, 3, 1)
 
-# ggsave("plots/nonref_exp1_singular_alltype.pdf", base.singular, width=10, height = 3, dpi=300)
-# ggsave("plots/nonref_exp1_plural_alltype.pdf", base.plural, width=10, height = 3, dpi=300)
+# ggsave("plots/nonref_exp1_singular_alltype.pdf", nonref.base.singular, width=10, height = 3, dpi=300)
+# ggsave("plots/nonref_exp1_plural_alltype.pdf", nonref.base.plural, width=10, height = 3, dpi=300)
 # ggsave("plots/nonref_exp1_sp_alltype.pdf", nonref.base.sp, width=10, height = 3, dpi=300)

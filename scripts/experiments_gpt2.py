@@ -1,11 +1,15 @@
-import json, csv, sys
+import json, csv, sys, argparse
 from tqdm import tqdm
 import torch
 import torch.nn.functional as F
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 import numpy as np
 
-config_f = sys.argv[1]
+parser = argparse.ArgumentParser(description="Running inference using GPT-2")
+parser.add_argument("--config", help="Config file name e.g. config/..")
+args = parser.parse_args()
+config_f = args.config
+
 with open(config_f) as f:
     config_dict = json.load(f)
 model_name = config_dict["model"]

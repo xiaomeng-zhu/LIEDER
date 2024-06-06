@@ -1,4 +1,4 @@
-import json, csv, sys
+import json, csv, sys, argparse
 from tqdm import tqdm
 import torch
 import torch.nn.functional as F
@@ -6,7 +6,11 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
 import numpy as np
 from accelerate import prepare_pippy, init_empty_weights, load_checkpoint_and_dispatch
 
-config_f = sys.argv[1]
+parser = argparse.ArgumentParser(description="Running inference using Llama models...")
+parser.add_argument("--config", help="Config file name e.g. config/..")
+args = parser.parse_args()
+config_f = args.config
+
 with open(config_f) as f:
     config_dict = json.load(f)
 model_name = config_dict["model"]
