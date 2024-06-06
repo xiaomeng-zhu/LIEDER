@@ -1,4 +1,21 @@
 # LIEDER: Linguistically-Informed Evaluation Suite for Discourse Entity Recognition
+
+**Table of Contents**
+
+1. [LIEDER: Linguistically-Informed Evaluation Suite for Discourse Entity Recognition](#lieder-linguistically-informed-evaluation-suite-for-discourse-entity-recognition)
+   - [Abstract](#abstract)
+   - [Design of LIEDER](#design-of-lieder)
+   - [Experiment 1](#experiment-1)
+     - [EXISTENCE & UNIQUENESS](#existence--uniqueness)
+     - [PLURALITY](#plurality)
+   - [Experiment 2](#experiment-2)
+2. [Replication](#replication)
+   - [Naming Conventions](#naming-conventions)
+   - [Running Inference](#running-inference)
+   - [Analyzing Results](#analyzing-results)
+   - [Generating Plots](#generating-plots)
+
+
 ## Abstract
 Discourse Entity (DE) recognition is the task of identifying novel and known entities introduced within a text. While previous work has found that large language models have basic, if imperfect, DE recognition abilities (Schuster and Linzen, 2022), it remains largely unassessed which of the fundamental semantic properties that govern the introduction and subsequent reference to DEs they have knowledge of. We propose the Linguistically-Informed Evaluation for Discourse Entity Recognition (LIEDER) dataset that allows for a detailed examination of language models’ knowledge of four crucial semantic properties: EXISTENCE, UNIQUENESS, PLURALITY, and NOVELTY. We find evidence that state-of-the-art large language models exhibit sensitivity to all of these properties except NOVELTY, which demonstrates that they have yet to reach human-level language understanding abilities.
 
