@@ -9,7 +9,7 @@ We outline four crucial semantic properties that language models ought to know f
 - **PLURALITY**: A language model should use a plural definite description only if the set of DEs contains more than one individual of the relevant sort.
 - **NOVELTY**: A language model should recognize that an occurrence of an indefinite noun phrase is associated with the introduction of a new entity into the discourse.
 
-Each example in LIEDER consists of two sentences: a context sentence followed by a continuation. There are four context types: `pos_neg`, `neg_pos`, `pos_pos`, `neg_neg` and two continuation types: singular and plural, which results in 8 different combinations.
+Each example in LIEDER consists of two sentences: a context sentence followed by a continuation. There are four context types: `pos_neg`, `neg_pos`, `pos_pos`, `neg_neg` and two continuation types: singular and plural, which result in 8 different combinations (summarized below).
 | Context type  | Context                                           | Singular Continuation     | Plural Continuation       |
 |---------------|---------------------------------------------------|---------------------------|---------------------------|
 | `pos_neg`     | John owns a dog but Mark doesn't own a dog.       | The dog is very cute.     | \#The dogs are very cute. |
@@ -17,21 +17,47 @@ Each example in LIEDER consists of two sentences: a context sentence followed by
 | `pos_pos`     | John owns a dog and Mark owns a dog too.          | \#The dog is very cute.   | The dogs are very cute.   |
 | `neg_neg`     | John doesn't own a dog and Mark doesn't own a dog either. | \#The dog is very cute.   | \#The dogs are very cute. |
 
-## Main Results
+Because metalinguistic judgments elicited from language models may not reflect the full extent of the model's knowledge (Hu & Levy, 2023), we instead compare felicity using the probabilities the model assigns to the continuation given the context.  We assume that the probability a model assigns to a felicitous case should be greater than the probability it assigns to an infelicitous one. 
+With 3 felicitous pairs and 5 infelicitous ones, this means we have 15 informative probability comparisons in total.
+
+| Comparison Type                        | Requirement                               |
+|----------------------------------------|-------------------------------------------|
+| `p(sg\|pos_neg)>p(sg\|pos_pos)`          | uniqueness, novelty                       |
+| `p(sg\|neg_pos)>p(sg\|pos_pos)`          | uniqueness, novelty                       |
+| `p(sg\|neg_pos)>p(sg\|neg_neg)`          | existence                                 |
+| `p(sg\|pos_neg)>p(sg\|neg_neg)`          | existence                                 |
+| `p(pl\|pos_pos)>p(pl\|pos_neg)`          | plurality                                 |
+| `p(pl\|pos_pos)>p(pl\|neg_pos)`          | plurality                                 |
+| `p(pl\|pos_pos)>p(pl\|neg_neg)`          | existence, plurality                      |
+| `p(sg\|pos_neg)>p(pl\|pos_neg)`          | plurality                                 |
+| `p(sg\|pos_neg)>p(pl\|neg_pos)`          | plurality                                 |
+| `p(sg\|pos_neg)>p(pl\|neg_neg)`          | existence, plurality                      |
+| `p(sg\|neg_pos)>p(pl\|neg_pos)`          | plurality                                 |
+| `p(sg\|neg_pos)>p(pl\|pos_neg)`          | plurality                                 |
+| `p(sg\|neg_pos)>p(pl\|neg_neg)`          | existence, plurality                      |
+| `p(pl\|pos_pos)>p(sg\|pos_pos)`          | uniqueness, novelty                       |
+| `p(pl\|pos_pos)>p(sg\|neg_neg)`          | existence                                 |
+
+
+## Experiment 1
 ### EXISTENCE & UNIQUENESS
 High accuracy on the first two panels suggests that models know EXISTENCE (i.e. singular definites cannot be used to refer to non-existing DEs).
 ![exp1_singular](https://github.com/xiaomeng-zhu/LIEDER/assets/106610647/c0f51186-2de9-41fe-a4be-862e668dbcc7)
 
+Lower accuracy on the last two panels suggests two possibilities:
+- **Hypothesis 1**: During training, the models have successfully learned the EXISTENCE requirement, but they failed to learn UNIQUENESS.
+- **Hypothesis 2**: During training, the models have successfully learned both the EXISTENCE and UNIQUENESS requirements but fail to recognize that two distinct DEs have been introduced in `pos_pos` contexts, resulting in difficulties in distinguishing the infelicitous `pos_pos` from felicitous `pos_neg` and `neg_pos`. To put it in another way, they fail at the NOVELTY requirement.
 
-### UNIQUENESS
-Two possible hypotheses: 
+Experiments 2 and 3 will focus on teasing these two hypotheses apart.
 
 ### PLURALITY
 High accuracy in all three panels below suggests that models know PLURALITY.
 ![exp1_plural](https://github.com/xiaomeng-zhu/LIEDER/assets/106610647/d93a2e47-b112-4af8-b20b-868effe9fd76)
 
 
+## Experiment 2
 
+## Experiment 3
 
 
 
