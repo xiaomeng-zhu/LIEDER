@@ -1,6 +1,6 @@
 # LIEDER: Linguistically-Informed Evaluation Suite for Discourse Entity Recognition
 
-**Table of Contents**
+## Table of Contents
 
 1. [LIEDER: Linguistically-Informed Evaluation Suite for Discourse Entity Recognition](#lieder-linguistically-informed-evaluation-suite-for-discourse-entity-recognition)
    - [Abstract](#abstract)
