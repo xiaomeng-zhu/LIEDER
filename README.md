@@ -56,11 +56,12 @@ High accuracy in all three panels below suggests that models know PLURALITY.
 
 
 ## Experiment 2
+One way to test if LLMs fail to recognize two different DEs in `pos_pos` contexts is to use lexical cues that make explicit the distinctness of the first and second entities.  
+If performance relative to `pos_pos` contexts increases when the distinction is explicit, then there is evidence that the LLMs fail to recognize the distinction in the implicit case, where the presence of multiple DEs results from the NOVELTY condition on indefinites alone. 
 
-## Experiment 3
-
-
-
+Accordingly, we make the following modification to our dataset which we call *Explicit Novelty* (corresponding to `diff` in the repo): for each context of the type `pos_pos`, we add the adjective *different* to the second indefinite description. 
+![exp2_singular_vs_exp1](https://github.com/xiaomeng-zhu/LIEDER/assets/106610647/c086cbc1-7eb9-4142-9ff1-5e9e64c78925)
+There is a significant increase (p<0.001) in accuracy from *Implicit* to *Explicit Novelty*, suggesting models' difficulty with the NOVELTY requirement.
 
 # Replication
 To replicate our results, start by `cd` into the repository and follow the instructions below:
